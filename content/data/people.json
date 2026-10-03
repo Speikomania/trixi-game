@@ -1,0 +1,119 @@
+{
+  // People in the game (Erweiterung 5) – purely decorative background figures and the greeting at the bowl.
+  // Sprites npc.<id>.<pose> are drawn by tools/CatRunner.AssetGen (Art/PeopleArt.cs) from the reference photos.
+  // Photo groups: people who are on a photo together appear together (same level). Someone who also has a photo
+  // of their own may appear alone. Karolin only waits at the bowl (goalGreeting) – she is in every level there,
+  // which counts for her groups, but never appears in the background. Assignments and assumptions: see ASSETS.md.
+  // Version 2, Erweiterung 4: "playerNames" – a player with one of these names (any case) is welcomed at the bowl by
+  // this person. Karolin waits there only for "Karolin"/"Karo"; for any unknown name nobody does (just the bowl, with
+  // hearts rising) – she is never a stand-in for strangers. Whoever waits at the bowl is never in the background as well: their background
+  // appearances are played by Karolin (same pose), and their photo groups use "posesWhenAtBowl" (the others of the
+  // photo). For Freund01–03 only names are missing (poses and group pictures exist; the validator checks it).
+  "people": [
+    {
+      "id": "karolin",
+      "name": "Karolin",
+      "photos": [ "Foto 1", "Foto 4" ],
+      "playerNames": [ "Karolin", "Karo" ],
+      "poses": {
+        "wave": "npc.karolin.wave",
+        "sandwich": "npc.karolin.sandwich",
+        "read": "npc.karolin.read",
+        "tea": "npc.karolin.tea",
+        "doze": "npc.karolin.doze",
+        "water": "npc.karolin.water",
+        "pet": "npc.karolin.pet"
+      }
+    },
+    {
+      "id": "kevin",
+      "name": "Kevin",
+      "photos": [ "Foto 2", "Foto 4" ],
+      "playerNames": [ "Kevin" ],
+      "poses": {
+        "wave": "npc.kevin.wave",
+        "sandwich": "npc.kevin.sandwich",
+        "read": "npc.kevin.read",
+        "tea": "npc.kevin.tea",
+        "doze": "npc.kevin.doze",
+        "water": "npc.kevin.water",
+        "pet": "npc.kevin.pet"
+      }
+    },
+    {
+      "id": "freund01",
+      "name": "Freund01",
+      "photos": [ "Foto 2", "Foto 3" ],
+      "poses": {
+        "wave": "npc.freund01.wave",
+        "sandwich": "npc.freund01.sandwich",
+        "read": "npc.freund01.read",
+        "tea": "npc.freund01.tea",
+        "doze": "npc.freund01.doze",
+        "water": "npc.freund01.water",
+        "pet": "npc.freund01.pet"
+      }
+    },
+    {
+      "id": "freund02",
+      "name": "Freund02",
+      "photos": [ "Foto 4" ],
+      "poses": {
+        "wave": "npc.freund02.wave",
+        "sandwich": "npc.freund02.sandwich",
+        "read": "npc.freund02.read",
+        "tea": "npc.freund02.tea",
+        "doze": "npc.freund02.doze",
+        "water": "npc.freund02.water",
+        "pet": "npc.freund02.pet"
+      }
+    },
+    {
+      "id": "freund03",
+      "name": "Freund03",
+      "photos": [ "Foto 4" ],
+      "poses": {
+        "wave": "npc.freund03.wave",
+        "sandwich": "npc.freund03.sandwich",
+        "read": "npc.freund03.read",
+        "tea": "npc.freund03.tea",
+        "doze": "npc.freund03.doze",
+        "water": "npc.freund03.water",
+        "pet": "npc.freund03.pet"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "foto2",
+      "members": [ "freund01", "kevin" ],
+      "photos": [ "Foto 2" ],
+      "poses": {
+        "pockets": "npc.group.foto2.pockets",
+        "bench": "npc.group.foto2.bench"
+      },
+      "posesWhenAtBowl": {
+        "kevin": { "pockets": "npc.group.foto2.pockets.no-kevin", "bench": "npc.group.foto2.bench.no-kevin" },
+        "freund01": { "pockets": "npc.group.foto2.pockets.no-freund01", "bench": "npc.group.foto2.bench.no-freund01" }
+      }
+    },
+    {
+      "id": "foto4",
+      "members": [ "freund02", "karolin", "kevin", "freund03" ],
+      "photos": [ "Foto 4" ],
+      // Karolin is reserved for the level end: the shared scenes show the other three, she waits at the bowl.
+      "sceneMembers": [ "freund02", "kevin", "freund03" ],
+      "poses": {
+        "together": "npc.group.foto4.together",
+        "wave": "npc.group.foto4.wave"
+      },
+      // Someone else at the bowl: Karolin (the bride of Foto 4) is in the picture instead of them.
+      "posesWhenAtBowl": {
+        "kevin": { "together": "npc.group.foto4.together.no-kevin", "wave": "npc.group.foto4.wave.no-kevin" },
+        "freund02": { "together": "npc.group.foto4.together.no-freund02", "wave": "npc.group.foto4.wave.no-freund02" },
+        "freund03": { "together": "npc.group.foto4.together.no-freund03", "wave": "npc.group.foto4.wave.no-freund03" }
+      }
+    }
+  ],
+  "goalGreeting": { "person": "karolin", "waiting": "wave", "celebrating": "pet" }
+}

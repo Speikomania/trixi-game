@@ -1,0 +1,136 @@
+{
+  // First real level: only dodging, plenty of lives.
+  "id": "level02",
+  "order": 2,
+  "name": "Kartonchaos",
+  "theme": "home",
+  "music": "level",
+  "speed": 60,
+  "length": 3757,
+  "lives": 5,
+  "starScores": [
+    550,
+    990,
+    1540
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 0.8,
+      "goldfish": 1.0
+    }
+  },
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "kitchen"
+    },
+    {
+      "from": 910,
+      "scene": "livingroom"
+    },
+    {
+      "from": 2319,
+      "scene": "kitchen"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 910
+    },
+    {
+      "kind": "calm",
+      "from": 910,
+      "to": 1232
+    },
+    {
+      "kind": "dense",
+      "from": 1232,
+      "to": 1668
+    },
+    {
+      "kind": "normal",
+      "from": 1668,
+      "to": 2319
+    },
+    {
+      "kind": "calm",
+      "from": 2319,
+      "to": 2747
+    },
+    {
+      "kind": "dense",
+      "from": 2747,
+      "to": 3316
+    },
+    {
+      "kind": "normal",
+      "from": 3316,
+      "to": 3757
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund01",
+      "pose": "doze",
+      "x": 1614,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "box", "x":  170, "lane":  0 },
+    { "type":  "fish", "x":  262, "lane":  1 },
+    { "type":  "yarn", "x":  338, "lane":  2 },
+    { "type":  "box", "x":  530, "lane":  2 },
+    { "type":  "fish", "x":  628, "lane":  1 },
+    { "type":  "box", "x":  711, "lane":  0 },
+    { "type":  "box", "x":  711, "lane":  1 },
+    { "type":  "fish", "x":  819, "lane":  2 },
+    { "type":  "goldfish", "x":  891, "lane":  2 },
+    { "type":  "yarn", "x":  911, "lane":  2 },
+    { "type":  "fish", "x":  1029, "lane":  0 },
+    { "type":  "fish", "x":  1053, "lane":  0 },
+    { "type":  "fish", "x":  1077, "lane":  0 },
+    { "type":  "fish", "x":  1101, "lane":  0 },
+    { "type":  "fish", "x":  1125, "lane":  0 },
+    { "type":  "yarn", "x":  1232, "lane":  1 },
+    { "type":  "plant", "x":  1367, "lane":  0 },
+    { "type":  "fish", "x":  1445, "lane":  0 },
+    { "type":  "plant", "x":  1509, "lane":  0 },
+    { "type":  "vacuum", "x":  1509, "lane":  2 },
+    { "type":  "fish", "x":  1596, "lane":  0 },
+    { "type":  "yarn", "x":  1669, "lane":  1 },
+    { "type":  "yarn", "x":  1669, "lane":  2 },
+    { "type":  "fish", "x":  1754, "lane":  2 },
+    { "type":  "books", "x":  1827, "lane":  0 },
+    { "type":  "fish", "x":  1918, "lane":  0 },
+    { "type":  "goldfish", "x":  1973, "lane":  2 },
+    { "type":  "blocks", "x":  1993, "lane":  2 },
+    { "type":  "blocks", "x":  2161, "lane":  0 },
+    { "type":  "yarn", "x":  2161, "lane":  1 },
+    { "type":  "blocks", "x":  2462, "lane":  1 },
+    { "type":  "fish", "x":  2550, "lane":  0 },
+    { "type":  "fish", "x":  2574, "lane":  0 },
+    { "type":  "fish", "x":  2598, "lane":  1 },
+    { "type":  "fish", "x":  2622, "lane":  1 },
+    { "type":  "fish", "x":  2646, "lane":  2 },
+    { "type":  "fish", "x":  2670, "lane":  2 },
+    { "type":  "plant", "x":  2747, "lane":  0 },
+    { "type":  "plant", "x":  2747, "lane":  1 },
+    { "type":  "plant", "x":  2885, "lane":  1 },
+    { "type":  "plant", "x":  2885, "lane":  2 },
+    { "type":  "fish", "x":  2968, "lane":  0 },
+    { "type":  "yarn", "x":  3038, "lane":  0 },
+    { "type":  "yarn", "x":  3038, "lane":  1 },
+    { "type":  "blocks", "x":  3172, "lane":  0 },
+    { "type":  "blocks", "x":  3172, "lane":  2 },
+    { "type":  "vacuum", "x":  3316, "lane":  2 },
+    { "type":  "fish", "x":  3420, "lane":  2 },
+    { "type":  "blocks", "x":  3511, "lane":  1 }
+  ]
+}

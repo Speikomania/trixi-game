@@ -1,0 +1,33 @@
+// Version 2, Erweiterung 1: chapters in play order.
+// A chapter's levels come from levels/<pack>/pack.json. Chapters whose pack does not exist yet are placeholders
+// ("Kommt bald") and can never be played – adding the pack with its levels fills the chapter, no code change needed.
+// To unlock the next chapter, every level of a chapter must be completed AND the chapter's stars must add up to at
+// least minStarsToUnlockNext (default below, per chapter overridable with "minStarsToUnlockNext").
+// Every chapter has its own pair of collectibles (a common one and a rare, risky one): "collect" names them,
+// "collectIcons" shows them under the chapter's level select title. "teaser" makes the player curious.
+{
+  "levelSlots": 10,
+  "minStarsToUnlockNext": 20,
+  "chapters": [
+    { "id": "chapter1", "number": 1, "name": "Der Weg zum Futternapf", "pack": "main",
+      "collect": "Leckerlis und Gold-Leckerlis", "collectIcons": [ "ui.treat", "obstacle.treat.gold" ] },
+    { "id": "chapter2", "number": 2, "name": "Der Wald", "pack": "chapter2",
+      "teaser": "Hinter dem Gartenzaun beginnt der Wald – und Trixi ist neugierig.",
+      "collect": "Mäuse und Vögel", "collectIcons": [ "obstacle.mouse", "obstacle.bird" ], "collectedLabel": "Gefangen",
+      // Shown once, the first time chapter 2 is entered (from the overview or via "Weiterspielen").
+      "intro": {
+        "scene": "forestedge",
+        "music": "calm",
+        "lines": [
+          "Ein neuer Morgen. Trixi ist neugierig.",
+          "Hinter dem Gartenzaun beginnt der Wald.",
+          "Dort huschen Mäuse und singen Vögel.",
+          "Auf geht's, Trixi – die Reise beginnt!"
+        ]
+      } },
+    { "id": "chapter3", "number": 3, "name": "", "pack": "chapter3" },
+    { "id": "chapter4", "number": 4, "name": "", "pack": "chapter4" },
+    { "id": "chapter5", "number": 5, "name": "", "pack": "chapter5" },
+    { "id": "chapter6", "number": 6, "name": "", "pack": "chapter6" }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  // Dogs with boxes in the quiet zone: sneak and pick the right lane.
+  "id": "level06",
+  "order": 6,
+  "name": "Hundewiese",
+  "theme": "garden",
+  "music": "level",
+  "speed": 80,
+  "length": 7886,
+  "lives": 4,
+  "starScores": [
+    1090,
+    2500,
+    3960
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 1.0,
+      "goldfish": 1.0
+    }
+  },
+  "safeZones": [
+    {
+      "from": 4746,
+      "to": 5456
+    }
+  ],
+  "checkpoints": [
+    4756
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 4751,
+      "duration": 4.5,
+      "text": "Achtung, Glatteis! Die Katze rutscht. Drück früher zum Ausweichen!"
+    },
+    {
+      "kind": "Message",
+      "x": 5461,
+      "duration": 3,
+      "text": "Gut gerutscht!"
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "vegetable"
+    },
+    {
+      "from": 1579,
+      "scene": "lawn"
+    },
+    {
+      "from": 4746,
+      "scene": "winter"
+    },
+    {
+      "from": 6816,
+      "scene": "lawn"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "ice",
+      "from": 4896,
+      "to": 5416
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 1579
+    },
+    {
+      "kind": "calm",
+      "from": 1579,
+      "to": 2397
+    },
+    {
+      "kind": "dense",
+      "from": 2397,
+      "to": 3339
+    },
+    {
+      "kind": "normal",
+      "from": 3339,
+      "to": 4746
+    },
+    {
+      "kind": "calm",
+      "from": 4746,
+      "to": 5702
+    },
+    {
+      "kind": "dense",
+      "from": 5702,
+      "to": 6816
+    },
+    {
+      "kind": "normal",
+      "from": 6816,
+      "to": 7886
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund03",
+      "pose": "water",
+      "x": 789,
+      "layer": "near"
+    },
+    {
+      "person": "kevin",
+      "pose": "sandwich",
+      "x": 2529,
+      "layer": "near"
+    },
+    {
+      "person": "freund02",
+      "pose": "wave",
+      "x": 5988,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "mud", "x":  170 },
+    { "type":  "fish", "x":  268, "lane":  0 },
+    { "type":  "dog", "x":  422, "lane":  0 },
+    { "type":  "fish", "x":  548, "lane":  0 },
+    { "type":  "schnauzer", "x":  698, "lane":  0 },
+    { "type":  "crates", "x":  878, "lane":  0 },
+    { "type":  "wheelbarrow", "x":  878, "lane":  2 },
+    { "type":  "plant", "x":  980, "lane":  1 },
+    { "type":  "plant", "x":  980, "lane":  2 },
+    { "type":  "fish", "x":  1066, "lane":  0 },
+    { "type":  "plant", "x":  1138, "lane":  0 },
+    { "type":  "potstack", "x":  1138, "lane":  2 },
+    { "type":  "box", "x":  1350, "lane":  0 },
+    { "type":  "dog", "x":  1390, "lane":  2 },
+    { "type":  "mud", "x":  1580 },
+    { "type":  "goldfish", "x":  1628, "lane":  0, "air":  true },
+    { "type":  "fish", "x":  1714, "lane":  1 },
+    { "type":  "fish", "x":  1746, "lane":  1 },
+    { "type":  "fish", "x":  1778, "lane":  2 },
+    { "type":  "fish", "x":  1810, "lane":  2 },
+    { "type":  "mud", "x":  1865 },
+    { "type":  "fish", "x":  1933, "lane":  2 },
+    { "type":  "fish", "x":  1965, "lane":  2 },
+    { "type":  "fish", "x":  1997, "lane":  1 },
+    { "type":  "fish", "x":  2029, "lane":  1 },
+    { "type":  "fish", "x":  2061, "lane":  0 },
+    { "type":  "mud", "x":  2114 },
+    { "type":  "goldfish", "x":  2162, "lane":  1, "air":  true },
+    { "type":  "fish", "x":  2232, "lane":  0 },
+    { "type":  "fish", "x":  2264, "lane":  0 },
+    { "type":  "fish", "x":  2296, "lane":  0 },
+    { "type":  "goldfish", "x":  2372, "lane":  1 },
+    { "type":  "plant", "x":  2398, "lane":  1 },
+    { "type":  "fish", "x":  2482, "lane":  0 },
+    { "type":  "schnauzer", "x":  2625, "lane":  1 },
+    { "type":  "fish", "x":  2742, "lane":  1 },
+    { "type":  "crates", "x":  2844, "lane":  0 },
+    { "type":  "schnauzer", "x":  2884, "lane":  2 },
+    { "type":  "fish", "x":  2964, "lane":  1 },
+    { "type":  "potstack", "x":  3069, "lane":  0 },
+    { "type":  "potstack", "x":  3069, "lane":  1 },
+    { "type":  "crates", "x":  3190, "lane":  0 },
+    { "type":  "crates", "x":  3190, "lane":  1 },
+    { "type":  "schnauzer", "x":  3412, "lane":  1 },
+    { "type":  "wheelbarrow", "x":  3636, "lane":  2 },
+    { "type":  "puddle", "x":  3718 },
+    { "type":  "fish", "x":  3811, "lane":  1 },
+    { "type":  "box", "x":  3888, "lane":  1 },
+    { "type":  "wheelbarrow", "x":  3888, "lane":  2 },
+    { "type":  "plant", "x":  3990, "lane":  0 },
+    { "type":  "plant", "x":  3990, "lane":  1 },
+    { "type":  "crates", "x":  4176, "lane":  2 },
+    { "type":  "dog", "x":  4216, "lane":  1 },
+    { "type":  "yarn", "x":  4424, "lane":  0 },
+    { "type":  "gnome", "x":  4424, "lane":  1 },
+    { "type":  "fish", "x":  4514, "lane":  2 },
+    { "type":  "yarn", "x":  4592, "lane":  0 },
+    { "type":  "yarn", "x":  4592, "lane":  1 },
+    { "type":  "yarn", "x":  5000, "lane":  0 },
+    { "type":  "plant", "x":  5176, "lane":  1 },
+    { "type":  "fish", "x":  5532, "lane":  0 },
+    { "type":  "sled", "x":  5874, "lane":  0 },
+    { "type":  "puddle", "x":  5956 },
+    { "type":  "goldfish", "x":  6070, "lane":  2 },
+    { "type":  "yarn", "x":  6096, "lane":  2 },
+    { "type":  "fish", "x":  6161, "lane":  1 },
+    { "type":  "sled", "x":  6215, "lane":  0 },
+    { "type":  "fish", "x":  6294, "lane":  0 },
+    { "type":  "sled", "x":  6357, "lane":  0 },
+    { "type":  "sled", "x":  6357, "lane":  1 },
+    { "type":  "plant", "x":  6459, "lane":  0 },
+    { "type":  "plant", "x":  6459, "lane":  2 },
+    { "type":  "fish", "x":  6532, "lane":  1 },
+    { "type":  "sled", "x":  6591, "lane":  0 },
+    { "type":  "sled", "x":  6591, "lane":  2 },
+    { "type":  "plant", "x":  6693, "lane":  1 },
+    { "type":  "plant", "x":  6693, "lane":  2 },
+    { "type":  "crates", "x":  6848, "lane":  1 },
+    { "type":  "dog", "x":  6888, "lane":  0 },
+    { "type":  "fish", "x":  6976, "lane":  0 },
+    { "type":  "box", "x":  7121, "lane":  2 },
+    { "type":  "schnauzer", "x":  7161, "lane":  0 },
+    { "type":  "gnome", "x":  7353, "lane":  0 },
+    { "type":  "gnome", "x":  7353, "lane":  1 },
+    { "type":  "fish", "x":  7451, "lane":  1 },
+    { "type":  "crates", "x":  7569, "lane":  2 },
+    { "type":  "schnauzer", "x":  7609, "lane":  1 }
+  ]
+}

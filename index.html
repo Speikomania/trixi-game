@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Trixi – Lauf zum Futternapf!</title>
+    <base href="./" />
+    <link href="css/trixi.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.png" />
+</head>
+
+<body>
+    <div id="app">
+        <!-- Shown while the browser downloads the game engine (replaced as soon as the game page is ready). -->
+        <div class="overlay">
+            <div class="card">
+                <h1>Trixi</h1>
+                <p class="subtitle">Lauf zum Futternapf!</p>
+                <p>Das Spiel wird geladen …</p>
+                <div class="bar"><div class="fill boot"></div></div>
+                <noscript><p class="error">Bitte JavaScript erlauben – sonst kann das Spiel nicht starten.</p></noscript>
+            </div>
+        </div>
+    </div>
+
+    <div id="crash" hidden>
+        <div class="card">
+            <p>Hoppla, das Spiel ist hängen geblieben.</p>
+            <button class="play" onclick="location.reload()">Neu laden</button>
+            <p class="hint">Dein Fortschritt bleibt gespeichert.</p>
+        </div>
+    </div>
+
+    <script src="js/trixi.js"></script>
+    <script src="_content/nkast.Wasm.JSInterop/js/JSObject.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Window.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Document.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Navigator.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Gamepad.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Media.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.XHR/js/XHR.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Canvas/js/Canvas.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Canvas/js/CanvasGLContext.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.Audio/js/Audio.10.0.3.js"></script>
+    <script src="_content/nkast.Wasm.XR/js/XR.10.0.3.js"></script>
+
+    <!-- .NET starts only after all scripts above are loaded (KNI's scripts must be there before the game runs). -->
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script type="module">
+        import { BrotliDecode } from "./js/decode.min.js";
+
+        // Plain static hosts (GitHub Pages, a USB stick web server …) do not always compress the engine files.
+        // The build ships Brotli-compressed copies (.br): fetch those (about a third of the size) and unpack them
+        // here. If that fails for any reason, the normal file is used.
+        const useBrotli = location.protocol.startsWith("http") && location.hostname !== "localhost";
+        Blazor.start({
+            loadBootResource: function (type, name, defaultUri, integrity) {
+                if (!useBrotli || type === "dotnetjs") {
+                    return null;
+                }
+                return (async function () {
+                    try {
+                        const response = await fetch(defaultUri + ".br", { cache: "no-cache" });
+                        if (!response.ok) {
+                            throw new Error(response.statusText);
+                        }
+                        const bytes = BrotliDecode(new Int8Array(await response.arrayBuffer()));
+                        const contentType = type === "dotnetwasm" ? "application/wasm" : "application/octet-stream";
+                        return new Response(bytes, { headers: { "content-type": contentType } });
+                    } catch (e) {
+                        console.warn("Trixi: compressed download failed, using the normal file", name, e);
+                        return fetch(defaultUri, { cache: "no-cache" });
+                    }
+                })();
+            }
+        });
+    </script>
+</body>
+
+</html>

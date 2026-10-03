@@ -1,0 +1,15 @@
+{
+  // All point values of the score system. Change freely – no code change needed.
+  // The combo multiplier applies to obstacles, near misses, abilities and fish (not to distance or bonuses).
+  "distance": { "pointsPerStep": 1, "stepPixels": 10 },
+  "obstaclePassed": 10,
+  "nearMiss": 50,
+  "abilitySuccess": { "default": 30, "glide": 40, "chargedjump": 40 },
+  "collectibles": { "fish": 25, "goldfish": 100, "mouse": 30, "bird": 40, "kingfisher": 150 },
+  "levelComplete": 200,
+  // Erweiterung 12: got away from the playful dog (a chase lasts as long as a few obstacles).
+  "chaseEscaped": 100,
+  "noHitBonus": 300,
+  "heartBonus": 150,
+  "combo": { "passesPerStep": 5, "multiplierStep": 0.5, "maxMultiplier": 3.0 }
+}

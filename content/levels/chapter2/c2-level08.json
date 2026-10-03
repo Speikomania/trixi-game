@@ -1,0 +1,250 @@
+{
+  // Pine needles (fast like marble) and more ledges, getting darker.
+  "id": "c2-level08",
+  "order": 8,
+  "name": "Kiefernhang",
+  "theme": "forest",
+  "music": "finale",
+  "speed": 106,
+  "length": 12054,
+  "lives": 3,
+  "starScores": [
+    1300,
+    3360,
+    4850
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 1.0,
+      "bird": 1.0
+    }
+  },
+  "safeZones": [
+    {
+      "from": 7241,
+      "to": 8296
+    }
+  ],
+  "checkpoints": [
+    7251
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 7246,
+      "duration": 4.5,
+      "text": "Glatte Kiefernnadeln! Hier saust Trixi. Schau weit nach vorn!"
+    },
+    {
+      "kind": "Message",
+      "x": 8301,
+      "duration": 3,
+      "text": "Wie der Wind!"
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "deepwood"
+    },
+    {
+      "from": 2198,
+      "scene": "woodland"
+    },
+    {
+      "from": 7241,
+      "scene": "deepwood"
+    },
+    {
+      "from": 10458,
+      "scene": "twilight"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "pineneedles",
+      "from": 7430,
+      "to": 8256
+    }
+  ],
+  "terrain": [
+    {
+      "from": 200,
+      "to": 908,
+      "heights": [
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "from": 5363,
+      "to": 6021,
+      "heights": [
+        16,
+        8,
+        0
+      ]
+    },
+    {
+      "from": 6357,
+      "to": 7056,
+      "heights": [
+        16,
+        8,
+        0
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 2198
+    },
+    {
+      "kind": "calm",
+      "from": 2198,
+      "to": 3397
+    },
+    {
+      "kind": "dense",
+      "from": 3397,
+      "to": 5171
+    },
+    {
+      "kind": "normal",
+      "from": 5171,
+      "to": 7241
+    },
+    {
+      "kind": "calm",
+      "from": 7241,
+      "to": 8566
+    },
+    {
+      "kind": "dense",
+      "from": 8566,
+      "to": 10458
+    },
+    {
+      "kind": "normal",
+      "from": 10458,
+      "to": 12054
+    }
+  ],
+  "npcs": [
+    {
+      "person": "kevin",
+      "pose": "read",
+      "x": 879,
+      "layer": "near"
+    },
+    {
+      "person": "freund01",
+      "pose": "doze",
+      "x": 4719,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "fern", "x":  380, "lane":  0 },
+    { "type":  "fern", "x":  380, "lane":  2 },
+    { "type":  "mouse", "x":  472, "lane":  1, "toLane":  2 },
+    { "type":  "stump", "x":  550, "lane":  1 },
+    { "type":  "stump", "x":  550, "lane":  2 },
+    { "type":  "bird", "x":  643, "lane":  0, "air":  true },
+    { "type":  "boar", "x":  720, "lane":  0 },
+    { "type":  "boar", "x":  720, "lane":  2 },
+    { "type":  "bird", "x":  910, "lane":  2, "air":  true },
+    { "type":  "anthill", "x":  1256, "lane":  0 },
+    { "type":  "deer", "x":  1256, "lane":  2, "toLane":  1 },
+    { "type":  "mouse", "x":  1346, "lane":  0, "toLane":  1 },
+    { "type":  "playdog", "x":  1425, "width":  380 },
+    { "type":  "mouse", "x":  1882, "lane":  2, "toLane":  1 },
+    { "type":  "creek", "x":  1959, "width":  116 },
+    { "type":  "hedgehog", "x":  2198, "lane":  1 },
+    { "type":  "mouse", "x":  2322, "lane":  2, "toLane":  1 },
+    { "type":  "boar", "x":  2432, "lane":  0 },
+    { "type":  "bird", "x":  2568, "lane":  0, "air":  true },
+    { "type":  "stump", "x":  2690, "lane":  0 },
+    { "type":  "mouse", "x":  2802, "lane":  1, "toLane":  2 },
+    { "type":  "hedgehog", "x":  2898, "lane":  1 },
+    { "type":  "bird", "x":  3016, "lane":  0, "air":  true },
+    { "type":  "hedgehog", "x":  3121, "lane":  2 },
+    { "type":  "mouse", "x":  3266, "lane":  0, "toLane":  1 },
+    { "type":  "fox", "x":  3397, "lane":  0 },
+    { "type":  "logpile", "x":  3397, "lane":  2 },
+    { "type":  "boar", "x":  3493, "lane":  1 },
+    { "type":  "boar", "x":  3493, "lane":  2 },
+    { "type":  "fern", "x":  3607, "lane":  0 },
+    { "type":  "boar", "x":  3607, "lane":  1 },
+    { "type":  "badger", "x":  3818, "lane":  0 },
+    { "type":  "fox", "x":  3995, "lane":  0 },
+    { "type":  "fox", "x":  3995, "lane":  2 },
+    { "type":  "boar", "x":  4091, "lane":  1 },
+    { "type":  "fern", "x":  4091, "lane":  2 },
+    { "type":  "creek", "x":  4202, "width":  116 },
+    { "type":  "stump", "x":  4426, "lane":  2 },
+    { "type":  "forestgate", "x":  4674 },
+    { "type":  "anthill", "x":  4793, "lane":  0 },
+    { "type":  "anthill", "x":  4793, "lane":  2 },
+    { "type":  "stump", "x":  4925, "lane":  1 },
+    { "type":  "boar", "x":  5063, "lane":  0 },
+    { "type":  "anthill", "x":  5172, "lane":  2 },
+    { "type":  "bird", "x":  5273, "lane":  0, "air":  true },
+    { "type":  "anthill", "x":  5543, "lane":  0 },
+    { "type":  "anthill", "x":  5543, "lane":  2 },
+    { "type":  "mouse", "x":  5634, "lane":  1, "toLane":  2 },
+    { "type":  "anthill", "x":  5713, "lane":  0 },
+    { "type":  "anthill", "x":  5713, "lane":  1 },
+    { "type":  "bird", "x":  5804, "lane":  0, "air":  true },
+    { "type":  "fern", "x":  5883, "lane":  0 },
+    { "type":  "fern", "x":  5883, "lane":  2 },
+    { "type":  "bird", "x":  6039, "lane":  0, "air":  true },
+    { "type":  "boar", "x":  6181, "lane":  0 },
+    { "type":  "boar", "x":  6181, "lane":  1 },
+    { "type":  "mouse", "x":  6276, "lane":  0, "toLane":  1 },
+    { "type":  "anthill", "x":  6537, "lane":  1 },
+    { "type":  "anthill", "x":  6537, "lane":  2 },
+    { "type":  "mouse", "x":  6628, "lane":  0, "toLane":  1 },
+    { "type":  "anthill", "x":  6707, "lane":  0 },
+    { "type":  "anthill", "x":  6707, "lane":  1 },
+    { "type":  "mouse", "x":  6798, "lane":  1, "toLane":  2 },
+    { "type":  "logpile", "x":  6877, "lane":  0 },
+    { "type":  "logpile", "x":  6877, "lane":  2 },
+    { "type":  "anthill", "x":  7595, "lane":  0 },
+    { "type":  "stump", "x":  7875, "lane":  0 },
+    { "type":  "anthill", "x":  8778, "lane":  0 },
+    { "type":  "anthill", "x":  9078, "lane":  0 },
+    { "type":  "deer", "x":  9078, "lane":  2, "toLane":  1 },
+    { "type":  "badger", "x":  9267, "lane":  2 },
+    { "type":  "logpile", "x":  9443, "lane":  0 },
+    { "type":  "stump", "x":  9443, "lane":  2 },
+    { "type":  "fern", "x":  9539, "lane":  1 },
+    { "type":  "fern", "x":  9539, "lane":  2 },
+    { "type":  "fern", "x":  9663, "lane":  0 },
+    { "type":  "fern", "x":  9663, "lane":  2 },
+    { "type":  "deer", "x":  9971, "lane":  0, "toLane":  1 },
+    { "type":  "stump", "x":  9971, "lane":  2 },
+    { "type":  "creek", "x":  10099, "width":  116 },
+    { "type":  "anthill", "x":  10336, "lane":  1 },
+    { "type":  "anthill", "x":  10336, "lane":  2 },
+    { "type":  "fox", "x":  10459, "lane":  0 },
+    { "type":  "fox", "x":  10459, "lane":  2 },
+    { "type":  "bird", "x":  10553, "lane":  0, "air":  true },
+    { "type":  "badger", "x":  10703, "lane":  0 },
+    { "type":  "mouse", "x":  10829, "lane":  1, "toLane":  2 },
+    { "type":  "creek", "x":  10907, "width":  116 },
+    { "type":  "kingfisher", "x":  10965, "lane":  1, "air":  true },
+    { "type":  "mouse", "x":  11100, "lane":  2, "toLane":  1 },
+    { "type":  "badger", "x":  11249, "lane":  0 },
+    { "type":  "forestgate", "x":  11540 },
+    { "type":  "mouse", "x":  11634, "lane":  1, "toLane":  2 },
+    { "type":  "creek", "x":  11720, "width":  116 }
+  ]
+}

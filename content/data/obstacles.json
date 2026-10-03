@@ -1,0 +1,140 @@
+{
+  // hazard: Solid = change lane, Ground = jump/glide over it, Gate = sprint through in time.
+  // behaviour (optional): wakeZone (sleeping dog), closingGate; Version 2: scurry, flee, perch, laneShift (forest animals).
+  // variantOf (Erweiterung 6): a look-alike that plays exactly like its original – hazard, width, lanes and
+  // behaviour are taken from it; only name, sprite and the scenes it fits into ("scenes") are its own.
+  "types": [
+    { "id": "box", "name": "Karton", "hazard": "Solid", "width": 16, "sprite": "obstacle.box" },
+    { "id": "plant", "name": "Blumentopf", "hazard": "Solid", "width": 14, "sprite": "obstacle.plant" },
+    { "id": "yarn", "name": "Wollknäuel", "hazard": "Solid", "width": 12, "sprite": "obstacle.yarn" },
+    { "id": "fish", "name": "Leckerli", "hazard": "Collectible", "width": 10, "sprite": "obstacle.treat" },
+    // Erweiterung 7: the collectibles are cat treats; ids "fish"/"goldfish" stay (they are part of saved statistics).
+    // Gold treat (Erweiterung 6): the risky extra – right in front of an obstacle or high up behind a puddle ("air": true).
+    { "id": "goldfish", "name": "Gold-Leckerli", "hazard": "Collectible", "width": 10, "sprite": "obstacle.treat.gold", "params": { "rare": 1 } },
+    { "id": "puddle", "name": "Pfütze", "hazard": "Ground", "width": 16, "sprite": "obstacle.puddle", "allLanes": true },
+    { "id": "stream", "name": "Bach", "hazard": "Ground", "width": 100, "sprite": "obstacle.stream", "allLanes": true },
+    {
+      "id": "dog",
+      "name": "Schlafender Hund",
+      "hazard": "Solid",
+      "width": 28,
+      "sprite": "obstacle.dog",
+      "behaviour": "wakeZone",
+      "params": { "zoneBefore": 72, "zoneAfter": 20 }
+    },
+    {
+      // Erweiterung 12: the sprint challenge. A playful dog (golden coat, red collar, red ball) lies at the roadside;
+      // once the cat is startGap past it, it jumps up and runs after the cat in its lane, faster than the cat runs –
+      // only sprinting gets away, changing lanes does not. "width" is the whole stretch of the chase (from where the dog
+      // lies to where it gives up); placements may make it longer. Nothing else stands in that stretch (validator).
+      "id": "playdog",
+      "name": "Verspielter Hund",
+      "plural": "Verspielte Hunde",
+      "hazard": "None",
+      "width": 300,
+      "sprite": "obstacle.playdog",
+      "allLanes": true,
+      "behaviour": "chase",
+      "params": { "startGap": 40, "speedFactor": 1.35, "reach": 10 }
+    },
+    {
+      "id": "gate",
+      "name": "Gartentor",
+      "hazard": "Gate",
+      "width": 8,
+      "sprite": "obstacle.gate",
+      "allLanes": true,
+      "behaviour": "closingGate",
+      "params": { "triggerDistance": 110, "closeDuration": 1.0 }
+    },
+
+    // House
+    { "id": "laundry", "name": "Wäschekorb", "variantOf": "box", "sprite": "obstacle.laundry", "scenes": [ "kitchen", "hallway", "livingroom" ] },
+    { "id": "books", "name": "Bücherstapel", "variantOf": "box", "sprite": "obstacle.books", "scenes": [ "livingroom", "hallway" ] },
+    { "id": "vacuum", "name": "Staubsauger", "variantOf": "plant", "sprite": "obstacle.vacuum", "scenes": [ "livingroom", "hallway", "kitchen" ] },
+    { "id": "blocks", "name": "Bauklötze", "variantOf": "yarn", "sprite": "obstacle.blocks", "scenes": [ "livingroom", "kitchen", "hallway" ] },
+    { "id": "milk", "name": "Milchpfütze", "variantOf": "puddle", "sprite": "obstacle.milk", "scenes": [ "kitchen", "livingroom", "hallway" ] },
+
+    // Garden
+    { "id": "wheelbarrow", "name": "Schubkarre", "variantOf": "box", "sprite": "obstacle.wheelbarrow", "scenes": [ "lawn", "vegetable" ] },
+    { "id": "sled", "name": "Schlitten mit Geschenken", "variantOf": "box", "sprite": "obstacle.sled", "scenes": [ "winter" ] },
+    { "id": "potstack", "name": "Blumentopf-Turm", "variantOf": "plant", "sprite": "obstacle.potstack", "scenes": [ "lawn", "vegetable", "porch" ] },
+    { "id": "gnome", "name": "Gartenzwerg", "variantOf": "yarn", "sprite": "obstacle.gnome", "scenes": [ "lawn", "vegetable", "winter" ] },
+    { "id": "mud", "name": "Matschpfütze", "variantOf": "puddle", "sprite": "obstacle.mud", "scenes": [ "lawn", "vegetable", "playground", "parkpath" ] },
+    { "id": "slush", "name": "Schneematsch", "variantOf": "puddle", "sprite": "obstacle.slush", "scenes": [ "winter", "street" ] },
+    { "id": "schnauzer", "name": "Schlafender Schnauzer", "variantOf": "dog", "sprite": "obstacle.schnauzer", "scenes": [ "lawn", "vegetable", "winter" ] },
+
+    // Park
+    { "id": "sandcastle", "name": "Sandburg", "variantOf": "box", "sprite": "obstacle.sandcastle", "scenes": [ "playground", "parkpath" ] },
+    { "id": "topiary", "name": "Buchskugel", "variantOf": "plant", "sprite": "obstacle.topiary", "scenes": [ "parkpath", "fountain", "playground" ] },
+    { "id": "picnic", "name": "Picknickkorb", "variantOf": "box", "sprite": "obstacle.picnic", "scenes": [ "parkpath", "playground", "fountain" ] },
+    { "id": "leafsack", "name": "Laubsack", "variantOf": "plant", "sprite": "obstacle.leafsack", "scenes": [ "parkpath", "playground", "fountain", "nightgarden" ] },
+    { "id": "cone", "name": "Leitkegel", "variantOf": "yarn", "sprite": "obstacle.cone", "scenes": [ "parkpath", "playground", "fountain", "street" ] },
+    { "id": "leaves", "name": "Laubhaufen", "variantOf": "puddle", "sprite": "obstacle.leaves", "scenes": [ "parkpath", "fountain", "nightgarden", "porch" ] },
+    { "id": "dalmatian", "name": "Schlafender Dalmatiner", "variantOf": "dog", "sprite": "obstacle.dalmatian", "scenes": [ "parkpath", "playground", "fountain", "street", "nightgarden" ] },
+    { "id": "irongate", "name": "Eisentor", "variantOf": "gate", "sprite": "obstacle.irongate", "scenes": [ "parkpath", "fountain", "street", "nightgarden", "porch" ] },
+
+    // Evening
+    { "id": "crates", "name": "Obstkisten", "variantOf": "box", "sprite": "obstacle.crates", "scenes": [ "lawn", "vegetable", "street", "porch" ] },
+    { "id": "wheeliebin", "name": "Mülltonne", "variantOf": "box", "sprite": "obstacle.wheeliebin", "scenes": [ "street", "porch", "nightgarden", "fountain" ] },
+    { "id": "pumpkins", "name": "Kürbisse", "variantOf": "plant", "sprite": "obstacle.pumpkins", "scenes": [ "nightgarden", "porch" ] },
+    { "id": "barrier", "name": "Absperrbake", "variantOf": "yarn", "sprite": "obstacle.barrier", "scenes": [ "street", "fountain" ] },
+
+    // Version 2, chapter 2 "Der Wald". Variants play exactly like their originals (tall = dodge, flat = jump).
+    { "id": "stump", "name": "Baumstumpf", "variantOf": "box", "sprite": "obstacle.stump", "scenes": [ "forestedge", "woodland", "riverside", "deepwood", "twilight", "campsite" ] },
+    { "id": "logpile", "name": "Holzstapel", "variantOf": "box", "sprite": "obstacle.logpile", "scenes": [ "woodland", "deepwood", "campsite" ] },
+    { "id": "fox", "name": "Fuchs", "plural": "Füchse", "variantOf": "box", "sprite": "obstacle.fox", "scenes": [ "forestedge", "woodland", "twilight" ] },
+    { "id": "fern", "name": "Farn", "variantOf": "plant", "sprite": "obstacle.fern", "scenes": [ "forestedge", "woodland", "riverside", "deepwood", "twilight", "campsite" ] },
+    { "id": "boar", "name": "Wildschwein", "variantOf": "plant", "sprite": "obstacle.boar", "scenes": [ "woodland", "deepwood", "twilight" ] },
+    { "id": "anthill", "name": "Ameisenhaufen", "variantOf": "yarn", "sprite": "obstacle.anthill", "scenes": [ "forestedge", "woodland", "deepwood" ] },
+    { "id": "roots", "name": "Wurzeln", "plural": "Wurzeln", "variantOf": "puddle", "sprite": "obstacle.roots", "scenes": [ "woodland", "deepwood", "twilight" ] },
+    { "id": "forestmud", "name": "Matschloch", "variantOf": "puddle", "sprite": "obstacle.forestmud", "scenes": [ "forestedge", "riverside", "campsite" ] },
+    { "id": "creek", "name": "Waldbach", "variantOf": "stream", "sprite": "obstacle.creek", "scenes": [ "forestedge", "woodland", "riverside", "deepwood", "twilight", "campsite" ] },
+    { "id": "badger", "name": "Schlafender Dachs", "variantOf": "dog", "sprite": "obstacle.badger", "scenes": [ "forestedge", "woodland", "riverside", "deepwood", "twilight", "campsite" ] },
+    { "id": "forestgate", "name": "Wildgatter", "variantOf": "gate", "sprite": "obstacle.forestgate", "scenes": [ "forestedge", "woodland", "riverside", "deepwood", "twilight", "campsite" ] },
+    // Flat and only one lane wide: dodge it or jump over it, like a small puddle.
+    { "id": "hedgehog", "name": "Igel", "hazard": "Ground", "width": 14, "sprite": "obstacle.hedgehog" },
+    // A deer stepping over to another lane ("toLane") once the cat is close; it blocks both lanes while it steps.
+    {
+      "id": "deer",
+      "name": "Reh",
+      "hazard": "Solid",
+      "width": 16,
+      "sprite": "obstacle.deer",
+      "behaviour": "laneShift",
+      "params": { "triggerDistance": 170, "shiftDuration": 0.6 }
+    },
+    // The forest's collectibles: mice (common, they hop between "lane" and "toLane"), birds (sit high up, "air": true,
+    // and fly off from a cat on the ground) and the rare kingfisher (lands only briefly and very high: charged jump).
+    {
+      "id": "mouse",
+      "name": "Maus",
+      "plural": "Mäuse",
+      "hazard": "Collectible",
+      "width": 10,
+      "sprite": "obstacle.mouse",
+      "behaviour": "scurry",
+      "params": { "period": 0.9, "activeDistance": 220 }
+    },
+    {
+      "id": "bird",
+      "name": "Vogel",
+      "plural": "Vögel",
+      "hazard": "Collectible",
+      "width": 10,
+      "sprite": "obstacle.bird",
+      "behaviour": "flee",
+      "params": { "fleeDistance": 44 }
+    },
+    {
+      "id": "kingfisher",
+      "name": "Eisvogel",
+      "plural": "Eisvögel",
+      "hazard": "Collectible",
+      "width": 10,
+      "sprite": "obstacle.kingfisher",
+      "behaviour": "perch",
+      "params": { "appearSeconds": 1.1, "stay": 1.35, "minHeight": 23, "rare": 1 }
+    }
+  ]
+}

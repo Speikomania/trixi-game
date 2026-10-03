@@ -1,0 +1,219 @@
+{
+  // Introduces SNEAK with a guided, no-fail practice section.
+  "id": "level05",
+  "order": 5,
+  "name": "Psst, der Hund schläft",
+  "theme": "garden",
+  "music": "level",
+  "speed": 75,
+  "length": 6492,
+  "lives": 4,
+  "starScores": [
+    880,
+    1920,
+    3110
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 1.0,
+      "goldfish": 1.0
+    }
+  },
+  "introducesAbility": "sneak",
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 900
+    }
+  ],
+  "checkpoints": [
+    623
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 3.5,
+      "text": "Neu: Schleichen! Dann wacht der Hund nicht auf."
+    },
+    {
+      "kind": "Prompt",
+      "x": 218,
+      "action": "MoveUp",
+      "text": "Da schläft ein Hund! Geh erst auf die obere Bahn.",
+      "successX": 258
+    },
+    {
+      "kind": "Prompt",
+      "x": 338,
+      "action": "Ability2",
+      "text": "Jetzt ganz leise: Taste festhalten zum Schleichen.",
+      "successX": 500,
+      "hold": true
+    },
+    {
+      "kind": "Message",
+      "x": 510,
+      "duration": 3.5,
+      "text": "Prima! Beim nächsten Hund machst du es allein."
+    },
+    {
+      "kind": "Message",
+      "x": 910,
+      "duration": 3,
+      "text": "Klasse geschlichen! Weiter geht's."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "lawn"
+    },
+    {
+      "from": 2119,
+      "scene": "vegetable"
+    },
+    {
+      "from": 4293,
+      "scene": "lawn"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1040
+    },
+    {
+      "kind": "normal",
+      "from": 1040,
+      "to": 2119
+    },
+    {
+      "kind": "calm",
+      "from": 2119,
+      "to": 2554
+    },
+    {
+      "kind": "dense",
+      "from": 2554,
+      "to": 3398
+    },
+    {
+      "kind": "normal",
+      "from": 3398,
+      "to": 4293
+    },
+    {
+      "kind": "calm",
+      "from": 4293,
+      "to": 4916
+    },
+    {
+      "kind": "dense",
+      "from": 4916,
+      "to": 5724
+    },
+    {
+      "kind": "normal",
+      "from": 5724,
+      "to": 6492
+    }
+  ],
+  "npcs": [
+    {
+      "person": "kevin",
+      "pose": "sandwich",
+      "x": 1059,
+      "layer": "near"
+    },
+    {
+      "person": "freund01",
+      "pose": "tea",
+      "x": 3206,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "dog", "x":  440, "lane":  1 },
+    { "type":  "dog", "x":  820, "lane":  2 },
+    { "type":  "fish", "x":  954, "lane":  1 },
+    { "type":  "potstack", "x":  1040, "lane":  2 },
+    { "type":  "fish", "x":  1124, "lane":  2 },
+    { "type":  "dog", "x":  1267, "lane":  2 },
+    { "type":  "fish", "x":  1391, "lane":  1 },
+    { "type":  "puddle", "x":  1468 },
+    { "type":  "fish", "x":  1553, "lane":  2 },
+    { "type":  "dog", "x":  1695, "lane":  2 },
+    { "type":  "fish", "x":  1800, "lane":  0 },
+    { "type":  "schnauzer", "x":  1930, "lane":  0 },
+    { "type":  "fish", "x":  2048, "lane":  1 },
+    { "type":  "plant", "x":  2119, "lane":  0 },
+    { "type":  "fish", "x":  2181, "lane":  2 },
+    { "type":  "fish", "x":  2211, "lane":  2 },
+    { "type":  "fish", "x":  2241, "lane":  1 },
+    { "type":  "goldfish", "x":  2326, "lane":  1 },
+    { "type":  "gnome", "x":  2350, "lane":  1 },
+    { "type":  "fish", "x":  2413, "lane":  0 },
+    { "type":  "fish", "x":  2443, "lane":  0 },
+    { "type":  "fish", "x":  2473, "lane":  0 },
+    { "type":  "fish", "x":  2503, "lane":  0 },
+    { "type":  "puddle", "x":  2555 },
+    { "type":  "mud", "x":  2659 },
+    { "type":  "fish", "x":  2725, "lane":  0 },
+    { "type":  "mud", "x":  2776 },
+    { "type":  "fish", "x":  2850, "lane":  0 },
+    { "type":  "wheelbarrow", "x":  2909, "lane":  1 },
+    { "type":  "fish", "x":  2981, "lane":  0 },
+    { "type":  "yarn", "x":  3038, "lane":  1 },
+    { "type":  "gnome", "x":  3038, "lane":  2 },
+    { "type":  "fish", "x":  3106, "lane":  0 },
+    { "type":  "puddle", "x":  3162 },
+    { "type":  "fish", "x":  3224, "lane":  0 },
+    { "type":  "wheelbarrow", "x":  3270, "lane":  0 },
+    { "type":  "mud", "x":  3398 },
+    { "type":  "dog", "x":  3795, "lane":  1 },
+    { "type":  "gnome", "x":  3997, "lane":  2 },
+    { "type":  "mud", "x":  4130 },
+    { "type":  "goldfish", "x":  4175, "lane":  0, "air":  true },
+    { "type":  "crates", "x":  4294, "lane":  1 },
+    { "type":  "fish", "x":  4353, "lane":  0 },
+    { "type":  "fish", "x":  4383, "lane":  0 },
+    { "type":  "fish", "x":  4413, "lane":  0 },
+    { "type":  "fish", "x":  4443, "lane":  0 },
+    { "type":  "fish", "x":  4473, "lane":  0 },
+    { "type":  "plant", "x":  4517, "lane":  0 },
+    { "type":  "fish", "x":  4580, "lane":  2 },
+    { "type":  "fish", "x":  4610, "lane":  2 },
+    { "type":  "goldfish", "x":  4695, "lane":  2 },
+    { "type":  "yarn", "x":  4719, "lane":  2 },
+    { "type":  "fish", "x":  4779, "lane":  1 },
+    { "type":  "fish", "x":  4809, "lane":  1 },
+    { "type":  "fish", "x":  4839, "lane":  1 },
+    { "type":  "fish", "x":  4869, "lane":  1 },
+    { "type":  "plant", "x":  4917, "lane":  0 },
+    { "type":  "plant", "x":  4917, "lane":  1 },
+    { "type":  "dog", "x":  5095, "lane":  1 },
+    { "type":  "schnauzer", "x":  5324, "lane":  0 },
+    { "type":  "fish", "x":  5427, "lane":  2 },
+    { "type":  "wheelbarrow", "x":  5482, "lane":  1 },
+    { "type":  "wheelbarrow", "x":  5482, "lane":  2 },
+    { "type":  "fish", "x":  5546, "lane":  1 },
+    { "type":  "potstack", "x":  5594, "lane":  0 },
+    { "type":  "potstack", "x":  5594, "lane":  1 },
+    { "type":  "fish", "x":  5666, "lane":  1 },
+    { "type":  "plant", "x":  5725, "lane":  0 },
+    { "type":  "plant", "x":  5725, "lane":  1 },
+    { "type":  "fish", "x":  5801, "lane":  0 },
+    { "type":  "plant", "x":  5864, "lane":  0 },
+    { "type":  "fish", "x":  5934, "lane":  1 },
+    { "type":  "puddle", "x":  5991 },
+    { "type":  "fish", "x":  6074, "lane":  1 },
+    { "type":  "mud", "x":  6141 },
+    { "type":  "puddle", "x":  6270 }
+  ]
+}

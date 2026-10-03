@@ -1,0 +1,183 @@
+{
+  // Sleeping badgers and game gates in the deep wood, with ledges.
+  "id": "c2-level07",
+  "order": 7,
+  "name": "Dachsbau",
+  "theme": "forest",
+  "music": "finale",
+  "speed": 103,
+  "length": 11129,
+  "lives": 3,
+  "starScores": [
+    1450,
+    3590,
+    5350
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 1.0,
+      "bird": 1.0
+    }
+  },
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "deepwood"
+    },
+    {
+      "from": 2126,
+      "scene": "woodland"
+    },
+    {
+      "from": 6708,
+      "scene": "deepwood"
+    }
+  ],
+  "terrain": [
+    {
+      "from": 1007,
+      "to": 1648,
+      "heights": [
+        0,
+        0,
+        16
+      ]
+    },
+    {
+      "from": 5625,
+      "to": 6283,
+      "heights": [
+        0,
+        8,
+        0
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 2126
+    },
+    {
+      "kind": "calm",
+      "from": 2126,
+      "to": 3403
+    },
+    {
+      "kind": "dense",
+      "from": 3403,
+      "to": 4845
+    },
+    {
+      "kind": "normal",
+      "from": 4845,
+      "to": 6708
+    },
+    {
+      "kind": "calm",
+      "from": 6708,
+      "to": 8176
+    },
+    {
+      "kind": "dense",
+      "from": 8176,
+      "to": 9767
+    },
+    {
+      "kind": "normal",
+      "from": 9767,
+      "to": 11129
+    }
+  ],
+  "obstacles": [
+    { "type":  "badger", "x":  242, "lane":  1 },
+    { "type":  "mouse", "x":  372, "lane":  2, "toLane":  1 },
+    { "type":  "playdog", "x":  455, "width":  360 },
+    { "type":  "bird", "x":  911, "lane":  1, "air":  true },
+    { "type":  "boar", "x":  1183, "lane":  0 },
+    { "type":  "boar", "x":  1183, "lane":  1 },
+    { "type":  "anthill", "x":  1348, "lane":  0 },
+    { "type":  "anthill", "x":  1348, "lane":  2 },
+    { "type":  "boar", "x":  1513, "lane":  0 },
+    { "type":  "boar", "x":  1513, "lane":  1 },
+    { "type":  "mouse", "x":  1683, "lane":  0, "toLane":  1 },
+    { "type":  "badger", "x":  1911, "lane":  0 },
+    { "type":  "mouse", "x":  2043, "lane":  0, "toLane":  1 },
+    { "type":  "fern", "x":  2127, "lane":  0 },
+    { "type":  "mouse", "x":  2277, "lane":  2, "toLane":  1 },
+    { "type":  "logpile", "x":  2413, "lane":  2 },
+    { "type":  "bird", "x":  2537, "lane":  2, "air":  true },
+    { "type":  "hedgehog", "x":  2645, "lane":  1 },
+    { "type":  "bird", "x":  2793, "lane":  2, "air":  true },
+    { "type":  "anthill", "x":  2928, "lane":  1 },
+    { "type":  "bird", "x":  3055, "lane":  1, "air":  true },
+    { "type":  "fern", "x":  3170, "lane":  2 },
+    { "type":  "mouse", "x":  3293, "lane":  0, "toLane":  1 },
+    { "type":  "hedgehog", "x":  3403, "lane":  0 },
+    { "type":  "hedgehog", "x":  3403, "lane":  1 },
+    { "type":  "anthill", "x":  3547, "lane":  1 },
+    { "type":  "anthill", "x":  3547, "lane":  2 },
+    { "type":  "forestgate", "x":  3770 },
+    { "type":  "anthill", "x":  3893, "lane":  0 },
+    { "type":  "fern", "x":  4006, "lane":  0 },
+    { "type":  "boar", "x":  4006, "lane":  1 },
+    { "type":  "playdog", "x":  4120, "width":  360 },
+    { "type":  "creek", "x":  4624, "width":  113 },
+    { "type":  "badger", "x":  4917, "lane":  1 },
+    { "type":  "badger", "x":  5165, "lane":  0 },
+    { "type":  "forestgate", "x":  5449 },
+    { "type":  "mouse", "x":  5541, "lane":  0, "toLane":  1 },
+    { "type":  "boar", "x":  5801, "lane":  0 },
+    { "type":  "boar", "x":  5801, "lane":  2 },
+    { "type":  "stump", "x":  5966, "lane":  0 },
+    { "type":  "stump", "x":  5966, "lane":  1 },
+    { "type":  "boar", "x":  6131, "lane":  0 },
+    { "type":  "fern", "x":  6131, "lane":  2 },
+    { "type":  "bird", "x":  6301, "lane":  2, "air":  true },
+    { "type":  "creek", "x":  6458, "width":  113 },
+    { "type":  "anthill", "x":  6915, "lane":  2 },
+    { "type":  "bird", "x":  7048, "lane":  1, "air":  true },
+    { "type":  "fern", "x":  7169, "lane":  0 },
+    { "type":  "mouse", "x":  7310, "lane":  2, "toLane":  1 },
+    { "type":  "stump", "x":  7437, "lane":  0 },
+    { "type":  "mouse", "x":  7559, "lane":  1, "toLane":  0 },
+    { "type":  "anthill", "x":  7666, "lane":  1 },
+    { "type":  "mouse", "x":  7799, "lane":  1, "toLane":  2 },
+    { "type":  "anthill", "x":  7920, "lane":  2 },
+    { "type":  "bird", "x":  8054, "lane":  0, "air":  true },
+    { "type":  "anthill", "x":  8177, "lane":  0 },
+    { "type":  "anthill", "x":  8177, "lane":  2 },
+    { "type":  "playdog", "x":  8314, "width":  360 },
+    { "type":  "anthill", "x":  8818, "lane":  1 },
+    { "type":  "fern", "x":  8944, "lane":  0 },
+    { "type":  "logpile", "x":  9062, "lane":  0 },
+    { "type":  "logpile", "x":  9207, "lane":  0 },
+    { "type":  "logpile", "x":  9207, "lane":  2 },
+    { "type":  "fern", "x":  9303, "lane":  0 },
+    { "type":  "fern", "x":  9303, "lane":  1 },
+    { "type":  "anthill", "x":  9417, "lane":  0 },
+    { "type":  "anthill", "x":  9417, "lane":  2 },
+    { "type":  "logpile", "x":  9535, "lane":  1 },
+    { "type":  "stump", "x":  9535, "lane":  2 },
+    { "type":  "boar", "x":  9632, "lane":  0 },
+    { "type":  "boar", "x":  9632, "lane":  1 },
+    { "type":  "fern", "x":  9768, "lane":  0 },
+    { "type":  "fern", "x":  9768, "lane":  1 },
+    { "type":  "creek", "x":  9917, "width":  113 },
+    { "type":  "kingfisher", "x":  9973, "lane":  0, "air":  true },
+    { "type":  "hedgehog", "x":  10161, "lane":  1 },
+    { "type":  "hedgehog", "x":  10161, "lane":  2 },
+    { "type":  "creek", "x":  10334, "width":  113 },
+    { "type":  "fern", "x":  10574, "lane":  0 },
+    { "type":  "fern", "x":  10574, "lane":  1 },
+    { "type":  "boar", "x":  10752, "lane":  0 },
+    { "type":  "fern", "x":  10752, "lane":  2 },
+    { "type":  "hedgehog", "x":  10929, "lane":  0 },
+    { "type":  "hedgehog", "x":  10929, "lane":  1 }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  // Introduces SPRINT with a guided, no-fail practice section.
+  "id": "level07",
+  "order": 7,
+  "name": "Der Hund will spielen",
+  "theme": "park",
+  "music": "finale",
+  "speed": 85,
+  "length": 9519,
+  "lives": 4,
+  "starScores": [
+    1160,
+    2810,
+    4260
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 1.0,
+      "goldfish": 1.0
+    }
+  },
+  "introducesAbility": "sprint",
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1630
+    }
+  ],
+  "checkpoints": [
+    800
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 3.5,
+      "text": "Neu: Sprinten! Damit bist du kurz ganz schnell."
+    },
+    {
+      "kind": "Message",
+      "x": 230,
+      "duration": 3,
+      "text": "Da vorne liegt ein Hund mit einem Ball. Der will spielen!"
+    },
+    {
+      "kind": "Prompt",
+      "x": 420,
+      "action": "Ability3",
+      "text": "Er rennt hinter dir her! Schnell sprinten!",
+      "successX": 680
+    },
+    {
+      "kind": "Message",
+      "x": 690,
+      "duration": 3.5,
+      "text": "Entwischt! Den nächsten Hund hängst du allein ab."
+    },
+    {
+      "kind": "Message",
+      "x": 1250,
+      "duration": 3.5,
+      "text": "Super! Auch ein Tor schaffst du mit einem Sprint."
+    },
+    {
+      "kind": "Prompt",
+      "x": 1451,
+      "action": "Ability3",
+      "text": "Das Tor geht gleich zu! Sprinte durch!",
+      "successX": 1590
+    },
+    {
+      "kind": "Message",
+      "x": 1640,
+      "duration": 3,
+      "text": "Sehr gut! Jetzt kommen alle Fähigkeiten dran."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "lawn"
+    },
+    {
+      "from": 3042,
+      "scene": "parkpath"
+    },
+    {
+      "from": 6365,
+      "scene": "playground"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1770
+    },
+    {
+      "kind": "normal",
+      "from": 1770,
+      "to": 3042
+    },
+    {
+      "kind": "calm",
+      "from": 3042,
+      "to": 4064
+    },
+    {
+      "kind": "dense",
+      "from": 4064,
+      "to": 5092
+    },
+    {
+      "kind": "normal",
+      "from": 5092,
+      "to": 6365
+    },
+    {
+      "kind": "calm",
+      "from": 6365,
+      "to": 7321
+    },
+    {
+      "kind": "dense",
+      "from": 7321,
+      "to": 8548
+    },
+    {
+      "kind": "normal",
+      "from": 8548,
+      "to": 9519
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund01",
+      "pose": "sandwich",
+      "x": 4703,
+      "layer": "near"
+    },
+    {
+      "person": "kevin",
+      "pose": "wave",
+      "x": 7942,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "playdog", "x":  380, "width":  300 },
+    { "type":  "playdog", "x":  940, "width":  300 },
+    { "type":  "gate", "x":  1570 },
+    { "type":  "wheelbarrow", "x":  1770, "lane":  1 },
+    { "type":  "playdog", "x":  1918, "width":  300 },
+    { "type":  "fish", "x":  2284, "lane":  1 },
+    { "type":  "dog", "x":  2423, "lane":  2 },
+    { "type":  "puddle", "x":  2596 },
+    { "type":  "gate", "x":  2862 },
+    { "type":  "goldfish", "x":  3014, "lane":  0 },
+    { "type":  "sandcastle", "x":  3042, "lane":  0 },
+    { "type":  "fish", "x":  3102, "lane":  1 },
+    { "type":  "fish", "x":  3136, "lane":  1 },
+    { "type":  "fish", "x":  3170, "lane":  1 },
+    { "type":  "fish", "x":  3204, "lane":  1 },
+    { "type":  "fish", "x":  3238, "lane":  1 },
+    { "type":  "sandcastle", "x":  3283, "lane":  0 },
+    { "type":  "fish", "x":  3347, "lane":  0 },
+    { "type":  "fish", "x":  3381, "lane":  0 },
+    { "type":  "fish", "x":  3415, "lane":  0 },
+    { "type":  "fish", "x":  3449, "lane":  0 },
+    { "type":  "fish", "x":  3483, "lane":  0 },
+    { "type":  "picnic", "x":  3532, "lane":  2 },
+    { "type":  "fish", "x":  3594, "lane":  2 },
+    { "type":  "fish", "x":  3628, "lane":  2 },
+    { "type":  "fish", "x":  3662, "lane":  1 },
+    { "type":  "fish", "x":  3696, "lane":  1 },
+    { "type":  "fish", "x":  3730, "lane":  0 },
+    { "type":  "fish", "x":  3764, "lane":  0 },
+    { "type":  "puddle", "x":  3810 },
+    { "type":  "fish", "x":  3877, "lane":  0 },
+    { "type":  "fish", "x":  3911, "lane":  0 },
+    { "type":  "fish", "x":  3945, "lane":  1 },
+    { "type":  "fish", "x":  3979, "lane":  1 },
+    { "type":  "fish", "x":  4013, "lane":  2 },
+    { "type":  "cone", "x":  4064, "lane":  0 },
+    { "type":  "yarn", "x":  4064, "lane":  1 },
+    { "type":  "gate", "x":  4297 },
+    { "type":  "fish", "x":  4361, "lane":  2 },
+    { "type":  "playdog", "x":  4417, "width":  300 },
+    { "type":  "picnic", "x":  4836, "lane":  2 },
+    { "type":  "fish", "x":  4908, "lane":  2 },
+    { "type":  "cone", "x":  4964, "lane":  0 },
+    { "type":  "fish", "x":  5034, "lane":  1 },
+    { "type":  "mud", "x":  5093 },
+    { "type":  "goldfish", "x":  5144, "lane":  1, "air":  true },
+    { "type":  "dalmatian", "x":  5491, "lane":  2 },
+    { "type":  "fish", "x":  5601, "lane":  1 },
+    { "type":  "sandcastle", "x":  5663, "lane":  0 },
+    { "type":  "sandcastle", "x":  5663, "lane":  1 },
+    { "type":  "fish", "x":  5747, "lane":  2 },
+    { "type":  "dalmatian", "x":  5887, "lane":  1 },
+    { "type":  "fish", "x":  6012, "lane":  2 },
+    { "type":  "gate", "x":  6199 },
+    { "type":  "fish", "x":  6286, "lane":  0 },
+    { "type":  "leafsack", "x":  6366, "lane":  1 },
+    { "type":  "fish", "x":  6435, "lane":  2 },
+    { "type":  "fish", "x":  6469, "lane":  2 },
+    { "type":  "fish", "x":  6503, "lane":  2 },
+    { "type":  "fish", "x":  6537, "lane":  2 },
+    { "type":  "sandcastle", "x":  6592, "lane":  2 },
+    { "type":  "fish", "x":  6656, "lane":  1 },
+    { "type":  "fish", "x":  6690, "lane":  1 },
+    { "type":  "fish", "x":  6724, "lane":  1 },
+    { "type":  "fish", "x":  6758, "lane":  1 },
+    { "type":  "topiary", "x":  6807, "lane":  2 },
+    { "type":  "fish", "x":  6865, "lane":  0 },
+    { "type":  "fish", "x":  6899, "lane":  0 },
+    { "type":  "fish", "x":  6933, "lane":  1 },
+    { "type":  "fish", "x":  6967, "lane":  1 },
+    { "type":  "fish", "x":  7001, "lane":  2 },
+    { "type":  "fish", "x":  7035, "lane":  2 },
+    { "type":  "mud", "x":  7080 },
+    { "type":  "fish", "x":  7140, "lane":  1 },
+    { "type":  "fish", "x":  7174, "lane":  1 },
+    { "type":  "fish", "x":  7208, "lane":  1 },
+    { "type":  "fish", "x":  7242, "lane":  1 },
+    { "type":  "fish", "x":  7276, "lane":  1 },
+    { "type":  "puddle", "x":  7321 },
+    { "type":  "fish", "x":  7385, "lane":  0 },
+    { "type":  "topiary", "x":  7434, "lane":  1 },
+    { "type":  "topiary", "x":  7434, "lane":  2 },
+    { "type":  "fish", "x":  7498, "lane":  1 },
+    { "type":  "box", "x":  7548, "lane":  1 },
+    { "type":  "fish", "x":  7627, "lane":  0 },
+    { "type":  "mud", "x":  7690 },
+    { "type":  "fish", "x":  7765, "lane":  1 },
+    { "type":  "cone", "x":  7825, "lane":  1 },
+    { "type":  "fish", "x":  7891, "lane":  0 },
+    { "type":  "leafsack", "x":  7946, "lane":  2 },
+    { "type":  "mud", "x":  8057 },
+    { "type":  "fish", "x":  8135, "lane":  0 },
+    { "type":  "cone", "x":  8198, "lane":  2 },
+    { "type":  "fish", "x":  8259, "lane":  1 },
+    { "type":  "dog", "x":  8381, "lane":  2 },
+    { "type":  "goldfish", "x":  8520, "lane":  1 },
+    { "type":  "leafsack", "x":  8548, "lane":  1 },
+    { "type":  "fish", "x":  8636, "lane":  0 },
+    { "type":  "picnic", "x":  8710, "lane":  1 },
+    { "type":  "fish", "x":  8803, "lane":  1 },
+    { "type":  "playdog", "x":  8881, "width":  300 },
+    { "type":  "picnic", "x":  9320, "lane":  0 },
+    { "type":  "picnic", "x":  9320, "lane":  2 }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  // Erweiterung 10: the closing scene after the last level. Shown automatically the first time the level is finished
+  // (after the result page, via "Weiter"), afterwards rewatchable from the main menu ("Abspann ansehen").
+  // Text by Kevin – do not reword. One entry per line; long lines wrap on screen.
+  "afterLevel": "level10",
+  // Version 2: Kevin's words are for Karolin only – shown when the active player's name means Karolin ("Karolin",
+  // "Karo"). Everybody else gets the "neutral" scene below: Trixi happy at the bowl, no personal words, no family figures.
+  "forPlayer": "karolin",
+  "music": "calm",
+  "scene": "porch",
+  "cast": [
+    { "person": "kevin", "pose": "wave" },
+    { "person": "karolin", "pose": "pet" }
+  ],
+  "lineSeconds": 2.6,
+  "lines": [
+    "Trixi hat's geschafft – wieder sicher am Napf angekommen.",
+    "Genau wie ich jeden Tag froh bin, sicher bei dir angekommen zu sein.",
+    "Danke, dass du mit mir (und ihr) durchs Leben läufst.",
+    "Ich liebe dich, Karolin.",
+    "— Kevin"
+  ],
+  "neutral": {
+    "music": "calm",
+    "scene": "porch",
+    "cast": [],
+    "lineSeconds": 2.6,
+    "lines": [
+      "Geschafft! Trixi ist glücklich am Napf angekommen.",
+      "Zehn Level voller Abenteuer – was für ein Lauf!",
+      "Danke fürs Mitspielen, {name}!"
+    ]
+  }
+}

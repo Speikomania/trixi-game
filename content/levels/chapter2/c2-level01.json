@@ -1,0 +1,173 @@
+{
+  // Chapter 2 starts: the forest's collectibles (mice, birds) in a guided practice zone.
+  "id": "c2-level01",
+  "order": 1,
+  "name": "Ab in den Wald",
+  "theme": "forest",
+  "music": "level",
+  "speed": 85,
+  "length": 5979,
+  "lives": 4,
+  "starScores": [
+    620,
+    1120,
+    1740
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 0.8,
+      "bird": 0.8
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1420
+    }
+  ],
+  "checkpoints": [
+    850
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4,
+      "text": "Willkommen im Wald! Statt Leckerlis gibt es hier Mäuse und Vögel."
+    },
+    {
+      "kind": "Message",
+      "x": 130,
+      "duration": 4,
+      "text": "Eine Maus! Sie huscht hin und her. Lauf in ihre Bahn, wenn sie dort ist."
+    },
+    {
+      "kind": "Prompt",
+      "x": 640,
+      "action": "Ability1",
+      "text": "Ein Vogel! Spring rechtzeitig – sonst fliegt er weg.",
+      "successX": 720
+    },
+    {
+      "kind": "Message",
+      "x": 740,
+      "duration": 3,
+      "text": "Hab ihn! Den nächsten Vogel fängst du allein."
+    },
+    {
+      "kind": "Message",
+      "x": 1060,
+      "duration": 4,
+      "text": "Mäuse und Vögel gibt's oft – ganz selten zeigt sich am Bach ein Eisvogel."
+    },
+    {
+      "kind": "Message",
+      "x": 1430,
+      "duration": 2.5,
+      "text": "Auf in den Wald!"
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "forestedge"
+    },
+    {
+      "from": 2389,
+      "scene": "woodland"
+    },
+    {
+      "from": 4263,
+      "scene": "forestedge"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1580
+    },
+    {
+      "kind": "normal",
+      "from": 1580,
+      "to": 2389
+    },
+    {
+      "kind": "calm",
+      "from": 2389,
+      "to": 2765
+    },
+    {
+      "kind": "dense",
+      "from": 2765,
+      "to": 3455
+    },
+    {
+      "kind": "normal",
+      "from": 3455,
+      "to": 4263
+    },
+    {
+      "kind": "calm",
+      "from": 4263,
+      "to": 4946
+    },
+    {
+      "kind": "dense",
+      "from": 4946,
+      "to": 5488
+    },
+    {
+      "kind": "normal",
+      "from": 5488,
+      "to": 5979
+    }
+  ],
+  "obstacles": [
+    { "type":  "mouse", "x":  360, "lane":  1, "toLane":  0 },
+    { "type":  "bird", "x":  700, "lane":  1, "air":  true },
+    { "type":  "bird", "x":  1000, "lane":  1, "air":  true },
+    { "type":  "mouse", "x":  1260, "lane":  2, "toLane":  1 },
+    { "type":  "anthill", "x":  1580, "lane":  1 },
+    { "type":  "mouse", "x":  1691, "lane":  0, "toLane":  1 },
+    { "type":  "forestmud", "x":  1790 },
+    { "type":  "mouse", "x":  1892, "lane":  0, "toLane":  1 },
+    { "type":  "fern", "x":  1978, "lane":  0 },
+    { "type":  "fern", "x":  1978, "lane":  2 },
+    { "type":  "mouse", "x":  2087, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  2182, "width":  34 },
+    { "type":  "mouse", "x":  2303, "lane":  1, "toLane":  0 },
+    { "type":  "boar", "x":  2390, "lane":  1 },
+    { "type":  "mouse", "x":  2584, "lane":  1, "toLane":  2 },
+    { "type":  "creek", "x":  2765, "width":  34 },
+    { "type":  "creek", "x":  2932, "width":  34 },
+    { "type":  "roots", "x":  3100 },
+    { "type":  "mouse", "x":  3184, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  3252, "width":  34 },
+    { "type":  "boar", "x":  3635, "lane":  0 },
+    { "type":  "mouse", "x":  3757, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  3865, "width":  34 },
+    { "type":  "bird", "x":  3991, "lane":  2, "air":  true },
+    { "type":  "stump", "x":  4084, "lane":  2 },
+    { "type":  "mouse", "x":  4182, "lane":  1, "toLane":  0 },
+    { "type":  "stump", "x":  4264, "lane":  1 },
+    { "type":  "mouse", "x":  4426, "lane":  2, "toLane":  1 },
+    { "type":  "stump", "x":  4572, "lane":  0 },
+    { "type":  "mouse", "x":  4767, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  4947, "width":  34 },
+    { "type":  "bird", "x":  5058, "lane":  0, "air":  true },
+    { "type":  "fern", "x":  5135, "lane":  1 },
+    { "type":  "fern", "x":  5135, "lane":  2 },
+    { "type":  "mouse", "x":  5236, "lane":  1, "toLane":  0 },
+    { "type":  "fox", "x":  5323, "lane":  2 },
+    { "type":  "bird", "x":  5414, "lane":  1, "air":  true },
+    { "type":  "creek", "x":  5489, "width":  34 },
+    { "type":  "mouse", "x":  5609, "lane":  0, "toLane":  1 },
+    { "type":  "fox", "x":  5696, "lane":  0 },
+    { "type":  "fox", "x":  5696, "lane":  1 }
+  ]
+}

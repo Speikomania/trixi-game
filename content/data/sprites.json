@@ -1,0 +1,3108 @@
+{
+  "sprites": {
+    "bg.deepwood": {
+      "file": "sprites/bg_deepwood.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#80b3ad"
+    },
+    "bg.dusk.far": {
+      "file": "sprites/bg_dusk_far.png",
+      "width": 160,
+      "height": 50,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#7155a0"
+    },
+    "bg.dusk.near": {
+      "file": "sprites/bg_dusk_near.png",
+      "width": 128,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5a4a6e"
+    },
+    "bg.dusk.sky": {
+      "file": "sprites/bg_dusk_sky.png",
+      "width": 320,
+      "height": 90,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#7c5884"
+    },
+    "bg.forestedge": {
+      "file": "sprites/bg_forestedge.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#aadcf1"
+    },
+    "bg.fountain": {
+      "file": "sprites/bg_fountain.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#bde6fd"
+    },
+    "bg.garden.far": {
+      "file": "sprites/bg_garden_far.png",
+      "width": 160,
+      "height": 50,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#82cc7a"
+    },
+    "bg.garden.near": {
+      "file": "sprites/bg_garden_near.png",
+      "width": 128,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#d4b281"
+    },
+    "bg.garden.sky": {
+      "file": "sprites/bg_garden_sky.png",
+      "width": 320,
+      "height": 90,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#afe0fe"
+    },
+    "bg.hallway": {
+      "file": "sprites/bg_hallway.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#ccbc94"
+    },
+    "bg.home.far": {
+      "file": "sprites/bg_home_far.png",
+      "width": 160,
+      "height": 70,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#c2aca2"
+    },
+    "bg.home.near": {
+      "file": "sprites/bg_home_near.png",
+      "width": 128,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#7d85ab"
+    },
+    "bg.home.sky": {
+      "file": "sprites/bg_home_sky.png",
+      "width": 320,
+      "height": 90,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#efd4b1"
+    },
+    "bg.kitchen": {
+      "file": "sprites/bg_kitchen.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#e7e5dc"
+    },
+    "bg.lawn": {
+      "file": "sprites/bg_lawn.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#abdefe"
+    },
+    "bg.livingroom": {
+      "file": "sprites/bg_livingroom.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#efd5b1"
+    },
+    "bg.nightgarden": {
+      "file": "sprites/bg_nightgarden.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#524379"
+    },
+    "bg.park.far": {
+      "file": "sprites/bg_park_far.png",
+      "width": 160,
+      "height": 56,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#3f864d"
+    },
+    "bg.park.near": {
+      "file": "sprites/bg_park_near.png",
+      "width": 128,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#3e814b"
+    },
+    "bg.park.sky": {
+      "file": "sprites/bg_park_sky.png",
+      "width": 320,
+      "height": 90,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#b0e0fd"
+    },
+    "bg.parkpath": {
+      "file": "sprites/bg_parkpath.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#abdffd"
+    },
+    "bg.playground": {
+      "file": "sprites/bg_playground.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#c9e5ee"
+    },
+    "bg.porch": {
+      "file": "sprites/bg_porch.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#d5988a"
+    },
+    "bg.riverside": {
+      "file": "sprites/bg_riverside.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#a3d8f1"
+    },
+    "bg.street": {
+      "file": "sprites/bg_street.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#684d71"
+    },
+    "bg.twilight": {
+      "file": "sprites/bg_twilight.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#947485"
+    },
+    "bg.vegetable": {
+      "file": "sprites/bg_vegetable.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#b9e3fd"
+    },
+    "bg.winter": {
+      "file": "sprites/bg_winter.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#ccd7e5"
+    },
+    "bg.woodland": {
+      "file": "sprites/bg_woodland.png",
+      "width": 320,
+      "height": 74,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#a3d4d7"
+    },
+    "bowl": {
+      "file": "sprites/bowl.png",
+      "width": 21,
+      "height": 12,
+      "frames": 2,
+      "fps": 2,
+      "originX": 10,
+      "originY": 11,
+      "fallback": "#b45546"
+    },
+    "cat.eat": {
+      "file": "sprites/cat_eat_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 2,
+      "fps": 5,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.glide": {
+      "file": "sprites/cat_glide_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 2,
+      "fps": 6,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.hurt": {
+      "file": "sprites/cat_hurt_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 1,
+      "fps": 1,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.idle": {
+      "file": "sprites/cat_idle_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 2,
+      "fps": 2,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.jump": {
+      "file": "sprites/cat_jump_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 2,
+      "fps": 1,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.run": {
+      "file": "sprites/cat_run_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 4,
+      "fps": 10,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.sneak": {
+      "file": "sprites/cat_sneak_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 4,
+      "fps": 6,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "cat.sprint": {
+      "file": "sprites/cat_sprint_{skin}.png",
+      "width": 28,
+      "height": 22,
+      "frames": 2,
+      "fps": 14,
+      "originX": 14,
+      "originY": 21,
+      "fallback": "#9aa0b0"
+    },
+    "floor.carpet": {
+      "file": "sprites/floor_carpet.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#a8423e"
+    },
+    "floor.cobble": {
+      "file": "sprites/floor_cobble.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#787e8e"
+    },
+    "floor.deck": {
+      "file": "sprites/floor_deck.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#915437"
+    },
+    "floor.duskmoss": {
+      "file": "sprites/floor_duskmoss.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#4f7c5a"
+    },
+    "floor.forestpath": {
+      "file": "sprites/floor_forestpath.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#8a5b3c"
+    },
+    "floor.gravel": {
+      "file": "sprites/floor_gravel.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#eac097"
+    },
+    "floor.ice": {
+      "file": "sprites/floor_ice.png",
+      "width": 32,
+      "height": 28,
+      "frames": 2,
+      "fps": 2,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#b2e5fd"
+    },
+    "floor.lawn": {
+      "file": "sprites/floor_lawn.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5db963"
+    },
+    "floor.marble": {
+      "file": "sprites/floor_marble.png",
+      "width": 32,
+      "height": 28,
+      "frames": 2,
+      "fps": 2,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#695bb1"
+    },
+    "floor.meadow": {
+      "file": "sprites/floor_meadow.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5eb964"
+    },
+    "floor.moss": {
+      "file": "sprites/floor_moss.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5c984d"
+    },
+    "floor.nightgrass": {
+      "file": "sprites/floor_nightgrass.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#307b4a"
+    },
+    "floor.parquet": {
+      "file": "sprites/floor_parquet.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#cc935e"
+    },
+    "floor.pineneedles": {
+      "file": "sprites/floor_pineneedles.png",
+      "width": 32,
+      "height": 28,
+      "frames": 2,
+      "fps": 2,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#c76e3b"
+    },
+    "floor.plaza": {
+      "file": "sprites/floor_plaza.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#edd1ae"
+    },
+    "floor.riverbank": {
+      "file": "sprites/floor_riverbank.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#c6cad4"
+    },
+    "floor.snow": {
+      "file": "sprites/floor_snow.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#ebeff3"
+    },
+    "floor.soil": {
+      "file": "sprites/floor_soil.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#975839"
+    },
+    "floor.stone": {
+      "file": "sprites/floor_stone.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#d5d0c7"
+    },
+    "floor.tiles": {
+      "file": "sprites/floor_tiles.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#e8e8e1"
+    },
+    "floor.wetleaves": {
+      "file": "sprites/floor_wetleaves.png",
+      "width": 32,
+      "height": 28,
+      "frames": 2,
+      "fps": 2,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#c1723d"
+    },
+    "fx.shadow": {
+      "file": "sprites/fx_shadow.png",
+      "width": 16,
+      "height": 5,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 3,
+      "fallback": "#141020"
+    },
+    "gate.mat": {
+      "file": "sprites/gate_mat.png",
+      "width": 20,
+      "height": 6,
+      "frames": 2,
+      "fps": 1,
+      "originX": 10,
+      "originY": 5,
+      "fallback": "#e5745c"
+    },
+    "goal.mat": {
+      "file": "sprites/goal_mat.png",
+      "width": 16,
+      "height": 6,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 5,
+      "fallback": "#fff4dc"
+    },
+    "ground.dusk": {
+      "file": "sprites/ground_dusk.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#307b4a"
+    },
+    "ground.forest": {
+      "file": "sprites/ground_forest.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5c984d"
+    },
+    "ground.garden": {
+      "file": "sprites/ground_garden.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5db963"
+    },
+    "ground.home": {
+      "file": "sprites/ground_home.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#cc935e"
+    },
+    "ground.park": {
+      "file": "sprites/ground_park.png",
+      "width": 32,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#d5cfc6"
+    },
+    "icon.ach.bandage": {
+      "file": "sprites/icon_ach_bandage.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#fde6d3"
+    },
+    "icon.ach.boot": {
+      "file": "sprites/icon_ach_boot.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#9a5a3a"
+    },
+    "icon.ach.bulb": {
+      "file": "sprites/icon_ach_bulb.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#e2c576"
+    },
+    "icon.ach.coin": {
+      "file": "sprites/icon_ach_coin.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f7c866"
+    },
+    "icon.ach.combo": {
+      "file": "sprites/icon_ach_combo.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f8b458"
+    },
+    "icon.ach.dog": {
+      "file": "sprites/icon_ach_dog.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#9f5a3c"
+    },
+    "icon.ach.eye": {
+      "file": "sprites/icon_ach_eye.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#e7e5db"
+    },
+    "icon.ach.goldtreat": {
+      "file": "sprites/icon_ach_goldtreat.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#fed97f"
+    },
+    "icon.ach.heart": {
+      "file": "sprites/icon_ach_heart.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#dd635c"
+    },
+    "icon.ach.ice": {
+      "file": "sprites/icon_ach_ice.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#d7f1ff"
+    },
+    "icon.ach.key": {
+      "file": "sprites/icon_ach_key.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#ffd86b"
+    },
+    "icon.ach.marble": {
+      "file": "sprites/icon_ach_marble.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f4f0e0"
+    },
+    "icon.ach.mask": {
+      "file": "sprites/icon_ach_mask.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#826aac"
+    },
+    "icon.ach.note": {
+      "file": "sprites/icon_ach_note.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#9b7cd6"
+    },
+    "icon.ach.paw": {
+      "file": "sprites/icon_ach_paw.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f29b3b"
+    },
+    "icon.ach.secret": {
+      "file": "sprites/icon_ach_secret.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#c9cdd8"
+    },
+    "icon.ach.sparkle": {
+      "file": "sprites/icon_ach_sparkle.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#ffdc7e"
+    },
+    "icon.ach.star": {
+      "file": "sprites/icon_ach_star.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f9cb65"
+    },
+    "icon.ach.treat": {
+      "file": "sprites/icon_ach_treat.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f0a572"
+    },
+    "icon.ach.trophy": {
+      "file": "sprites/icon_ach_trophy.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#e7b35b"
+    },
+    "icon.chargedjump": {
+      "file": "sprites/icon_chargedjump.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#f1ba72"
+    },
+    "icon.glide": {
+      "file": "sprites/icon_glide.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#e5f0ec"
+    },
+    "icon.jump": {
+      "file": "sprites/icon_jump.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#8c8290"
+    },
+    "icon.move": {
+      "file": "sprites/icon_move.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#ffd86b"
+    },
+    "icon.sneak": {
+      "file": "sprites/icon_sneak.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#9879d3"
+    },
+    "icon.sprint": {
+      "file": "sprites/icon_sprint.png",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#ffd86b"
+    },
+    "npc.freund01.doze": {
+      "file": "sprites/npc_freund01_doze.png",
+      "width": 34,
+      "height": 39,
+      "frames": 2,
+      "fps": 1,
+      "originX": 17,
+      "originY": 38,
+      "fallback": "#ac785a"
+    },
+    "npc.freund01.pet": {
+      "file": "sprites/npc_freund01_pet.png",
+      "width": 32,
+      "height": 34,
+      "frames": 2,
+      "fps": 4,
+      "originX": 16,
+      "originY": 33,
+      "fallback": "#6b7391"
+    },
+    "npc.freund01.read": {
+      "file": "sprites/npc_freund01_read.png",
+      "width": 44,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.6,
+      "originX": 22,
+      "originY": 38,
+      "fallback": "#6277ab"
+    },
+    "npc.freund01.sandwich": {
+      "file": "sprites/npc_freund01_sandwich.png",
+      "width": 24,
+      "height": 44,
+      "frames": 3,
+      "fps": 1.5,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#73768c"
+    },
+    "npc.freund01.tea": {
+      "file": "sprites/npc_freund01_tea.png",
+      "width": 36,
+      "height": 41,
+      "frames": 3,
+      "fps": 1,
+      "originX": 18,
+      "originY": 40,
+      "fallback": "#917f80"
+    },
+    "npc.freund01.water": {
+      "file": "sprites/npc_freund01_water.png",
+      "width": 38,
+      "height": 44,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#6f7580"
+    },
+    "npc.freund01.wave": {
+      "file": "sprites/npc_freund01_wave.png",
+      "width": 24,
+      "height": 44,
+      "frames": 4,
+      "fps": 3,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#697392"
+    },
+    "npc.freund02.doze": {
+      "file": "sprites/npc_freund02_doze.png",
+      "width": 34,
+      "height": 39,
+      "frames": 2,
+      "fps": 1,
+      "originX": 17,
+      "originY": 38,
+      "fallback": "#a96e46"
+    },
+    "npc.freund02.pet": {
+      "file": "sprites/npc_freund02_pet.png",
+      "width": 32,
+      "height": 34,
+      "frames": 2,
+      "fps": 4,
+      "originX": 16,
+      "originY": 33,
+      "fallback": "#64585a"
+    },
+    "npc.freund02.read": {
+      "file": "sprites/npc_freund02_read.png",
+      "width": 44,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.6,
+      "originX": 22,
+      "originY": 38,
+      "fallback": "#63729f"
+    },
+    "npc.freund02.sandwich": {
+      "file": "sprites/npc_freund02_sandwich.png",
+      "width": 24,
+      "height": 44,
+      "frames": 3,
+      "fps": 1.5,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#6f605d"
+    },
+    "npc.freund02.tea": {
+      "file": "sprites/npc_freund02_tea.png",
+      "width": 36,
+      "height": 41,
+      "frames": 3,
+      "fps": 1,
+      "originX": 18,
+      "originY": 40,
+      "fallback": "#8b6c5e"
+    },
+    "npc.freund02.water": {
+      "file": "sprites/npc_freund02_water.png",
+      "width": 38,
+      "height": 44,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#6a6258"
+    },
+    "npc.freund02.wave": {
+      "file": "sprites/npc_freund02_wave.png",
+      "width": 24,
+      "height": 44,
+      "frames": 4,
+      "fps": 3,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#64585b"
+    },
+    "npc.freund03.doze": {
+      "file": "sprites/npc_freund03_doze.png",
+      "width": 34,
+      "height": 39,
+      "frames": 2,
+      "fps": 1,
+      "originX": 17,
+      "originY": 38,
+      "fallback": "#cc9466"
+    },
+    "npc.freund03.pet": {
+      "file": "sprites/npc_freund03_pet.png",
+      "width": 32,
+      "height": 34,
+      "frames": 2,
+      "fps": 4,
+      "originX": 16,
+      "originY": 33,
+      "fallback": "#b3b4a6"
+    },
+    "npc.freund03.read": {
+      "file": "sprites/npc_freund03_read.png",
+      "width": 44,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.6,
+      "originX": 22,
+      "originY": 38,
+      "fallback": "#7286af"
+    },
+    "npc.freund03.sandwich": {
+      "file": "sprites/npc_freund03_sandwich.png",
+      "width": 24,
+      "height": 44,
+      "frames": 3,
+      "fps": 1.5,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#bdb5a3"
+    },
+    "npc.freund03.tea": {
+      "file": "sprites/npc_freund03_tea.png",
+      "width": 36,
+      "height": 41,
+      "frames": 3,
+      "fps": 1,
+      "originX": 18,
+      "originY": 40,
+      "fallback": "#c1a38b"
+    },
+    "npc.freund03.water": {
+      "file": "sprites/npc_freund03_water.png",
+      "width": 38,
+      "height": 44,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#b2ad95"
+    },
+    "npc.freund03.wave": {
+      "file": "sprites/npc_freund03_wave.png",
+      "width": 24,
+      "height": 44,
+      "frames": 4,
+      "fps": 3,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#c4bcac"
+    },
+    "npc.group.foto2.bench": {
+      "file": "sprites/npc_group_foto2_bench.png",
+      "width": 50,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.8,
+      "originX": 25,
+      "originY": 38,
+      "fallback": "#7a6564"
+    },
+    "npc.group.foto2.bench.no-freund01": {
+      "file": "sprites/npc_group_foto2_bench_no-freund01.png",
+      "width": 50,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.8,
+      "originX": 25,
+      "originY": 38,
+      "fallback": "#88604c"
+    },
+    "npc.group.foto2.bench.no-kevin": {
+      "file": "sprites/npc_group_foto2_bench_no-kevin.png",
+      "width": 50,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.8,
+      "originX": 25,
+      "originY": 38,
+      "fallback": "#917064"
+    },
+    "npc.group.foto2.pockets": {
+      "file": "sprites/npc_group_foto2_pockets.png",
+      "width": 39,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 19,
+      "originY": 43,
+      "fallback": "#5c5866"
+    },
+    "npc.group.foto2.pockets.no-freund01": {
+      "file": "sprites/npc_group_foto2_pockets_no-freund01.png",
+      "width": 24,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#534445"
+    },
+    "npc.group.foto2.pockets.no-kevin": {
+      "file": "sprites/npc_group_foto2_pockets_no-kevin.png",
+      "width": 24,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#677192"
+    },
+    "npc.group.foto4.together": {
+      "file": "sprites/npc_group_foto4_together.png",
+      "width": 54,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#7d7576"
+    },
+    "npc.group.foto4.together.no-freund02": {
+      "file": "sprites/npc_group_foto4_together_no-freund02.png",
+      "width": 54,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#aaa19d"
+    },
+    "npc.group.foto4.together.no-freund03": {
+      "file": "sprites/npc_group_foto4_together_no-freund03.png",
+      "width": 54,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#8c8184"
+    },
+    "npc.group.foto4.together.no-kevin": {
+      "file": "sprites/npc_group_foto4_together_no-kevin.png",
+      "width": 54,
+      "height": 44,
+      "frames": 1,
+      "fps": 8,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#b8ada4"
+    },
+    "npc.group.foto4.wave": {
+      "file": "sprites/npc_group_foto4_wave.png",
+      "width": 54,
+      "height": 44,
+      "frames": 2,
+      "fps": 3,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#817570"
+    },
+    "npc.group.foto4.wave.no-freund02": {
+      "file": "sprites/npc_group_foto4_wave_no-freund02.png",
+      "width": 54,
+      "height": 44,
+      "frames": 2,
+      "fps": 3,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#967076"
+    },
+    "npc.group.foto4.wave.no-freund03": {
+      "file": "sprites/npc_group_foto4_wave_no-freund03.png",
+      "width": 54,
+      "height": 44,
+      "frames": 2,
+      "fps": 3,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#764e5a"
+    },
+    "npc.group.foto4.wave.no-kevin": {
+      "file": "sprites/npc_group_foto4_wave_no-kevin.png",
+      "width": 54,
+      "height": 44,
+      "frames": 2,
+      "fps": 3,
+      "originX": 27,
+      "originY": 43,
+      "fallback": "#9d767e"
+    },
+    "npc.karolin.doze": {
+      "file": "sprites/npc_karolin_doze.png",
+      "width": 34,
+      "height": 39,
+      "frames": 2,
+      "fps": 1,
+      "originX": 17,
+      "originY": 38,
+      "fallback": "#c0674f"
+    },
+    "npc.karolin.pet": {
+      "file": "sprites/npc_karolin_pet.png",
+      "width": 32,
+      "height": 34,
+      "frames": 2,
+      "fps": 4,
+      "originX": 16,
+      "originY": 33,
+      "fallback": "#a94d6f"
+    },
+    "npc.karolin.read": {
+      "file": "sprites/npc_karolin_read.png",
+      "width": 44,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.6,
+      "originX": 22,
+      "originY": 38,
+      "fallback": "#6e6e9f"
+    },
+    "npc.karolin.sandwich": {
+      "file": "sprites/npc_karolin_sandwich.png",
+      "width": 24,
+      "height": 44,
+      "frames": 3,
+      "fps": 1.5,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#a7536d"
+    },
+    "npc.karolin.tea": {
+      "file": "sprites/npc_karolin_tea.png",
+      "width": 36,
+      "height": 41,
+      "frames": 3,
+      "fps": 1,
+      "originX": 18,
+      "originY": 40,
+      "fallback": "#b46369"
+    },
+    "npc.karolin.water": {
+      "file": "sprites/npc_karolin_water.png",
+      "width": 38,
+      "height": 44,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#9e5667"
+    },
+    "npc.karolin.wave": {
+      "file": "sprites/npc_karolin_wave.png",
+      "width": 24,
+      "height": 44,
+      "frames": 4,
+      "fps": 3,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#aa4a6f"
+    },
+    "npc.kevin.doze": {
+      "file": "sprites/npc_kevin_doze.png",
+      "width": 34,
+      "height": 39,
+      "frames": 2,
+      "fps": 1,
+      "originX": 17,
+      "originY": 38,
+      "fallback": "#a26641"
+    },
+    "npc.kevin.pet": {
+      "file": "sprites/npc_kevin_pet.png",
+      "width": 32,
+      "height": 34,
+      "frames": 2,
+      "fps": 4,
+      "originX": 16,
+      "originY": 33,
+      "fallback": "#5b4949"
+    },
+    "npc.kevin.read": {
+      "file": "sprites/npc_kevin_read.png",
+      "width": 44,
+      "height": 39,
+      "frames": 2,
+      "fps": 0.6,
+      "originX": 22,
+      "originY": 38,
+      "fallback": "#606f9c"
+    },
+    "npc.kevin.sandwich": {
+      "file": "sprites/npc_kevin_sandwich.png",
+      "width": 24,
+      "height": 44,
+      "frames": 3,
+      "fps": 1.5,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#5e4e4c"
+    },
+    "npc.kevin.tea": {
+      "file": "sprites/npc_kevin_tea.png",
+      "width": 36,
+      "height": 41,
+      "frames": 3,
+      "fps": 1,
+      "originX": 18,
+      "originY": 40,
+      "fallback": "#825c4a"
+    },
+    "npc.kevin.water": {
+      "file": "sprites/npc_kevin_water.png",
+      "width": 38,
+      "height": 44,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#5f5249"
+    },
+    "npc.kevin.wave": {
+      "file": "sprites/npc_kevin_wave.png",
+      "width": 24,
+      "height": 44,
+      "frames": 4,
+      "fps": 3,
+      "originX": 12,
+      "originY": 43,
+      "fallback": "#564646"
+    },
+    "obstacle.anthill": {
+      "file": "sprites/obstacle_anthill.png",
+      "width": 20,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 10,
+      "originY": 29,
+      "fallback": "#ba8556"
+    },
+    "obstacle.badger": {
+      "file": "sprites/obstacle_badger.png",
+      "width": 32,
+      "height": 18,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 16,
+      "originY": 17,
+      "fallback": "#7f828d"
+    },
+    "obstacle.badger.awake": {
+      "file": "sprites/obstacle_badger_awake.png",
+      "width": 32,
+      "height": 22,
+      "frames": 2,
+      "fps": 6,
+      "originX": 16,
+      "originY": 21,
+      "fallback": "#747783"
+    },
+    "obstacle.barrier": {
+      "file": "sprites/obstacle_barrier.png",
+      "width": 14,
+      "height": 30,
+      "frames": 2,
+      "fps": 2,
+      "originX": 7,
+      "originY": 29,
+      "fallback": "#d5a6a0"
+    },
+    "obstacle.bird": {
+      "file": "sprites/obstacle_bird.png",
+      "width": 13,
+      "height": 13,
+      "frames": 2,
+      "fps": 2,
+      "originX": 6,
+      "originY": 12,
+      "fallback": "#c6865c"
+    },
+    "obstacle.bird.fly": {
+      "file": "sprites/obstacle_bird_fly.png",
+      "width": 14,
+      "height": 10,
+      "frames": 2,
+      "fps": 10,
+      "originX": 6,
+      "originY": 8,
+      "fallback": "#e8623c"
+    },
+    "obstacle.blocks": {
+      "file": "sprites/obstacle_blocks.png",
+      "width": 14,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 7,
+      "originY": 29,
+      "fallback": "#b5a990"
+    },
+    "obstacle.boar": {
+      "file": "sprites/obstacle_boar.png",
+      "width": 22,
+      "height": 31,
+      "frames": 2,
+      "fps": 2,
+      "originX": 11,
+      "originY": 30,
+      "fallback": "#bf8b5a"
+    },
+    "obstacle.books": {
+      "file": "sprites/obstacle_books.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#a18b85"
+    },
+    "obstacle.box": {
+      "file": "sprites/obstacle_box.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#d6a374"
+    },
+    "obstacle.cone": {
+      "file": "sprites/obstacle_cone.png",
+      "width": 14,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 7,
+      "originY": 29,
+      "fallback": "#d9a770"
+    },
+    "obstacle.crates": {
+      "file": "sprites/obstacle_crates.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#bb7d52"
+    },
+    "obstacle.creek": {
+      "file": "sprites/obstacle_creek.png",
+      "width": 16,
+      "height": 28,
+      "frames": 3,
+      "fps": 4,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5b8fd9"
+    },
+    "obstacle.creek.bank": {
+      "file": "sprites/obstacle_creek_bank.png",
+      "width": 5,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 2,
+      "originY": 0,
+      "fallback": "#7fb85a"
+    },
+    "obstacle.dalmatian": {
+      "file": "sprites/obstacle_dalmatian.png",
+      "width": 32,
+      "height": 18,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 16,
+      "originY": 17,
+      "fallback": "#c7c7ce"
+    },
+    "obstacle.dalmatian.awake": {
+      "file": "sprites/obstacle_dalmatian_awake.png",
+      "width": 32,
+      "height": 22,
+      "frames": 2,
+      "fps": 6,
+      "originX": 16,
+      "originY": 21,
+      "fallback": "#c4c1c7"
+    },
+    "obstacle.deer": {
+      "file": "sprites/obstacle_deer.png",
+      "width": 24,
+      "height": 38,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 12,
+      "originY": 37,
+      "fallback": "#a97c58"
+    },
+    "obstacle.dog": {
+      "file": "sprites/obstacle_dog.png",
+      "width": 32,
+      "height": 18,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 16,
+      "originY": 17,
+      "fallback": "#aa6f47"
+    },
+    "obstacle.dog.awake": {
+      "file": "sprites/obstacle_dog_awake.png",
+      "width": 32,
+      "height": 22,
+      "frames": 2,
+      "fps": 6,
+      "originX": 16,
+      "originY": 21,
+      "fallback": "#9e6140"
+    },
+    "obstacle.fern": {
+      "file": "sprites/obstacle_fern.png",
+      "width": 20,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 10,
+      "originY": 31,
+      "fallback": "#5aaa5a"
+    },
+    "obstacle.forestgate": {
+      "file": "sprites/obstacle_forestgate.png",
+      "width": 14,
+      "height": 28,
+      "frames": 5,
+      "fps": 1,
+      "originX": 7,
+      "originY": 27,
+      "fallback": "#dbab7e"
+    },
+    "obstacle.forestmud": {
+      "file": "sprites/obstacle_forestmud.png",
+      "width": 22,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 11,
+      "originY": 5,
+      "fallback": "#937662"
+    },
+    "obstacle.fox": {
+      "file": "sprites/obstacle_fox.png",
+      "width": 20,
+      "height": 32,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 10,
+      "originY": 31,
+      "fallback": "#ea9357"
+    },
+    "obstacle.gate": {
+      "file": "sprites/obstacle_gate.png",
+      "width": 14,
+      "height": 28,
+      "frames": 5,
+      "fps": 1,
+      "originX": 7,
+      "originY": 27,
+      "fallback": "#7a452f"
+    },
+    "obstacle.gnome": {
+      "file": "sprites/obstacle_gnome.png",
+      "width": 14,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 7,
+      "originY": 29,
+      "fallback": "#a19196"
+    },
+    "obstacle.hedgehog": {
+      "file": "sprites/obstacle_hedgehog.png",
+      "width": 18,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 9,
+      "originY": 5,
+      "fallback": "#8c6345"
+    },
+    "obstacle.irongate": {
+      "file": "sprites/obstacle_irongate.png",
+      "width": 14,
+      "height": 28,
+      "frames": 5,
+      "fps": 1,
+      "originX": 7,
+      "originY": 27,
+      "fallback": "#727783"
+    },
+    "obstacle.kingfisher": {
+      "file": "sprites/obstacle_kingfisher.png",
+      "width": 15,
+      "height": 13,
+      "frames": 4,
+      "fps": 6,
+      "originX": 7,
+      "originY": 12,
+      "fallback": "#618491"
+    },
+    "obstacle.kingfisher.fly": {
+      "file": "sprites/obstacle_kingfisher_fly.png",
+      "width": 14,
+      "height": 10,
+      "frames": 2,
+      "fps": 10,
+      "originX": 6,
+      "originY": 8,
+      "fallback": "#33a8dd"
+    },
+    "obstacle.laundry": {
+      "file": "sprites/obstacle_laundry.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#9498ad"
+    },
+    "obstacle.leafsack": {
+      "file": "sprites/obstacle_leafsack.png",
+      "width": 16,
+      "height": 31,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 30,
+      "fallback": "#cf9462"
+    },
+    "obstacle.leaves": {
+      "file": "sprites/obstacle_leaves.png",
+      "width": 22,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 11,
+      "originY": 5,
+      "fallback": "#9c5c3a"
+    },
+    "obstacle.logpile": {
+      "file": "sprites/obstacle_logpile.png",
+      "width": 22,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 11,
+      "originY": 29,
+      "fallback": "#a97e5b"
+    },
+    "obstacle.milk": {
+      "file": "sprites/obstacle_milk.png",
+      "width": 22,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 11,
+      "originY": 5,
+      "fallback": "#eff1f3"
+    },
+    "obstacle.mouse": {
+      "file": "sprites/obstacle_mouse.png",
+      "width": 13,
+      "height": 8,
+      "frames": 2,
+      "fps": 8,
+      "originX": 6,
+      "originY": 7,
+      "fallback": "#a89aad"
+    },
+    "obstacle.mouse.crouch": {
+      "file": "sprites/obstacle_mouse_crouch.png",
+      "width": 13,
+      "height": 8,
+      "frames": 1,
+      "fps": 8,
+      "originX": 6,
+      "originY": 7,
+      "fallback": "#ab9bae"
+    },
+    "obstacle.mud": {
+      "file": "sprites/obstacle_mud.png",
+      "width": 22,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 11,
+      "originY": 5,
+      "fallback": "#884e34"
+    },
+    "obstacle.picnic": {
+      "file": "sprites/obstacle_picnic.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#ca8863"
+    },
+    "obstacle.plant": {
+      "file": "sprites/obstacle_plant.png",
+      "width": 16,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 31,
+      "fallback": "#829452"
+    },
+    "obstacle.playdog": {
+      "file": "sprites/obstacle_playdog.png",
+      "width": 38,
+      "height": 20,
+      "frames": 2,
+      "fps": 3,
+      "originX": 18,
+      "originY": 19,
+      "fallback": "#e3ae89"
+    },
+    "obstacle.playdog.run": {
+      "file": "sprites/obstacle_playdog_run.png",
+      "width": 36,
+      "height": 24,
+      "frames": 4,
+      "fps": 12,
+      "originX": 17,
+      "originY": 23,
+      "fallback": "#e2af85"
+    },
+    "obstacle.playdog.sit": {
+      "file": "sprites/obstacle_playdog_sit.png",
+      "width": 26,
+      "height": 28,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 27,
+      "fallback": "#e6b690"
+    },
+    "obstacle.potstack": {
+      "file": "sprites/obstacle_potstack.png",
+      "width": 16,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 29,
+      "fallback": "#d0823e"
+    },
+    "obstacle.puddle": {
+      "file": "sprites/obstacle_puddle.png",
+      "width": 22,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 11,
+      "originY": 5,
+      "fallback": "#5b89cf"
+    },
+    "obstacle.pumpkins": {
+      "file": "sprites/obstacle_pumpkins.png",
+      "width": 16,
+      "height": 30,
+      "frames": 2,
+      "fps": 3,
+      "originX": 8,
+      "originY": 29,
+      "fallback": "#e2933e"
+    },
+    "obstacle.roots": {
+      "file": "sprites/obstacle_roots.png",
+      "width": 24,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 12,
+      "originY": 5,
+      "fallback": "#d0a174"
+    },
+    "obstacle.sandcastle": {
+      "file": "sprites/obstacle_sandcastle.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#cc9160"
+    },
+    "obstacle.schnauzer": {
+      "file": "sprites/obstacle_schnauzer.png",
+      "width": 32,
+      "height": 18,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 16,
+      "originY": 17,
+      "fallback": "#a4a9b6"
+    },
+    "obstacle.schnauzer.awake": {
+      "file": "sprites/obstacle_schnauzer_awake.png",
+      "width": 32,
+      "height": 22,
+      "frames": 2,
+      "fps": 6,
+      "originX": 16,
+      "originY": 21,
+      "fallback": "#9b9eac"
+    },
+    "obstacle.sled": {
+      "file": "sprites/obstacle_sled.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#ac9680"
+    },
+    "obstacle.slush": {
+      "file": "sprites/obstacle_slush.png",
+      "width": 22,
+      "height": 8,
+      "frames": 2,
+      "fps": 3,
+      "originX": 11,
+      "originY": 5,
+      "fallback": "#a0a5b2"
+    },
+    "obstacle.stream": {
+      "file": "sprites/obstacle_stream.png",
+      "width": 16,
+      "height": 28,
+      "frames": 2,
+      "fps": 2,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5b8fd9"
+    },
+    "obstacle.stream.bank": {
+      "file": "sprites/obstacle_stream_bank.png",
+      "width": 5,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 2,
+      "originY": 0,
+      "fallback": "#2f7d4a"
+    },
+    "obstacle.stump": {
+      "file": "sprites/obstacle_stump.png",
+      "width": 18,
+      "height": 31,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 30,
+      "fallback": "#8a5842"
+    },
+    "obstacle.topiary": {
+      "file": "sprites/obstacle_topiary.png",
+      "width": 16,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 31,
+      "fallback": "#7ab082"
+    },
+    "obstacle.treat": {
+      "file": "sprites/obstacle_treat.png",
+      "width": 14,
+      "height": 14,
+      "frames": 2,
+      "fps": 3,
+      "originX": 7,
+      "originY": 13,
+      "fallback": "#f2aa72"
+    },
+    "obstacle.treat.gold": {
+      "file": "sprites/obstacle_treat_gold.png",
+      "width": 16,
+      "height": 16,
+      "frames": 4,
+      "fps": 6,
+      "originX": 8,
+      "originY": 15,
+      "fallback": "#fdd573"
+    },
+    "obstacle.treat.gold.glow": {
+      "file": "sprites/obstacle_treat_gold_glow.png",
+      "width": 24,
+      "height": 24,
+      "frames": 2,
+      "fps": 4,
+      "originX": 12,
+      "originY": 19,
+      "fallback": "#ffd86b"
+    },
+    "obstacle.vacuum": {
+      "file": "sprites/obstacle_vacuum.png",
+      "width": 16,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 31,
+      "fallback": "#b07a7d"
+    },
+    "obstacle.wheelbarrow": {
+      "file": "sprites/obstacle_wheelbarrow.png",
+      "width": 20,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 10,
+      "originY": 29,
+      "fallback": "#8d9c67"
+    },
+    "obstacle.wheeliebin": {
+      "file": "sprites/obstacle_wheeliebin.png",
+      "width": 18,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 31,
+      "fallback": "#5daa62"
+    },
+    "obstacle.yarn": {
+      "file": "sprites/obstacle_yarn.png",
+      "width": 15,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 7,
+      "originY": 29,
+      "fallback": "#9f737b"
+    },
+    "prop.appletree": {
+      "file": "sprites/prop_appletree.png",
+      "width": 32,
+      "height": 48,
+      "frames": 1,
+      "fps": 8,
+      "originX": 16,
+      "originY": 47,
+      "fallback": "#4f9353"
+    },
+    "prop.armchair": {
+      "file": "sprites/prop_armchair.png",
+      "width": 26,
+      "height": 22,
+      "frames": 1,
+      "fps": 8,
+      "originX": 13,
+      "originY": 21,
+      "fallback": "#d77932"
+    },
+    "prop.balloons": {
+      "file": "sprites/prop_balloons.png",
+      "width": 30,
+      "height": 46,
+      "frames": 3,
+      "fps": 2,
+      "originX": 15,
+      "originY": 45,
+      "fallback": "#c49f94"
+    },
+    "prop.bareTree": {
+      "file": "sprites/prop_bareTree.png",
+      "width": 32,
+      "height": 48,
+      "frames": 1,
+      "fps": 8,
+      "originX": 16,
+      "originY": 47,
+      "fallback": "#7d5244"
+    },
+    "prop.barn": {
+      "file": "sprites/prop_barn.png",
+      "width": 40,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 29,
+      "fallback": "#d1665f"
+    },
+    "prop.bench": {
+      "file": "sprites/prop_bench.png",
+      "width": 36,
+      "height": 14,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 13,
+      "fallback": "#9a5a3a"
+    },
+    "prop.bigrock": {
+      "file": "sprites/prop_bigrock.png",
+      "width": 36,
+      "height": 24,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 23,
+      "fallback": "#879592"
+    },
+    "prop.bin": {
+      "file": "sprites/prop_bin.png",
+      "width": 12,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 6,
+      "originY": 15,
+      "fallback": "#36874e"
+    },
+    "prop.birch": {
+      "file": "sprites/prop_birch.png",
+      "width": 18,
+      "height": 58,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 57,
+      "fallback": "#a7d18d"
+    },
+    "prop.birdhouse": {
+      "file": "sprites/prop_birdhouse.png",
+      "width": 14,
+      "height": 42,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 7,
+      "originY": 41,
+      "fallback": "#a64d42"
+    },
+    "prop.bookshelf": {
+      "file": "sprites/prop_bookshelf.png",
+      "width": 32,
+      "height": 52,
+      "frames": 1,
+      "fps": 8,
+      "originX": 16,
+      "originY": 51,
+      "fallback": "#976c56"
+    },
+    "prop.cattree": {
+      "file": "sprites/prop_cattree.png",
+      "width": 26,
+      "height": 42,
+      "frames": 4,
+      "fps": 3,
+      "originX": 13,
+      "originY": 41,
+      "fallback": "#a57a9e"
+    },
+    "prop.churchtower": {
+      "file": "sprites/prop_churchtower.png",
+      "width": 18,
+      "height": 46,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 45,
+      "fallback": "#74599e"
+    },
+    "prop.clock": {
+      "file": "sprites/prop_clock.png",
+      "width": 17,
+      "height": 28,
+      "frames": 4,
+      "fps": 2,
+      "originX": 8,
+      "originY": 27,
+      "fallback": "#b38768"
+    },
+    "prop.clothesline": {
+      "file": "sprites/prop_clothesline.png",
+      "width": 48,
+      "height": 32,
+      "frames": 3,
+      "fps": 3,
+      "originX": 24,
+      "originY": 31,
+      "fallback": "#9c807d"
+    },
+    "prop.clouds.forest": {
+      "file": "sprites/prop_clouds_forest.png",
+      "width": 60,
+      "height": 14,
+      "frames": 1,
+      "fps": 8,
+      "originX": 30,
+      "originY": 13,
+      "fallback": "#fff4dc"
+    },
+    "prop.coathooks": {
+      "file": "sprites/prop_coathooks.png",
+      "width": 32,
+      "height": 22,
+      "frames": 1,
+      "fps": 8,
+      "originX": 16,
+      "originY": 21,
+      "fallback": "#94754e"
+    },
+    "prop.coatstand": {
+      "file": "sprites/prop_coatstand.png",
+      "width": 18,
+      "height": 52,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 51,
+      "fallback": "#925c5f"
+    },
+    "prop.cupboard": {
+      "file": "sprites/prop_cupboard.png",
+      "width": 36,
+      "height": 42,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 41,
+      "fallback": "#ca8f5b"
+    },
+    "prop.darkbush": {
+      "file": "sprites/prop_darkbush.png",
+      "width": 30,
+      "height": 16,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 15,
+      "originY": 15,
+      "fallback": "#3b3562"
+    },
+    "prop.darkfence": {
+      "file": "sprites/prop_darkfence.png",
+      "width": 40,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 25,
+      "fallback": "#5a4a6e"
+    },
+    "prop.darktree": {
+      "file": "sprites/prop_darktree.png",
+      "width": 32,
+      "height": 48,
+      "frames": 1,
+      "fps": 8,
+      "originX": 16,
+      "originY": 47,
+      "fallback": "#4c3b6d"
+    },
+    "prop.door": {
+      "file": "sprites/prop_door.png",
+      "width": 26,
+      "height": 58,
+      "frames": 1,
+      "fps": 8,
+      "originX": 13,
+      "originY": 57,
+      "fallback": "#c39168"
+    },
+    "prop.fallenlog": {
+      "file": "sprites/prop_fallenlog.png",
+      "width": 44,
+      "height": 12,
+      "frames": 1,
+      "fps": 8,
+      "originX": 22,
+      "originY": 11,
+      "fallback": "#98704b"
+    },
+    "prop.fencecat": {
+      "file": "sprites/prop_fencecat.png",
+      "width": 20,
+      "height": 26,
+      "frames": 4,
+      "fps": 2,
+      "originX": 10,
+      "originY": 25,
+      "fallback": "#734c3d"
+    },
+    "prop.fencepiece": {
+      "file": "sprites/prop_fencepiece.png",
+      "width": 40,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 25,
+      "fallback": "#e7b788"
+    },
+    "prop.ferriswheel": {
+      "file": "sprites/prop_ferriswheel.png",
+      "width": 40,
+      "height": 46,
+      "frames": 4,
+      "fps": 2,
+      "originX": 20,
+      "originY": 45,
+      "fallback": "#908181"
+    },
+    "prop.fir": {
+      "file": "sprites/prop_fir.png",
+      "width": 24,
+      "height": 60,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 59,
+      "fallback": "#2e6346"
+    },
+    "prop.fir.dark": {
+      "file": "sprites/prop_fir_dark.png",
+      "width": 24,
+      "height": 60,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 59,
+      "fallback": "#204637"
+    },
+    "prop.firridge": {
+      "file": "sprites/prop_firridge.png",
+      "width": 80,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 29,
+      "fallback": "#67a285"
+    },
+    "prop.firridge.dusk": {
+      "file": "sprites/prop_firridge_dusk.png",
+      "width": 80,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 29,
+      "fallback": "#3f585e"
+    },
+    "prop.firtops": {
+      "file": "sprites/prop_firtops.png",
+      "width": 60,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 30,
+      "originY": 25,
+      "fallback": "#5d9777"
+    },
+    "prop.firtops.dusk": {
+      "file": "sprites/prop_firtops_dusk.png",
+      "width": 60,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 30,
+      "originY": 25,
+      "fallback": "#354e4e"
+    },
+    "prop.flowerbed": {
+      "file": "sprites/prop_flowerbed.png",
+      "width": 36,
+      "height": 10,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 9,
+      "fallback": "#367e4a"
+    },
+    "prop.flowerbush": {
+      "file": "sprites/prop_flowerbush.png",
+      "width": 30,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 15,
+      "originY": 15,
+      "fallback": "#469455"
+    },
+    "prop.forestbush": {
+      "file": "sprites/prop_forestbush.png",
+      "width": 30,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 15,
+      "originY": 15,
+      "fallback": "#4fa65b"
+    },
+    "prop.fountain": {
+      "file": "sprites/prop_fountain.png",
+      "width": 40,
+      "height": 36,
+      "frames": 3,
+      "fps": 6,
+      "originX": 20,
+      "originY": 35,
+      "fallback": "#a9b9d2"
+    },
+    "prop.fridge": {
+      "file": "sprites/prop_fridge.png",
+      "width": 24,
+      "height": 54,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 53,
+      "fallback": "#c5c5ce"
+    },
+    "prop.greenhouse": {
+      "file": "sprites/prop_greenhouse.png",
+      "width": 44,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 22,
+      "originY": 31,
+      "fallback": "#acd0da"
+    },
+    "prop.hedge": {
+      "file": "sprites/prop_hedge.png",
+      "width": 40,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 15,
+      "fallback": "#2f7d4a"
+    },
+    "prop.hills": {
+      "file": "sprites/prop_hills.png",
+      "width": 80,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 29,
+      "fallback": "#81d17a"
+    },
+    "prop.housefront": {
+      "file": "sprites/prop_housefront.png",
+      "width": 48,
+      "height": 46,
+      "frames": 1,
+      "fps": 8,
+      "originX": 24,
+      "originY": 45,
+      "fallback": "#79525d"
+    },
+    "prop.houses": {
+      "file": "sprites/prop_houses.png",
+      "width": 80,
+      "height": 36,
+      "frames": 2,
+      "fps": 0.8,
+      "originX": 40,
+      "originY": 35,
+      "fallback": "#6b50a0"
+    },
+    "prop.hunterstand": {
+      "file": "sprites/prop_hunterstand.png",
+      "width": 24,
+      "height": 52,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 51,
+      "fallback": "#a16d48"
+    },
+    "prop.hutch": {
+      "file": "sprites/prop_hutch.png",
+      "width": 36,
+      "height": 54,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 53,
+      "fallback": "#c39065"
+    },
+    "prop.kitchenshelf": {
+      "file": "sprites/prop_kitchenshelf.png",
+      "width": 40,
+      "height": 18,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 17,
+      "fallback": "#c7a376"
+    },
+    "prop.kitchentable": {
+      "file": "sprites/prop_kitchentable.png",
+      "width": 48,
+      "height": 20,
+      "frames": 1,
+      "fps": 8,
+      "originX": 24,
+      "originY": 19,
+      "fallback": "#b4734d"
+    },
+    "prop.lamppost": {
+      "file": "sprites/prop_lamppost.png",
+      "width": 11,
+      "height": 50,
+      "frames": 1,
+      "fps": 8,
+      "originX": 5,
+      "originY": 49,
+      "fallback": "#ffd86b"
+    },
+    "prop.lantern": {
+      "file": "sprites/prop_lantern.png",
+      "width": 11,
+      "height": 18,
+      "frames": 2,
+      "fps": 2,
+      "originX": 5,
+      "originY": 17,
+      "fallback": "#ffc477"
+    },
+    "prop.lantern.camp": {
+      "file": "sprites/prop_lantern_camp.png",
+      "width": 8,
+      "height": 18,
+      "frames": 2,
+      "fps": 2,
+      "originX": 4,
+      "originY": 17,
+      "fallback": "#a28468"
+    },
+    "prop.mailbox": {
+      "file": "sprites/prop_mailbox.png",
+      "width": 12,
+      "height": 20,
+      "frames": 1,
+      "fps": 8,
+      "originX": 5,
+      "originY": 19,
+      "fallback": "#678acc"
+    },
+    "prop.mirror": {
+      "file": "sprites/prop_mirror.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#dee5c7"
+    },
+    "prop.mountain": {
+      "file": "sprites/prop_mountain.png",
+      "width": 80,
+      "height": 36,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 35,
+      "fallback": "#9fb3c9"
+    },
+    "prop.mushrooms": {
+      "file": "sprites/prop_mushrooms.png",
+      "width": 16,
+      "height": 10,
+      "frames": 1,
+      "fps": 8,
+      "originX": 8,
+      "originY": 9,
+      "fallback": "#e5a281"
+    },
+    "prop.nighttrees": {
+      "file": "sprites/prop_nighttrees.png",
+      "width": 80,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 27,
+      "fallback": "#1e243c"
+    },
+    "prop.oak": {
+      "file": "sprites/prop_oak.png",
+      "width": 38,
+      "height": 56,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 55,
+      "fallback": "#579251"
+    },
+    "prop.parktree": {
+      "file": "sprites/prop_parktree.png",
+      "width": 32,
+      "height": 48,
+      "frames": 1,
+      "fps": 8,
+      "originX": 16,
+      "originY": 47,
+      "fallback": "#478e50"
+    },
+    "prop.picture.fish": {
+      "file": "sprites/prop_picture_fish.png",
+      "width": 26,
+      "height": 20,
+      "frames": 1,
+      "fps": 8,
+      "originX": 13,
+      "originY": 19,
+      "fallback": "#dfdab5"
+    },
+    "prop.picture.mountain": {
+      "file": "sprites/prop_picture_mountain.png",
+      "width": 30,
+      "height": 22,
+      "frames": 1,
+      "fps": 8,
+      "originX": 15,
+      "originY": 21,
+      "fallback": "#c4d7b9"
+    },
+    "prop.porch": {
+      "file": "sprites/prop_porch.png",
+      "width": 56,
+      "height": 42,
+      "frames": 1,
+      "fps": 8,
+      "originX": 28,
+      "originY": 41,
+      "fallback": "#e1b898"
+    },
+    "prop.radiator": {
+      "file": "sprites/prop_radiator.png",
+      "width": 28,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 14,
+      "originY": 15,
+      "fallback": "#f5ecdb"
+    },
+    "prop.reeds": {
+      "file": "sprites/prop_reeds.png",
+      "width": 18,
+      "height": 22,
+      "frames": 2,
+      "fps": 1.5,
+      "originX": 9,
+      "originY": 21,
+      "fallback": "#486b42"
+    },
+    "prop.rock": {
+      "file": "sprites/prop_rock.png",
+      "width": 20,
+      "height": 10,
+      "frames": 1,
+      "fps": 8,
+      "originX": 10,
+      "originY": 9,
+      "fallback": "#a5aab9"
+    },
+    "prop.scarecrow": {
+      "file": "sprites/prop_scarecrow.png",
+      "width": 22,
+      "height": 44,
+      "frames": 2,
+      "fps": 1.2,
+      "originX": 11,
+      "originY": 43,
+      "fallback": "#89777f"
+    },
+    "prop.shed": {
+      "file": "sprites/prop_shed.png",
+      "width": 36,
+      "height": 34,
+      "frames": 1,
+      "fps": 8,
+      "originX": 18,
+      "originY": 33,
+      "fallback": "#958556"
+    },
+    "prop.shoerack": {
+      "file": "sprites/prop_shoerack.png",
+      "width": 28,
+      "height": 13,
+      "frames": 1,
+      "fps": 8,
+      "originX": 14,
+      "originY": 12,
+      "fallback": "#92635d"
+    },
+    "prop.sidetable": {
+      "file": "sprites/prop_sidetable.png",
+      "width": 18,
+      "height": 22,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 21,
+      "fallback": "#a67647"
+    },
+    "prop.signpost": {
+      "file": "sprites/prop_signpost.png",
+      "width": 22,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 10,
+      "originY": 31,
+      "fallback": "#ca9979"
+    },
+    "prop.skis": {
+      "file": "sprites/prop_skis.png",
+      "width": 20,
+      "height": 26,
+      "frames": 2,
+      "fps": 2,
+      "originX": 10,
+      "originY": 25,
+      "fallback": "#da9d95"
+    },
+    "prop.skyline": {
+      "file": "sprites/prop_skyline.png",
+      "width": 80,
+      "height": 36,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 35,
+      "fallback": "#9ca2b1"
+    },
+    "prop.slide": {
+      "file": "sprites/prop_slide.png",
+      "width": 40,
+      "height": 36,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 35,
+      "fallback": "#b2966d"
+    },
+    "prop.snowbush": {
+      "file": "sprites/prop_snowbush.png",
+      "width": 30,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 15,
+      "originY": 15,
+      "fallback": "#7faf90"
+    },
+    "prop.snowhills": {
+      "file": "sprites/prop_snowhills.png",
+      "width": 80,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 29,
+      "fallback": "#f2f5f8"
+    },
+    "prop.snowman": {
+      "file": "sprites/prop_snowman.png",
+      "width": 18,
+      "height": 30,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 29,
+      "fallback": "#fcf0ee"
+    },
+    "prop.sofa": {
+      "file": "sprites/prop_sofa.png",
+      "width": 64,
+      "height": 22,
+      "frames": 1,
+      "fps": 8,
+      "originX": 32,
+      "originY": 21,
+      "fallback": "#6287c6"
+    },
+    "prop.standinglamp": {
+      "file": "sprites/prop_standinglamp.png",
+      "width": 14,
+      "height": 50,
+      "frames": 1,
+      "fps": 8,
+      "originX": 7,
+      "originY": 49,
+      "fallback": "#b19d6c"
+    },
+    "prop.statue": {
+      "file": "sprites/prop_statue.png",
+      "width": 18,
+      "height": 42,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 41,
+      "fallback": "#aeb3c1"
+    },
+    "prop.stove": {
+      "file": "sprites/prop_stove.png",
+      "width": 24,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 25,
+      "fallback": "#aaabb8"
+    },
+    "prop.streetlamp": {
+      "file": "sprites/prop_streetlamp.png",
+      "width": 11,
+      "height": 50,
+      "frames": 2,
+      "fps": 2,
+      "originX": 5,
+      "originY": 49,
+      "fallback": "#ffd86b"
+    },
+    "prop.sunflowers": {
+      "file": "sprites/prop_sunflowers.png",
+      "width": 28,
+      "height": 28,
+      "frames": 2,
+      "fps": 1.2,
+      "originX": 14,
+      "originY": 27,
+      "fallback": "#baaa59"
+    },
+    "prop.swing": {
+      "file": "sprites/prop_swing.png",
+      "width": 36,
+      "height": 38,
+      "frames": 4,
+      "fps": 3,
+      "originX": 18,
+      "originY": 37,
+      "fallback": "#c6605b"
+    },
+    "prop.tent": {
+      "file": "sprites/prop_tent.png",
+      "width": 40,
+      "height": 28,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 27,
+      "fallback": "#e48936"
+    },
+    "prop.treeline": {
+      "file": "sprites/prop_treeline.png",
+      "width": 80,
+      "height": 32,
+      "frames": 1,
+      "fps": 8,
+      "originX": 40,
+      "originY": 31,
+      "fallback": "#2f7d4a"
+    },
+    "prop.tv": {
+      "file": "sprites/prop_tv.png",
+      "width": 36,
+      "height": 36,
+      "frames": 3,
+      "fps": 5,
+      "originX": 18,
+      "originY": 35,
+      "fallback": "#756a79"
+    },
+    "prop.vegbed": {
+      "file": "sprites/prop_vegbed.png",
+      "width": 40,
+      "height": 12,
+      "frames": 1,
+      "fps": 8,
+      "originX": 20,
+      "originY": 11,
+      "fallback": "#74683e"
+    },
+    "prop.walllamp": {
+      "file": "sprites/prop_walllamp.png",
+      "width": 12,
+      "height": 18,
+      "frames": 2,
+      "fps": 1,
+      "originX": 6,
+      "originY": 17,
+      "fallback": "#eab776"
+    },
+    "prop.washer": {
+      "file": "sprites/prop_washer.png",
+      "width": 24,
+      "height": 26,
+      "frames": 4,
+      "fps": 6,
+      "originX": 12,
+      "originY": 25,
+      "fallback": "#c1c9d7"
+    },
+    "prop.waterfall": {
+      "file": "sprites/prop_waterfall.png",
+      "width": 32,
+      "height": 42,
+      "frames": 3,
+      "fps": 6,
+      "originX": 16,
+      "originY": 41,
+      "fallback": "#6f85a7"
+    },
+    "prop.wildflowers": {
+      "file": "sprites/prop_wildflowers.png",
+      "width": 24,
+      "height": 10,
+      "frames": 1,
+      "fps": 8,
+      "originX": 12,
+      "originY": 9,
+      "fallback": "#829b82"
+    },
+    "prop.windmill": {
+      "file": "sprites/prop_windmill.png",
+      "width": 28,
+      "height": 45,
+      "frames": 4,
+      "fps": 3,
+      "originX": 14,
+      "originY": 44,
+      "fallback": "#d6b39a"
+    },
+    "prop.window": {
+      "file": "sprites/prop_window.png",
+      "width": 42,
+      "height": 40,
+      "frames": 4,
+      "fps": 3,
+      "originX": 20,
+      "originY": 39,
+      "fallback": "#a1939f"
+    },
+    "sign.slippery": {
+      "file": "sprites/sign_slippery.png",
+      "width": 18,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 25,
+      "fallback": "#d0b975"
+    },
+    "sign.wetleaves": {
+      "file": "sprites/sign_wetleaves.png",
+      "width": 18,
+      "height": 26,
+      "frames": 1,
+      "fps": 8,
+      "originX": 9,
+      "originY": 25,
+      "fallback": "#e5b358"
+    },
+    "terrain.high": {
+      "file": "sprites/terrain_high.png",
+      "width": 32,
+      "height": 16,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#5e6474"
+    },
+    "terrain.low": {
+      "file": "sprites/terrain_low.png",
+      "width": 32,
+      "height": 8,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#8a5a3c"
+    },
+    "ui.ball": {
+      "file": "sprites/ui_ball.png",
+      "width": 7,
+      "height": 7,
+      "frames": 1,
+      "fps": 8,
+      "originX": 3,
+      "originY": 3,
+      "fallback": "#e57c73"
+    },
+    "ui.bowl": {
+      "file": "sprites/ui_bowl.png",
+      "width": 11,
+      "height": 7,
+      "frames": 1,
+      "fps": 8,
+      "originX": 5,
+      "originY": 5,
+      "fallback": "#c05a4e"
+    },
+    "ui.cathead": {
+      "file": "sprites/ui_cathead.png",
+      "width": 11,
+      "height": 10,
+      "frames": 1,
+      "fps": 8,
+      "originX": 5,
+      "originY": 8,
+      "fallback": "#f4ac5c"
+    },
+    "ui.heart": {
+      "file": "sprites/ui_heart.png",
+      "width": 9,
+      "height": 8,
+      "frames": 1,
+      "fps": 8,
+      "originX": 4,
+      "originY": 7,
+      "fallback": "#da625b"
+    },
+    "ui.heart.empty": {
+      "file": "sprites/ui_heart_empty.png",
+      "width": 9,
+      "height": 8,
+      "frames": 1,
+      "fps": 8,
+      "originX": 4,
+      "originY": 7,
+      "fallback": "#9894a9"
+    },
+    "ui.lock": {
+      "file": "sprites/ui_lock.png",
+      "width": 9,
+      "height": 11,
+      "frames": 1,
+      "fps": 8,
+      "originX": 4,
+      "originY": 10,
+      "fallback": "#d5ae66"
+    },
+    "ui.reward.skin": {
+      "file": "sprites/ui_reward_skin.png",
+      "width": 9,
+      "height": 9,
+      "frames": 1,
+      "fps": 8,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#fee6a6"
+    },
+    "ui.reward.skin.preview": {
+      "file": "sprites/ui_reward_skin_preview_{skin}.png",
+      "width": 9,
+      "height": 9,
+      "frames": 1,
+      "fps": 1,
+      "originX": 0,
+      "originY": 0,
+      "fallback": "#9aa0b0"
+    },
+    "ui.star": {
+      "file": "sprites/ui_star.png",
+      "width": 11,
+      "height": 11,
+      "frames": 1,
+      "fps": 8,
+      "originX": 5,
+      "originY": 10,
+      "fallback": "#f4c161"
+    },
+    "ui.star.empty": {
+      "file": "sprites/ui_star_empty.png",
+      "width": 11,
+      "height": 11,
+      "frames": 1,
+      "fps": 8,
+      "originX": 5,
+      "originY": 10,
+      "fallback": "#8c869e"
+    },
+    "ui.treat": {
+      "file": "sprites/ui_treat.png",
+      "width": 12,
+      "height": 8,
+      "frames": 1,
+      "fps": 8,
+      "originX": 6,
+      "originY": 7,
+      "fallback": "#efa36f"
+    }
+  },
+  "skins": [
+    "orange",
+    "grey"
+  ]
+}

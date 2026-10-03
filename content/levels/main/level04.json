@@ -1,0 +1,181 @@
+{
+  // Garden: dodging and jumping combined.
+  "id": "level04",
+  "order": 4,
+  "name": "Ab in den Garten",
+  "theme": "garden",
+  "music": "level",
+  "speed": 70,
+  "length": 5621,
+  "lives": 5,
+  "starScores": [
+    820,
+    1670,
+    2640
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 0.9,
+      "goldfish": 1.0
+    }
+  },
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "hallway"
+    },
+    {
+      "from": 1207,
+      "scene": "lawn"
+    },
+    {
+      "from": 3434,
+      "scene": "vegetable"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 1207
+    },
+    {
+      "kind": "calm",
+      "from": 1207,
+      "to": 1769
+    },
+    {
+      "kind": "dense",
+      "from": 1769,
+      "to": 2459
+    },
+    {
+      "kind": "normal",
+      "from": 2459,
+      "to": 3434
+    },
+    {
+      "kind": "calm",
+      "from": 3434,
+      "to": 4142
+    },
+    {
+      "kind": "dense",
+      "from": 4142,
+      "to": 4866
+    },
+    {
+      "kind": "normal",
+      "from": 4866,
+      "to": 5621
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund01",
+      "pose": "wave",
+      "x": 2320,
+      "layer": "near"
+    },
+    {
+      "person": "kevin",
+      "pose": "water",
+      "x": 4308,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "puddle", "x":  170 },
+    { "type":  "goldfish", "x":  212, "lane":  1, "air":  true },
+    { "type":  "vacuum", "x":  328, "lane":  2 },
+    { "type":  "goldfish", "x":  474, "lane":  0 },
+    { "type":  "laundry", "x":  497, "lane":  0 },
+    { "type":  "laundry", "x":  663, "lane":  1 },
+    { "type":  "laundry", "x":  663, "lane":  2 },
+    { "type":  "fish", "x":  756, "lane":  0 },
+    { "type":  "box", "x":  834, "lane":  0 },
+    { "type":  "box", "x":  834, "lane":  2 },
+    { "type":  "fish", "x":  935, "lane":  0 },
+    { "type":  "laundry", "x":  1021, "lane":  1 },
+    { "type":  "laundry", "x":  1021, "lane":  2 },
+    { "type":  "wheelbarrow", "x":  1207, "lane":  1 },
+    { "type":  "fish", "x":  1269, "lane":  0 },
+    { "type":  "fish", "x":  1297, "lane":  0 },
+    { "type":  "fish", "x":  1325, "lane":  1 },
+    { "type":  "fish", "x":  1353, "lane":  1 },
+    { "type":  "fish", "x":  1381, "lane":  2 },
+    { "type":  "fish", "x":  1409, "lane":  2 },
+    { "type":  "gnome", "x":  1455, "lane":  2 },
+    { "type":  "fish", "x":  1562, "lane":  0 },
+    { "type":  "fish", "x":  1590, "lane":  0 },
+    { "type":  "fish", "x":  1618, "lane":  0 },
+    { "type":  "fish", "x":  1646, "lane":  0 },
+    { "type":  "fish", "x":  1674, "lane":  0 },
+    { "type":  "wheelbarrow", "x":  1770, "lane":  1 },
+    { "type":  "puddle", "x":  1923 },
+    { "type":  "fish", "x":  2005, "lane":  2 },
+    { "type":  "wheelbarrow", "x":  2071, "lane":  1 },
+    { "type":  "wheelbarrow", "x":  2071, "lane":  2 },
+    { "type":  "fish", "x":  2131, "lane":  0 },
+    { "type":  "potstack", "x":  2176, "lane":  0 },
+    { "type":  "plant", "x":  2176, "lane":  2 },
+    { "type":  "fish", "x":  2248, "lane":  0 },
+    { "type":  "yarn", "x":  2306, "lane":  1 },
+    { "type":  "yarn", "x":  2306, "lane":  2 },
+    { "type":  "fish", "x":  2389, "lane":  0 },
+    { "type":  "gnome", "x":  2460, "lane":  1 },
+    { "type":  "crates", "x":  2640, "lane":  0 },
+    { "type":  "crates", "x":  2640, "lane":  1 },
+    { "type":  "fish", "x":  2731, "lane":  1 },
+    { "type":  "wheelbarrow", "x":  2807, "lane":  0 },
+    { "type":  "crates", "x":  2807, "lane":  2 },
+    { "type":  "fish", "x":  2867, "lane":  1 },
+    { "type":  "plant", "x":  2912, "lane":  1 },
+    { "type":  "plant", "x":  2912, "lane":  2 },
+    { "type":  "fish", "x":  3003, "lane":  2 },
+    { "type":  "potstack", "x":  3080, "lane":  0 },
+    { "type":  "potstack", "x":  3080, "lane":  2 },
+    { "type":  "fish", "x":  3180, "lane":  1 },
+    { "type":  "goldfish", "x":  3243, "lane":  0 },
+    { "type":  "box", "x":  3266, "lane":  0 },
+    { "type":  "fish", "x":  3366, "lane":  0 },
+    { "type":  "fish", "x":  3394, "lane":  0 },
+    { "type":  "gnome", "x":  3591, "lane":  2 },
+    { "type":  "fish", "x":  3685, "lane":  1 },
+    { "type":  "fish", "x":  3713, "lane":  1 },
+    { "type":  "fish", "x":  3741, "lane":  1 },
+    { "type":  "fish", "x":  3769, "lane":  1 },
+    { "type":  "fish", "x":  3797, "lane":  1 },
+    { "type":  "puddle", "x":  3879 },
+    { "type":  "goldfish", "x":  3921, "lane":  1, "air":  true },
+    { "type":  "fish", "x":  3990, "lane":  2 },
+    { "type":  "fish", "x":  4018, "lane":  2 },
+    { "type":  "fish", "x":  4046, "lane":  2 },
+    { "type":  "fish", "x":  4074, "lane":  2 },
+    { "type":  "wheelbarrow", "x":  4142, "lane":  1 },
+    { "type":  "crates", "x":  4142, "lane":  2 },
+    { "type":  "gnome", "x":  4279, "lane":  0 },
+    { "type":  "yarn", "x":  4279, "lane":  1 },
+    { "type":  "fish", "x":  4354, "lane":  1 },
+    { "type":  "potstack", "x":  4417, "lane":  0 },
+    { "type":  "potstack", "x":  4417, "lane":  2 },
+    { "type":  "fish", "x":  4499, "lane":  0 },
+    { "type":  "mud", "x":  4567 },
+    { "type":  "wheelbarrow", "x":  4713, "lane":  0 },
+    { "type":  "wheelbarrow", "x":  4713, "lane":  2 },
+    { "type":  "yarn", "x":  4867, "lane":  0 },
+    { "type":  "yarn", "x":  4867, "lane":  2 },
+    { "type":  "fish", "x":  4961, "lane":  2 },
+    { "type":  "potstack", "x":  5043, "lane":  1 },
+    { "type":  "potstack", "x":  5043, "lane":  2 },
+    { "type":  "fish", "x":  5146, "lane":  0 },
+    { "type":  "crates", "x":  5235, "lane":  0 },
+    { "type":  "crates", "x":  5235, "lane":  2 },
+    { "type":  "fish", "x":  5317, "lane":  0 },
+    { "type":  "gnome", "x":  5383, "lane":  1 }
+  ]
+}
