@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #1e243c;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#canvasHolder {
+    position: fixed;
+    inset: 0;
+    background: #000;
+}
+
+#theCanvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    touch-action: none;
+    outline: none;
+}
+
+.overlay, #crash, .notice-screen {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#8fd3ff, #c8ecff 60%, #5dbb63 60%);
+}
+
+#crash {
+    background: rgba(30, 36, 60, 0.85);
+}
+
+#crash[hidden] {
+    display: none;
+}
+
+.card {
+    background: #fff4dc;
+    border: 4px solid #2b2140;
+    border-radius: 16px;
+    box-shadow: 0 8px 0 rgba(43, 33, 64, 0.35);
+    padding: 28px 40px;
+    text-align: center;
+    color: #2b2140;
+    max-width: 520px;
+    font-size: 20px;
+}
+
+.card h1 {
+    margin: 0;
+    font-size: 64px;
+    color: #f29a3a;
+    text-shadow: 3px 3px 0 #2b2140;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    margin: 4px 0 20px;
+    font-size: 22px;
+}
+
+.bar {
+    height: 18px;
+    border: 3px solid #2b2140;
+    border-radius: 9px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    width: 0;
+    background: #f29a3a;
+    transition: width 0.2s;
+}
+
+/* One bar for the whole start: the engine download fills the first half (Blazor reports its progress in
+   this CSS variable), the game content the second half (set by GamePage). */
+.fill.boot {
+    width: max(3%, calc(var(--blazor-load-percentage, 0%) * 0.5));
+}
+
+.play {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 14px 48px;
+    border: 4px solid #2b2140;
+    border-radius: 14px;
+    background: #ffd86b;
+    color: #2b2140;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #c8642d;
+}
+
+.play:hover, .play:focus {
+    background: #ffc477;
+    outline: none;
+}
+
+.hint {
+    font-size: 16px;
+    color: #5a4a6e;
+    margin-top: 18px;
+}
+
+.hint.small {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.hint a {
+    color: #3a5aa8;
+}
+
+.error {
+    color: #a8403c;
+    font-weight: bold;
+}
+
+/* Erweiterung 14: the notice on phones and tablets – big, readable, fits a small phone screen. */
+.notice-screen[hidden], #app[hidden] {
+    display: none;
+}
+
+#device-notice {
+    overflow-y: auto;          /* a small phone held sideways can scroll */
+    align-items: flex-start;
+    padding: 12px 0;
+    box-sizing: border-box;
+}
+
+.notice {
+    margin: auto;              /* centred when it fits, never cut off at the top when it does not */
+    max-width: min(520px, 86vw);
+    padding: 22px clamp(16px, 5vw, 40px);
+    font-size: clamp(18px, 4.6vw, 22px);
+    line-height: 1.35;
+}
+
+.notice h2 {
+    margin: 10px 0 8px;
+    font-size: clamp(24px, 6.5vw, 32px);
+    color: #c8642d;
+}
+
+.notice p {
+    margin: 8px 0;
+}
+
+.pixel {
+    image-rendering: pixelated;
+    width: min(256px, 60vw);
+    height: auto;
+}
+
+.address {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: clamp(14px, 3.8vw, 18px);
+    background: #fff;
+    border: 2px solid #2b2140;
+    border-radius: 8px;
+    padding: 6px 8px;
+    word-break: break-all;
+    user-select: all;
+}
+
+/* Looks like the "Spielen" button, but is not one (the browser tests look for .play). */
+.copy-button {
+    font-size: clamp(20px, 5.5vw, 26px);
+    font-weight: bold;
+    padding: 10px 28px;
+    margin-top: 6px;
+    border: 4px solid #2b2140;
+    border-radius: 14px;
+    background: #ffd86b;
+    color: #2b2140;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #c8642d;
+}
+
+.copy-button:hover, .copy-button:focus {
+    background: #ffc477;
+    outline: none;
+}
+
+@media (max-height: 560px) {
+    .notice .pixel {
+        width: 160px;
+    }
+}

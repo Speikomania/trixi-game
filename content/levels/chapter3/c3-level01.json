@@ -1,0 +1,278 @@
+{
+  // Chapter 3 starts: five lanes, the cave's collectibles and a first narrow in a guided practice zone.
+  "id": "c3-level01",
+  "order": 1,
+  "name": "Dunkler Gang",
+  "theme": "cave",
+  "music": "cave",
+  "speed": 96,
+  "length": 7346,
+  "lives": 4,
+  "lanes": 5,
+  "darkness": 0.1,
+  "starScores": [
+    740,
+    1340,
+    2080
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "glowmushroom": 0.8,
+      "firefly": 0.8
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1732
+    }
+  ],
+  "checkpoints": [
+    960
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4,
+      "text": "Willkommen in der Höhle! Hier gibt es fünf Bahnen statt drei."
+    },
+    {
+      "kind": "Message",
+      "x": 190,
+      "duration": 3.5,
+      "text": "Leuchtpilze! Sammle sie ein."
+    },
+    {
+      "kind": "Message",
+      "x": 440,
+      "duration": 3.5,
+      "text": "Fünf Bahnen: Weich ruhig zwei Bahnen weit aus."
+    },
+    {
+      "kind": "Message",
+      "x": 720,
+      "duration": 4,
+      "text": "Ein Glühwürmchen! Es hüpft hin und her – lauf in seine Bahn."
+    },
+    {
+      "kind": "Message",
+      "x": 1040,
+      "duration": 4,
+      "text": "Hier wird es eng. Keine Sorge: Trixi weicht von selbst aus."
+    },
+    {
+      "kind": "Message",
+      "x": 1732,
+      "duration": 2.5,
+      "text": "Prima! Auf in die Höhle!"
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "caveentrance"
+    },
+    {
+      "from": 3251,
+      "scene": "dripstonehall"
+    },
+    {
+      "from": 5154,
+      "scene": "caveentrance"
+    }
+  ],
+  "narrows": [
+    {
+      "from": 1240,
+      "to": 1672,
+      "top": 1,
+      "bottom": 3
+    },
+    {
+      "from": 2560,
+      "to": 2950,
+      "top": 2,
+      "bottom": 4
+    }
+  ],
+  "lights": [
+    {
+      "x": 200,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 821,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 1404,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 2023,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 2481,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 3043,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 3609,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 4176,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 4811,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 5271,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 5766,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 6401,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 6916,
+      "radius": 70,
+      "kind": "lamp"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1912
+    },
+    {
+      "kind": "normal",
+      "from": 1912,
+      "to": 3251
+    },
+    {
+      "kind": "calm",
+      "from": 3251,
+      "to": 3657
+    },
+    {
+      "kind": "dense",
+      "from": 3657,
+      "to": 4245
+    },
+    {
+      "kind": "normal",
+      "from": 4245,
+      "to": 5154
+    },
+    {
+      "kind": "calm",
+      "from": 5154,
+      "to": 5810
+    },
+    {
+      "kind": "dense",
+      "from": 5810,
+      "to": 6678
+    },
+    {
+      "kind": "normal",
+      "from": 6678,
+      "to": 7346
+    }
+  ],
+  "obstacles": [
+    { "type":  "glowmushroom", "x":  330, "lane":  2 },
+    { "type":  "glowmushroom", "x":  370, "lane":  3 },
+    { "type":  "stalagmite", "x":  640, "lane":  1 },
+    { "type":  "stalagmite", "x":  640, "lane":  2 },
+    { "type":  "stalagmite", "x":  640, "lane":  3 },
+    { "type":  "firefly", "x":  900, "lane":  3, "toLane":  4 },
+    { "type":  "boulder", "x":  1451, "lane":  2 },
+    { "type":  "glowmushroom", "x":  1792, "lane":  0 },
+    { "type":  "glowmushroom", "x":  1832, "lane":  0 },
+    { "type":  "spiderweb", "x":  1912, "lane":  2 },
+    { "type":  "glowmushroom", "x":  2026, "lane":  0 },
+    { "type":  "spiderweb", "x":  2128, "lane":  0 },
+    { "type":  "spiderweb", "x":  2128, "lane":  3 },
+    { "type":  "spiderweb", "x":  2128, "lane":  4 },
+    { "type":  "glowmushroom", "x":  2233, "lane":  3 },
+    { "type":  "rubble", "x":  2326 },
+    { "type":  "glowmushroom", "x":  2451, "lane":  3 },
+    { "type":  "glowmushroom", "x":  2491, "lane":  4 },
+    { "type":  "minecrates", "x":  2675, "lane":  3 },
+    { "type":  "minecrates", "x":  2839, "lane":  3 },
+    { "type":  "glowmushroom", "x":  3101, "lane":  3 },
+    { "type":  "glowmushroom", "x":  3141, "lane":  2 },
+    { "type":  "stalagmite", "x":  3252, "lane":  2 },
+    { "type":  "glowmushroom", "x":  3461, "lane":  0 },
+    { "type":  "glowmushroom", "x":  3501, "lane":  0 },
+    { "type":  "chasm", "x":  3657, "width":  34 },
+    { "type":  "glowmushroom", "x":  3785, "lane":  3 },
+    { "type":  "spiderweb", "x":  3880, "lane":  1 },
+    { "type":  "spiderweb", "x":  3880, "lane":  2 },
+    { "type":  "glowmushroom", "x":  3987, "lane":  4 },
+    { "type":  "stalagmite", "x":  4082, "lane":  3 },
+    { "type":  "stalagmite", "x":  4082, "lane":  4 },
+    { "type":  "salamander", "x":  4441, "lane":  1 },
+    { "type":  "boulder", "x":  4652, "lane":  0 },
+    { "type":  "glowmushroom", "x":  4783, "lane":  1 },
+    { "type":  "glowmushroom", "x":  4823, "lane":  0 },
+    { "type":  "cavestream", "x":  4899, "width":  34 },
+    { "type":  "firefly", "x":  5043, "lane":  0, "toLane":  1 },
+    { "type":  "spiderweb", "x":  5154, "lane":  1 },
+    { "type":  "spiderweb", "x":  5154, "lane":  2 },
+    { "type":  "glowmushroom", "x":  5337, "lane":  3 },
+    { "type":  "glowmushroom", "x":  5377, "lane":  2 },
+    { "type":  "spiderweb", "x":  5508, "lane":  0 },
+    { "type":  "firefly", "x":  5665, "lane":  2, "toLane":  3 },
+    { "type":  "minecrates", "x":  5810, "lane":  0 },
+    { "type":  "minecrates", "x":  5810, "lane":  2 },
+    { "type":  "minecrates", "x":  5810, "lane":  3 },
+    { "type":  "spiderweb", "x":  5966, "lane":  0 },
+    { "type":  "spiderweb", "x":  5966, "lane":  2 },
+    { "type":  "spiderweb", "x":  5966, "lane":  4 },
+    { "type":  "glowmushroom", "x":  6055, "lane":  0 },
+    { "type":  "rubble", "x":  6132 },
+    { "type":  "boulder", "x":  6301, "lane":  0 },
+    { "type":  "minecrates", "x":  6301, "lane":  1 },
+    { "type":  "minecrates", "x":  6301, "lane":  4 },
+    { "type":  "glowmushroom", "x":  6409, "lane":  3 },
+    { "type":  "cavepuddle", "x":  6502 },
+    { "type":  "firefly", "x":  6598, "lane":  2, "toLane":  1 },
+    { "type":  "cavepuddle", "x":  6678 },
+    { "type":  "firefly", "x":  6801, "lane":  1, "toLane":  0 },
+    { "type":  "rubble", "x":  6909 },
+    { "type":  "glowmushroom", "x":  7010, "lane":  0 },
+    { "type":  "minecrates", "x":  7096, "lane":  1 },
+    { "type":  "minecrates", "x":  7096, "lane":  2 }
+  ]
+}

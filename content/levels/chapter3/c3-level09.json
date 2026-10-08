@@ -1,0 +1,479 @@
+{
+  // Into the deep gorge: dense, dark, chasms everywhere.
+  "id": "c3-level09",
+  "order": 9,
+  "name": "Tiefe Schlucht",
+  "theme": "cave",
+  "music": "cavefinale",
+  "speed": 112,
+  "length": 14870,
+  "lives": 3,
+  "lanes": 5,
+  "darkness": 0.8,
+  "lampDrain": 0.022,
+  "starScores": [
+    2000,
+    5390,
+    7540
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "glowmushroom": 1.0,
+      "firefly": 1.0
+    }
+  },
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "descent"
+    },
+    {
+      "from": 2680,
+      "scene": "batcave"
+    },
+    {
+      "from": 8631,
+      "scene": "descent"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "minerails",
+      "from": 2878,
+      "to": 3617
+    }
+  ],
+  "terrain": [
+    {
+      "from": 6244,
+      "to": 6873,
+      "heights": [
+        0,
+        0,
+        0,
+        8,
+        16
+      ]
+    }
+  ],
+  "narrows": [
+    {
+      "from": 2010,
+      "to": 2471,
+      "top": 2,
+      "bottom": 4
+    }
+  ],
+  "branches": [
+    {
+      "id": "f1",
+      "from": 404,
+      "to": 1053,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Medium"
+        },
+        {
+          "top": 2,
+          "bottom": 3,
+          "kind": "Risky"
+        },
+        {
+          "top": 4,
+          "bottom": 4,
+          "kind": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "from": 4391,
+      "to": 5013,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Risky"
+        },
+        {
+          "top": 2,
+          "bottom": 2,
+          "kind": "Easy"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "from": 7791,
+      "to": 8415,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "kind": "Medium"
+        },
+        {
+          "top": 1,
+          "bottom": 2,
+          "kind": "Easy"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Risky"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "from": 13881,
+      "to": 14569,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Easy"
+        },
+        {
+          "top": 2,
+          "bottom": 2,
+          "kind": "Medium"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Risky"
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "x": 200,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 745,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 1346,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 1810,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 2297,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 2877,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 3475,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 3927,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 4458,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 5027,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 5590,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 6181,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 6657,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 7104,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 7530,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 8151,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 8574,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 9104,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 9645,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 10122,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 10670,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 11225,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 11731,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 12327,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 12922,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 13382,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 13839,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 14367,
+      "radius": 70,
+      "kind": "lamp"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 2680
+    },
+    {
+      "kind": "calm",
+      "from": 2680,
+      "to": 4157
+    },
+    {
+      "kind": "dense",
+      "from": 4157,
+      "to": 6214
+    },
+    {
+      "kind": "normal",
+      "from": 6214,
+      "to": 8631
+    },
+    {
+      "kind": "calm",
+      "from": 8631,
+      "to": 10080
+    },
+    {
+      "kind": "dense",
+      "from": 10080,
+      "to": 12183
+    },
+    {
+      "kind": "normal",
+      "from": 12183,
+      "to": 14870
+    }
+  ],
+  "obstacles": [
+    { "type":  "battery", "x":  470, "lane":  1 },
+    { "type":  "minecrates", "x":  526, "lane":  1 },
+    { "type":  "minesupport", "x":  526, "lane":  3 },
+    { "type":  "salamander", "x":  526, "lane":  4 },
+    { "type":  "crystal", "x":  603, "lane":  3 },
+    { "type":  "salamander", "x":  649, "lane":  3 },
+    { "type":  "stalagmite", "x":  711, "lane":  0 },
+    { "type":  "spiderweb", "x":  772, "lane":  2 },
+    { "type":  "salamander", "x":  772, "lane":  4 },
+    { "type":  "minecrates", "x":  896, "lane":  1 },
+    { "type":  "salamander", "x":  896, "lane":  3 },
+    { "type":  "firefly", "x":  1158, "lane":  3, "toLane":  2 },
+    { "type":  "chasm", "x":  1263, "width":  156 },
+    { "type":  "glowmushroom", "x":  1487, "lane":  3 },
+    { "type":  "chasm", "x":  1556, "width":  34 },
+    { "type":  "chasm", "x":  1696, "width":  34 },
+    { "type":  "chasm", "x":  1836, "width":  34 },
+    { "type":  "battery", "x":  1940, "lane":  1 },
+    { "type":  "minecrates", "x":  2144, "lane":  3 },
+    { "type":  "salamander", "x":  2262, "lane":  3 },
+    { "type":  "spiderweb", "x":  2380, "lane":  2 },
+    { "type":  "spiderweb", "x":  2380, "lane":  4 },
+    { "type":  "spiderweb", "x":  3053, "lane":  4 },
+    { "type":  "spiderweb", "x":  3295, "lane":  1 },
+    { "type":  "spiderweb", "x":  3295, "lane":  2 },
+    { "type":  "spiderweb", "x":  3295, "lane":  4 },
+    { "type":  "stalagmite", "x":  3920, "lane":  4 },
+    { "type":  "glowmushroom", "x":  4050, "lane":  1 },
+    { "type":  "battery", "x":  4457, "lane":  4 },
+    { "type":  "boulder", "x":  4513, "lane":  1 },
+    { "type":  "salamander", "x":  4513, "lane":  2 },
+    { "type":  "stalagmite", "x":  4513, "lane":  3 },
+    { "type":  "crystal", "x":  4590, "lane":  0 },
+    { "type":  "salamander", "x":  4636, "lane":  0 },
+    { "type":  "boulder", "x":  4698, "lane":  3 },
+    { "type":  "stalagmite", "x":  4759, "lane":  0 },
+    { "type":  "salamander", "x":  4759, "lane":  2 },
+    { "type":  "salamander", "x":  4883, "lane":  0 },
+    { "type":  "boulder", "x":  4883, "lane":  4 },
+    { "type":  "firefly", "x":  5107, "lane":  0, "toLane":  1 },
+    { "type":  "rollingboulder", "x":  5201, "width":  410 },
+    { "type":  "chasm", "x":  5721, "width":  156 },
+    { "type":  "glowbeetle", "x":  5799, "lane":  4, "air":  true },
+    { "type":  "batcolony", "x":  6056, "lane":  2 },
+    { "type":  "firefly", "x":  6174, "lane":  1, "toLane":  0 },
+    { "type":  "spiderweb", "x":  6433, "lane":  0 },
+    { "type":  "spiderweb", "x":  6433, "lane":  1 },
+    { "type":  "spiderweb", "x":  6433, "lane":  2 },
+    { "type":  "spiderweb", "x":  6433, "lane":  4 },
+    { "type":  "boulder", "x":  6612, "lane":  0 },
+    { "type":  "boulder", "x":  6612, "lane":  1 },
+    { "type":  "boulder", "x":  6612, "lane":  3 },
+    { "type":  "boulder", "x":  6612, "lane":  4 },
+    { "type":  "battery", "x":  6954, "lane":  1 },
+    { "type":  "batcolony", "x":  7108, "lane":  1 },
+    { "type":  "boulder", "x":  7432, "lane":  0 },
+    { "type":  "boulder", "x":  7432, "lane":  1 },
+    { "type":  "railcart", "x":  7432, "lane":  2, "toLane":  3 },
+    { "type":  "battery", "x":  7857, "lane":  0 },
+    { "type":  "salamander", "x":  7913, "lane":  0 },
+    { "type":  "stalagmite", "x":  7913, "lane":  1 },
+    { "type":  "boulder", "x":  7913, "lane":  3 },
+    { "type":  "crystal", "x":  7990, "lane":  3 },
+    { "type":  "salamander", "x":  8036, "lane":  3 },
+    { "type":  "crevice", "x":  8098, "lane":  0 },
+    { "type":  "spiderweb", "x":  8159, "lane":  1 },
+    { "type":  "spiderweb", "x":  8159, "lane":  3 },
+    { "type":  "salamander", "x":  8283, "lane":  0 },
+    { "type":  "salamander", "x":  8283, "lane":  3 },
+    { "type":  "minecrates", "x":  8851, "lane":  0 },
+    { "type":  "stalagmite", "x":  9046, "lane":  0 },
+    { "type":  "glowmushroom", "x":  9165, "lane":  0 },
+    { "type":  "stalagmite", "x":  9270, "lane":  2 },
+    { "type":  "stalagmite", "x":  9270, "lane":  4 },
+    { "type":  "glowmushroom", "x":  9377, "lane":  3 },
+    { "type":  "boulder", "x":  9471, "lane":  1 },
+    { "type":  "boulder", "x":  9471, "lane":  3 },
+    { "type":  "firefly", "x":  9579, "lane":  1, "toLane":  2 },
+    { "type":  "spiderweb", "x":  9672, "lane":  2 },
+    { "type":  "battery", "x":  9778, "lane":  1 },
+    { "type":  "stalagmite", "x":  9872, "lane":  0 },
+    { "type":  "stalagmite", "x":  9872, "lane":  1 },
+    { "type":  "firefly", "x":  9983, "lane":  3, "toLane":  2 },
+    { "type":  "chasm", "x":  10080, "width":  156 },
+    { "type":  "glowbeetle", "x":  10158, "lane":  0, "air":  true },
+    { "type":  "minecrates", "x":  10338, "lane":  0 },
+    { "type":  "boulder", "x":  10338, "lane":  1 },
+    { "type":  "boulder", "x":  10338, "lane":  3 },
+    { "type":  "boulder", "x":  10338, "lane":  4 },
+    { "type":  "spiderweb", "x":  10450, "lane":  0 },
+    { "type":  "spiderweb", "x":  10450, "lane":  2 },
+    { "type":  "spiderweb", "x":  10450, "lane":  3 },
+    { "type":  "spiderweb", "x":  10450, "lane":  4 },
+    { "type":  "crevice", "x":  10551, "lane":  0 },
+    { "type":  "crevice", "x":  10551, "lane":  1 },
+    { "type":  "crevice", "x":  10551, "lane":  2 },
+    { "type":  "crevice", "x":  10551, "lane":  3 },
+    { "type":  "crevice", "x":  10551, "lane":  4 },
+    { "type":  "rockfall", "x":  10825 },
+    { "type":  "minecrates", "x":  10958, "lane":  2 },
+    { "type":  "minecrates", "x":  10958, "lane":  3 },
+    { "type":  "boulder", "x":  10958, "lane":  4 },
+    { "type":  "boulder", "x":  11076, "lane":  0 },
+    { "type":  "boulder", "x":  11076, "lane":  2 },
+    { "type":  "boulder", "x":  11076, "lane":  3 },
+    { "type":  "stalagmite", "x":  11181, "lane":  0 },
+    { "type":  "minesupport", "x":  11181, "lane":  2 },
+    { "type":  "minesupport", "x":  11181, "lane":  3 },
+    { "type":  "chasm", "x":  11293, "width":  34 },
+    { "type":  "chasm", "x":  11433, "width":  34 },
+    { "type":  "chasm", "x":  11573, "width":  34 },
+    { "type":  "chasm", "x":  11700, "width":  156 },
+    { "type":  "batcolony", "x":  12037, "lane":  4 },
+    { "type":  "chasm", "x":  12184, "width":  156 },
+    { "type":  "minecrates", "x":  12633, "lane":  0 },
+    { "type":  "railcart", "x":  12633, "lane":  1, "toLane":  2 },
+    { "type":  "boulder", "x":  12633, "lane":  4 },
+    { "type":  "chasm", "x":  12769, "width":  34 },
+    { "type":  "chasm", "x":  12909, "width":  34 },
+    { "type":  "chasm", "x":  13049, "width":  34 },
+    { "type":  "chasm", "x":  13208, "width":  34 },
+    { "type":  "chasm", "x":  13348, "width":  34 },
+    { "type":  "chasm", "x":  13488, "width":  34 },
+    { "type":  "glowmushroom", "x":  13589, "lane":  1 },
+    { "type":  "battery", "x":  13947, "lane":  2 },
+    { "type":  "spiderweb", "x":  14003, "lane":  0 },
+    { "type":  "salamander", "x":  14003, "lane":  2 },
+    { "type":  "boulder", "x":  14003, "lane":  4 },
+    { "type":  "crystal", "x":  14080, "lane":  3 },
+    { "type":  "salamander", "x":  14126, "lane":  3 },
+    { "type":  "crevice", "x":  14188, "lane":  2 },
+    { "type":  "boulder", "x":  14249, "lane":  1 },
+    { "type":  "boulder", "x":  14249, "lane":  4 },
+    { "type":  "salamander", "x":  14373, "lane":  2 },
+    { "type":  "salamander", "x":  14373, "lane":  4 },
+    { "type":  "stalagmite", "x":  14496, "lane":  1 },
+    { "type":  "spiderweb", "x":  14496, "lane":  4 }
+  ]
+}

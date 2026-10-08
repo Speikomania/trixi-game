@@ -1,0 +1,202 @@
+{
+  // Introduces JUMP with a guided, no-fail practice section.
+  "id": "level03",
+  "order": 3,
+  "name": "Pfützen im Flur",
+  "theme": "home",
+  "music": "level",
+  "speed": 65,
+  "length": 4543,
+  "lives": 5,
+  "starScores": [
+    660,
+    1260,
+    2000
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 0.9,
+      "goldfish": 1.0
+    }
+  },
+  "introducesAbility": "jump",
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 940
+    }
+  ],
+  "checkpoints": [
+    500,
+    710
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 3.5,
+      "text": "Neu: Springen! Damit hüpfst du über flache Pfützen."
+    },
+    {
+      "kind": "Prompt",
+      "x": 308,
+      "action": "Ability1",
+      "text": "Eine Pfütze! Spring einfach drüber.",
+      "successX": 360
+    },
+    {
+      "kind": "Message",
+      "x": 390,
+      "duration": 3,
+      "text": "Toll! Die nächste Pfütze schaffst du allein."
+    },
+    {
+      "kind": "Message",
+      "x": 680,
+      "duration": 3,
+      "text": "Flache Pfützen: springen. Hohe Kartons: ausweichen!"
+    },
+    {
+      "kind": "Prompt",
+      "x": 775,
+      "action": "MoveUp",
+      "text": "Kartons sind zu hoch zum Springen. Weich aus!",
+      "successX": 842
+    },
+    {
+      "kind": "Message",
+      "x": 844,
+      "duration": 2,
+      "text": "Und jetzt über die Pfütze springen!"
+    },
+    {
+      "kind": "Message",
+      "x": 960,
+      "duration": 3,
+      "text": "Super! Jetzt geht es richtig los."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "hallway"
+    },
+    {
+      "from": 1755,
+      "scene": "livingroom"
+    },
+    {
+      "from": 3249,
+      "scene": "hallway"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1080
+    },
+    {
+      "kind": "normal",
+      "from": 1080,
+      "to": 1755
+    },
+    {
+      "kind": "calm",
+      "from": 1755,
+      "to": 2040
+    },
+    {
+      "kind": "dense",
+      "from": 2040,
+      "to": 2586
+    },
+    {
+      "kind": "normal",
+      "from": 2586,
+      "to": 3249
+    },
+    {
+      "kind": "calm",
+      "from": 3249,
+      "to": 3556
+    },
+    {
+      "kind": "dense",
+      "from": 3556,
+      "to": 4131
+    },
+    {
+      "kind": "normal",
+      "from": 4131,
+      "to": 4543
+    }
+  ],
+  "npcs": [
+    {
+      "group": "foto2",
+      "pose": "pockets",
+      "x": 614,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "puddle", "x":  330 },
+    { "type":  "puddle", "x":  620 },
+    { "type":  "box", "x":  820, "lane":  1 },
+    { "type":  "puddle", "x":  880 },
+    { "type":  "fish", "x":  988, "lane":  1 },
+    { "type":  "blocks", "x":  1080, "lane":  0 },
+    { "type":  "fish", "x":  1174, "lane":  1 },
+    { "type":  "puddle", "x":  1256 },
+    { "type":  "fish", "x":  1347, "lane":  1 },
+    { "type":  "plant", "x":  1423, "lane":  0 },
+    { "type":  "plant", "x":  1423, "lane":  1 },
+    { "type":  "fish", "x":  1520, "lane":  2 },
+    { "type":  "puddle", "x":  1603 },
+    { "type":  "goldfish", "x":  1734, "lane":  1 },
+    { "type":  "plant", "x":  1755, "lane":  1 },
+    { "type":  "fish", "x":  1853, "lane":  0 },
+    { "type":  "fish", "x":  1879, "lane":  0 },
+    { "type":  "fish", "x":  1905, "lane":  0 },
+    { "type":  "fish", "x":  1931, "lane":  0 },
+    { "type":  "fish", "x":  1957, "lane":  0 },
+    { "type":  "vacuum", "x":  2041, "lane":  0 },
+    { "type":  "vacuum", "x":  2041, "lane":  1 },
+    { "type":  "fish", "x":  2120, "lane":  1 },
+    { "type":  "vacuum", "x":  2185, "lane":  0 },
+    { "type":  "vacuum", "x":  2185, "lane":  2 },
+    { "type":  "blocks", "x":  2334, "lane":  1 },
+    { "type":  "blocks", "x":  2334, "lane":  2 },
+    { "type":  "fish", "x":  2404, "lane":  2 },
+    { "type":  "blocks", "x":  2463, "lane":  0 },
+    { "type":  "blocks", "x":  2463, "lane":  2 },
+    { "type":  "blocks", "x":  2736, "lane":  0 },
+    { "type":  "vacuum", "x":  2887, "lane":  1 },
+    { "type":  "fish", "x":  2983, "lane":  0 },
+    { "type":  "puddle", "x":  3065 },
+    { "type":  "goldfish", "x":  3104, "lane":  0, "air":  true },
+    { "type":  "yarn", "x":  3250, "lane":  1 },
+    { "type":  "fish", "x":  3344, "lane":  0 },
+    { "type":  "fish", "x":  3370, "lane":  0 },
+    { "type":  "fish", "x":  3396, "lane":  1 },
+    { "type":  "fish", "x":  3422, "lane":  1 },
+    { "type":  "fish", "x":  3448, "lane":  2 },
+    { "type":  "fish", "x":  3474, "lane":  2 },
+    { "type":  "puddle", "x":  3557 },
+    { "type":  "fish", "x":  3645, "lane":  2 },
+    { "type":  "box", "x":  3718, "lane":  0 },
+    { "type":  "box", "x":  3718, "lane":  2 },
+    { "type":  "fish", "x":  3788, "lane":  0 },
+    { "type":  "milk", "x":  3843 },
+    { "type":  "goldfish", "x":  3953, "lane":  1 },
+    { "type":  "blocks", "x":  3974, "lane":  1 },
+    { "type":  "fish", "x":  4059, "lane":  2 },
+    { "type":  "milk", "x":  4132 },
+    { "type":  "puddle", "x":  4306 }
+  ]
+}

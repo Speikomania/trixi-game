@@ -1,0 +1,193 @@
+{
+  // Deer that step over into another lane; hedgehogs.
+  "id": "c2-level04",
+  "order": 4,
+  "name": "Rehe im Unterholz",
+  "theme": "forest",
+  "music": "level",
+  "speed": 94,
+  "length": 8496,
+  "lives": 4,
+  "starScores": [
+    790,
+    1690,
+    2560
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 0.9,
+      "bird": 0.9
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1460
+    }
+  ],
+  "checkpoints": [
+    737
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4,
+      "text": "Rehe wechseln manchmal die Bahn. Der Pfeil über dem Reh zeigt, wohin!"
+    },
+    {
+      "kind": "Prompt",
+      "x": 490,
+      "action": "MoveDown",
+      "text": "Das Reh kommt in deine Bahn – weich aus!",
+      "successX": 670
+    },
+    {
+      "kind": "Message",
+      "x": 680,
+      "duration": 3.5,
+      "text": "Gut aufgepasst! Beim nächsten Reh entscheidest du selbst."
+    },
+    {
+      "kind": "Message",
+      "x": 1100,
+      "duration": 4,
+      "text": "Ein Igel ist flach: drüberspringen oder ausweichen – beides geht."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "woodland"
+    },
+    {
+      "from": 3376,
+      "scene": "deepwood"
+    },
+    {
+      "from": 5789,
+      "scene": "woodland"
+    }
+  ],
+  "terrain": [
+    {
+      "from": 2555,
+      "to": 3190,
+      "heights": [
+        0,
+        0,
+        16
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1620
+    },
+    {
+      "kind": "normal",
+      "from": 1620,
+      "to": 3376
+    },
+    {
+      "kind": "calm",
+      "from": 3376,
+      "to": 3655
+    },
+    {
+      "kind": "dense",
+      "from": 3655,
+      "to": 4513
+    },
+    {
+      "kind": "normal",
+      "from": 4513,
+      "to": 5789
+    },
+    {
+      "kind": "calm",
+      "from": 5789,
+      "to": 6602
+    },
+    {
+      "kind": "dense",
+      "from": 6602,
+      "to": 7598
+    },
+    {
+      "kind": "normal",
+      "from": 7598,
+      "to": 8496
+    }
+  ],
+  "obstacles": [
+    { "type":  "deer", "x":  640, "lane":  0, "toLane":  1 },
+    { "type":  "deer", "x":  1060, "lane":  2, "toLane":  1 },
+    { "type":  "hedgehog", "x":  1340, "lane":  1 },
+    { "type":  "mouse", "x":  1487, "lane":  2, "toLane":  1 },
+    { "type":  "deer", "x":  1790, "lane":  0, "toLane":  1 },
+    { "type":  "mouse", "x":  1898, "lane":  2, "toLane":  1 },
+    { "type":  "hedgehog", "x":  1990, "lane":  2 },
+    { "type":  "mouse", "x":  2079, "lane":  2, "toLane":  1 },
+    { "type":  "logpile", "x":  2325, "lane":  0 },
+    { "type":  "deer", "x":  2325, "lane":  2, "toLane":  1 },
+    { "type":  "bird", "x":  2448, "lane":  0, "air":  true },
+    { "type":  "fox", "x":  2719, "lane":  0 },
+    { "type":  "fox", "x":  2719, "lane":  1 },
+    { "type":  "mouse", "x":  2814, "lane":  0, "toLane":  1 },
+    { "type":  "fern", "x":  2893, "lane":  1 },
+    { "type":  "fern", "x":  2893, "lane":  2 },
+    { "type":  "mouse", "x":  2987, "lane":  2, "toLane":  1 },
+    { "type":  "anthill", "x":  3068, "lane":  0 },
+    { "type":  "anthill", "x":  3068, "lane":  1 },
+    { "type":  "mouse", "x":  3228, "lane":  0, "toLane":  1 },
+    { "type":  "logpile", "x":  3376, "lane":  2 },
+    { "type":  "mouse", "x":  3524, "lane":  1, "toLane":  0 },
+    { "type":  "anthill", "x":  3656, "lane":  0 },
+    { "type":  "anthill", "x":  3656, "lane":  1 },
+    { "type":  "forestgate", "x":  3928 },
+    { "type":  "mouse", "x":  4011, "lane":  2, "toLane":  1 },
+    { "type":  "anthill", "x":  4087, "lane":  2 },
+    { "type":  "stump", "x":  4245, "lane":  1 },
+    { "type":  "logpile", "x":  4245, "lane":  2 },
+    { "type":  "fern", "x":  4354, "lane":  0 },
+    { "type":  "boar", "x":  4354, "lane":  1 },
+    { "type":  "hedgehog", "x":  4513, "lane":  0 },
+    { "type":  "badger", "x":  4962, "lane":  0 },
+    { "type":  "mouse", "x":  5086, "lane":  2, "toLane":  1 },
+    { "type":  "hedgehog", "x":  5163, "lane":  0 },
+    { "type":  "boar", "x":  5324, "lane":  0 },
+    { "type":  "boar", "x":  5324, "lane":  2 },
+    { "type":  "mouse", "x":  5415, "lane":  0, "toLane":  1 },
+    { "type":  "logpile", "x":  5492, "lane":  0 },
+    { "type":  "stump", "x":  5492, "lane":  2 },
+    { "type":  "boar", "x":  5601, "lane":  1 },
+    { "type":  "fern", "x":  5601, "lane":  2 },
+    { "type":  "bird", "x":  5702, "lane":  2, "air":  true },
+    { "type":  "boar", "x":  5790, "lane":  2 },
+    { "type":  "bird", "x":  5926, "lane":  1, "air":  true },
+    { "type":  "boar", "x":  6048, "lane":  0 },
+    { "type":  "bird", "x":  6209, "lane":  1, "air":  true },
+    { "type":  "anthill", "x":  6357, "lane":  2 },
+    { "type":  "bird", "x":  6485, "lane":  2, "air":  true },
+    { "type":  "deer", "x":  6772, "lane":  1, "toLane":  0 },
+    { "type":  "deer", "x":  7071, "lane":  2, "toLane":  1 },
+    { "type":  "fox", "x":  7200, "lane":  1 },
+    { "type":  "fox", "x":  7360, "lane":  0 },
+    { "type":  "fox", "x":  7360, "lane":  1 },
+    { "type":  "fern", "x":  7469, "lane":  1 },
+    { "type":  "fern", "x":  7469, "lane":  2 },
+    { "type":  "roots", "x":  7598 },
+    { "type":  "bird", "x":  7705, "lane":  1, "air":  true },
+    { "type":  "badger", "x":  7868, "lane":  1 },
+    { "type":  "hedgehog", "x":  8059, "lane":  0 },
+    { "type":  "mouse", "x":  8156, "lane":  0, "toLane":  1 },
+    { "type":  "hedgehog", "x":  8240, "lane":  0 }
+  ]
+}

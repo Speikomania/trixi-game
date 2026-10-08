@@ -1,0 +1,224 @@
+{
+  // Introduces raised lanes: up only with a jump, down always.
+  "id": "c2-level02",
+  "order": 2,
+  "name": "Wurzelwege",
+  "theme": "forest",
+  "music": "level",
+  "speed": 88,
+  "length": 6896,
+  "lives": 4,
+  "starScores": [
+    680,
+    1300,
+    1960
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 0.8,
+      "bird": 0.8
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1660
+    }
+  ],
+  "checkpoints": [
+    940
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4,
+      "text": "Neu im Wald: Wurzeln! Manche Bahnen liegen höher – erkennbar an der Kante."
+    },
+    {
+      "kind": "Prompt",
+      "x": 472,
+      "action": "Ability1",
+      "text": "Die obere Bahn liegt höher. Erst springen ...",
+      "successX": 476
+    },
+    {
+      "kind": "Prompt",
+      "x": 495,
+      "action": "MoveUp",
+      "text": "... und jetzt in der Luft ↑ drücken!",
+      "successX": 590
+    },
+    {
+      "kind": "Message",
+      "x": 600,
+      "duration": 3,
+      "text": "Oben! Hinunter geht's ganz einfach mit ↓."
+    },
+    {
+      "kind": "Message",
+      "x": 960,
+      "duration": 4,
+      "text": "Jetzt allein: Die untere Bahn liegt höher. Springen – und dann ↓."
+    },
+    {
+      "kind": "Message",
+      "x": 1660,
+      "duration": 3,
+      "text": "Geschafft! Merke: hoch nur mit Sprung."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "woodland"
+    },
+    {
+      "from": 2636,
+      "scene": "forestedge"
+    },
+    {
+      "from": 5378,
+      "scene": "woodland"
+    }
+  ],
+  "terrain": [
+    {
+      "from": 260,
+      "to": 900,
+      "heights": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "from": 1000,
+      "to": 1600,
+      "heights": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "from": 1870,
+      "to": 2401,
+      "heights": [
+        0,
+        8,
+        8
+      ]
+    },
+    {
+      "from": 4630,
+      "to": 5146,
+      "heights": [
+        0,
+        8,
+        8
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1840
+    },
+    {
+      "kind": "normal",
+      "from": 1840,
+      "to": 2636
+    },
+    {
+      "kind": "calm",
+      "from": 2636,
+      "to": 3286
+    },
+    {
+      "kind": "dense",
+      "from": 3286,
+      "to": 4072
+    },
+    {
+      "kind": "normal",
+      "from": 4072,
+      "to": 5378
+    },
+    {
+      "kind": "dense",
+      "from": 5378,
+      "to": 6268
+    },
+    {
+      "kind": "normal",
+      "from": 6268,
+      "to": 6896
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund01",
+      "pose": "wave",
+      "x": 1318,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "fox", "x":  560, "lane":  1 },
+    { "type":  "fox", "x":  560, "lane":  2 },
+    { "type":  "fern", "x":  1300, "lane":  0 },
+    { "type":  "fern", "x":  1300, "lane":  1 },
+    { "type":  "anthill", "x":  2025, "lane":  0 },
+    { "type":  "anthill", "x":  2025, "lane":  1 },
+    { "type":  "mouse", "x":  2129, "lane":  1, "toLane":  0 },
+    { "type":  "fern", "x":  2221, "lane":  1 },
+    { "type":  "boar", "x":  2221, "lane":  2 },
+    { "type":  "bird", "x":  2436, "lane":  1, "air":  true },
+    { "type":  "anthill", "x":  2637, "lane":  1 },
+    { "type":  "mouse", "x":  2802, "lane":  2, "toLane":  1 },
+    { "type":  "fern", "x":  2955, "lane":  0 },
+    { "type":  "mouse", "x":  3127, "lane":  0, "toLane":  1 },
+    { "type":  "fox", "x":  3286, "lane":  2 },
+    { "type":  "forestmud", "x":  3438 },
+    { "type":  "mouse", "x":  3530, "lane":  1, "toLane":  0 },
+    { "type":  "fox", "x":  3607, "lane":  0 },
+    { "type":  "fox", "x":  3607, "lane":  1 },
+    { "type":  "mouse", "x":  3696, "lane":  0, "toLane":  1 },
+    { "type":  "stump", "x":  3770, "lane":  1 },
+    { "type":  "stump", "x":  3770, "lane":  2 },
+    { "type":  "fox", "x":  3911, "lane":  1 },
+    { "type":  "fox", "x":  3911, "lane":  2 },
+    { "type":  "fox", "x":  4257, "lane":  1 },
+    { "type":  "fox", "x":  4257, "lane":  2 },
+    { "type":  "fern", "x":  4379, "lane":  0 },
+    { "type":  "fern", "x":  4379, "lane":  1 },
+    { "type":  "mouse", "x":  4511, "lane":  2, "toLane":  1 },
+    { "type":  "fox", "x":  4785, "lane":  0 },
+    { "type":  "fox", "x":  4785, "lane":  2 },
+    { "type":  "mouse", "x":  4891, "lane":  0, "toLane":  1 },
+    { "type":  "anthill", "x":  4981, "lane":  1 },
+    { "type":  "anthill", "x":  4981, "lane":  2 },
+    { "type":  "mouse", "x":  5185, "lane":  0, "toLane":  1 },
+    { "type":  "fox", "x":  5378, "lane":  0 },
+    { "type":  "fox", "x":  5378, "lane":  1 },
+    { "type":  "fern", "x":  5500, "lane":  1 },
+    { "type":  "fern", "x":  5500, "lane":  2 },
+    { "type":  "anthill", "x":  5649, "lane":  1 },
+    { "type":  "bird", "x":  5742, "lane":  2, "air":  true },
+    { "type":  "stump", "x":  5824, "lane":  0 },
+    { "type":  "roots", "x":  5971 },
+    { "type":  "logpile", "x":  6113, "lane":  0 },
+    { "type":  "logpile", "x":  6113, "lane":  1 },
+    { "type":  "roots", "x":  6268 },
+    { "type":  "mouse", "x":  6365, "lane":  2, "toLane":  1 },
+    { "type":  "creek", "x":  6446, "width":  34 },
+    { "type":  "bird", "x":  6572, "lane":  2, "air":  true },
+    { "type":  "fern", "x":  6664, "lane":  0 }
+  ]
+}

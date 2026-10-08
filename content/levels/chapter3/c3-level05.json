@@ -1,0 +1,419 @@
+{
+  // Wet rock at the underground lake (slippery like ice); the first glow beetle.
+  "id": "c3-level05",
+  "order": 5,
+  "name": "Am Höhlensee",
+  "theme": "cave",
+  "music": "cave",
+  "speed": 104,
+  "length": 10802,
+  "lives": 3,
+  "lanes": 5,
+  "darkness": 0.52,
+  "lampDrain": 0.014,
+  "starScores": [
+    1180,
+    2640,
+    4140
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "glowmushroom": 1.0,
+      "firefly": 1.0
+    }
+  },
+  "safeZones": [
+    {
+      "from": 2488,
+      "to": 3390
+    }
+  ],
+  "checkpoints": [
+    2498
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 2493,
+      "duration": 4.5,
+      "text": "Achtung, nasser Fels! Trixi rutscht. Drück früher zum Ausweichen!"
+    },
+    {
+      "kind": "Message",
+      "x": 3395,
+      "duration": 3,
+      "text": "Gut gerutscht!"
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "undergroundlake"
+    },
+    {
+      "from": 2488,
+      "scene": "crystalgrotto"
+    },
+    {
+      "from": 6364,
+      "scene": "undergroundlake"
+    },
+    {
+      "from": 9333,
+      "scene": "crystalgrotto"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "wetrock",
+      "from": 2674,
+      "to": 3350
+    }
+  ],
+  "narrows": [
+    {
+      "from": 1804,
+      "to": 2281,
+      "top": 1,
+      "bottom": 4
+    },
+    {
+      "from": 5105,
+      "to": 5601,
+      "top": 1,
+      "bottom": 3
+    },
+    {
+      "from": 8134,
+      "to": 8694,
+      "top": 2,
+      "bottom": 4
+    }
+  ],
+  "branches": [
+    {
+      "id": "f1",
+      "from": 701,
+      "to": 1222,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Easy"
+        },
+        {
+          "top": 2,
+          "bottom": 3,
+          "kind": "Medium"
+        },
+        {
+          "top": 4,
+          "bottom": 4,
+          "kind": "Risky"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "from": 4153,
+      "to": 4700,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Easy"
+        },
+        {
+          "top": 2,
+          "bottom": 3,
+          "kind": "Medium"
+        },
+        {
+          "top": 4,
+          "bottom": 4,
+          "kind": "Risky"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "from": 9551,
+      "to": 10183,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Risky"
+        },
+        {
+          "top": 2,
+          "bottom": 4,
+          "kind": "Easy"
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "x": 200,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 664,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 1283,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 1899,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 2426,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 2900,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 3493,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 3959,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 4549,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 5185,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 5691,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 6231,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 6740,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 7341,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 7923,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 8437,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 8919,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 9513,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 10107,
+      "radius": 60,
+      "kind": "crystal"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 2488
+    },
+    {
+      "kind": "calm",
+      "from": 2488,
+      "to": 3671
+    },
+    {
+      "kind": "dense",
+      "from": 3671,
+      "to": 4905
+    },
+    {
+      "kind": "normal",
+      "from": 4905,
+      "to": 6364
+    },
+    {
+      "kind": "calm",
+      "from": 6364,
+      "to": 7657
+    },
+    {
+      "kind": "dense",
+      "from": 7657,
+      "to": 9333
+    },
+    {
+      "kind": "normal",
+      "from": 9333,
+      "to": 10802
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund01",
+      "pose": "sandwich.helmet",
+      "x": 1244,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "chasm", "x":  170, "width":  145 },
+    { "type":  "glowmushroom", "x":  404, "lane":  3 },
+    { "type":  "battery", "x":  763, "lane":  3 },
+    { "type":  "crystal", "x":  769, "lane":  4 },
+    { "type":  "boulder", "x":  815, "lane":  0 },
+    { "type":  "stalagmite", "x":  815, "lane":  3 },
+    { "type":  "salamander", "x":  815, "lane":  4 },
+    { "type":  "crevice", "x":  929, "lane":  4 },
+    { "type":  "stalagmite", "x":  987, "lane":  2 },
+    { "type":  "stalagmite", "x":  1044, "lane":  1 },
+    { "type":  "salamander", "x":  1044, "lane":  4 },
+    { "type":  "spiderweb", "x":  1158, "lane":  3 },
+    { "type":  "crevice", "x":  1158, "lane":  4 },
+    { "type":  "glowmushroom", "x":  1358, "lane":  4 },
+    { "type":  "glowmushroom", "x":  1398, "lane":  4 },
+    { "type":  "batcolony", "x":  1566, "lane":  4 },
+    { "type":  "battery", "x":  1709, "lane":  1 },
+    { "type":  "stalagmite", "x":  1929, "lane":  1 },
+    { "type":  "stalagmite", "x":  1929, "lane":  2 },
+    { "type":  "stalagmite", "x":  1929, "lane":  3 },
+    { "type":  "spiderweb", "x":  2050, "lane":  1 },
+    { "type":  "spiderweb", "x":  2050, "lane":  3 },
+    { "type":  "spiderweb", "x":  2050, "lane":  4 },
+    { "type":  "boulder", "x":  2172, "lane":  1 },
+    { "type":  "stalagmite", "x":  2809, "lane":  1 },
+    { "type":  "boulder", "x":  3038, "lane":  4 },
+    { "type":  "rockfall", "x":  3781 },
+    { "type":  "glowmushroom", "x":  3867, "lane":  4 },
+    { "type":  "battery", "x":  4215, "lane":  3 },
+    { "type":  "crystal", "x":  4221, "lane":  4 },
+    { "type":  "boulder", "x":  4267, "lane":  1 },
+    { "type":  "boulder", "x":  4267, "lane":  2 },
+    { "type":  "salamander", "x":  4267, "lane":  4 },
+    { "type":  "crevice", "x":  4381, "lane":  4 },
+    { "type":  "boulder", "x":  4439, "lane":  3 },
+    { "type":  "stalagmite", "x":  4496, "lane":  0 },
+    { "type":  "salamander", "x":  4496, "lane":  4 },
+    { "type":  "spiderweb", "x":  4610, "lane":  3 },
+    { "type":  "crevice", "x":  4610, "lane":  4 },
+    { "type":  "glowmushroom", "x":  4802, "lane":  2 },
+    { "type":  "spiderweb", "x":  4905, "lane":  1 },
+    { "type":  "spiderweb", "x":  4905, "lane":  2 },
+    { "type":  "spiderweb", "x":  4905, "lane":  3 },
+    { "type":  "spiderweb", "x":  4905, "lane":  4 },
+    { "type":  "glowmushroom", "x":  5011, "lane":  0 },
+    { "type":  "boulder", "x":  5230, "lane":  2 },
+    { "type":  "boulder", "x":  5230, "lane":  3 },
+    { "type":  "spiderweb", "x":  5351, "lane":  2 },
+    { "type":  "spiderweb", "x":  5351, "lane":  3 },
+    { "type":  "spiderweb", "x":  5473, "lane":  1 },
+    { "type":  "spiderweb", "x":  5473, "lane":  3 },
+    { "type":  "cavestream", "x":  6059, "width":  145 },
+    { "type":  "glowbeetle", "x":  6131, "lane":  4, "air":  true },
+    { "type":  "battery", "x":  6284, "lane":  4 },
+    { "type":  "spiderweb", "x":  6364, "lane":  1 },
+    { "type":  "spiderweb", "x":  6364, "lane":  3 },
+    { "type":  "glowmushroom", "x":  6488, "lane":  2 },
+    { "type":  "spiderweb", "x":  6601, "lane":  0 },
+    { "type":  "spiderweb", "x":  6601, "lane":  4 },
+    { "type":  "glowmushroom", "x":  6735, "lane":  2 },
+    { "type":  "glowmushroom", "x":  6775, "lane":  3 },
+    { "type":  "stalagmite", "x":  6858, "lane":  3 },
+    { "type":  "stalagmite", "x":  6858, "lane":  4 },
+    { "type":  "firefly", "x":  7016, "lane":  1, "toLane":  0 },
+    { "type":  "salamander", "x":  7160, "lane":  2 },
+    { "type":  "battery", "x":  7300, "lane":  0 },
+    { "type":  "spiderweb", "x":  7427, "lane":  4 },
+    { "type":  "glowmushroom", "x":  7548, "lane":  1 },
+    { "type":  "crevice", "x":  7658, "lane":  1 },
+    { "type":  "crevice", "x":  7658, "lane":  2 },
+    { "type":  "crevice", "x":  7658, "lane":  3 },
+    { "type":  "spiderweb", "x":  7670, "lane":  0 },
+    { "type":  "stalagmite", "x":  7670, "lane":  4 },
+    { "type":  "glowmushroom", "x":  7767, "lane":  4 },
+    { "type":  "spiderweb", "x":  7837, "lane":  0 },
+    { "type":  "spiderweb", "x":  7837, "lane":  2 },
+    { "type":  "spiderweb", "x":  7837, "lane":  3 },
+    { "type":  "glowmushroom", "x":  7916, "lane":  2 },
+    { "type":  "stalagmite", "x":  7983, "lane":  0 },
+    { "type":  "stalagmite", "x":  7983, "lane":  1 },
+    { "type":  "stalagmite", "x":  7983, "lane":  2 },
+    { "type":  "stalagmite", "x":  7983, "lane":  4 },
+    { "type":  "glowmushroom", "x":  8065, "lane":  4 },
+    { "type":  "boulder", "x":  8259, "lane":  2 },
+    { "type":  "boulder", "x":  8380, "lane":  3 },
+    { "type":  "boulder", "x":  8380, "lane":  4 },
+    { "type":  "boulder", "x":  8502, "lane":  2 },
+    { "type":  "boulder", "x":  8502, "lane":  4 },
+    { "type":  "boulder", "x":  8624, "lane":  2 },
+    { "type":  "boulder", "x":  8624, "lane":  4 },
+    { "type":  "firefly", "x":  8798, "lane":  2, "toLane":  3 },
+    { "type":  "stalagmite", "x":  8902, "lane":  0 },
+    { "type":  "stalagmite", "x":  8902, "lane":  1 },
+    { "type":  "stalagmite", "x":  8902, "lane":  2 },
+    { "type":  "stalagmite", "x":  8902, "lane":  3 },
+    { "type":  "glowmushroom", "x":  8985, "lane":  3 },
+    { "type":  "spiderweb", "x":  9055, "lane":  1 },
+    { "type":  "spiderweb", "x":  9055, "lane":  2 },
+    { "type":  "spiderweb", "x":  9055, "lane":  3 },
+    { "type":  "glowmushroom", "x":  9124, "lane":  2 },
+    { "type":  "spiderweb", "x":  9181, "lane":  0 },
+    { "type":  "spiderweb", "x":  9181, "lane":  1 },
+    { "type":  "spiderweb", "x":  9181, "lane":  2 },
+    { "type":  "spiderweb", "x":  9181, "lane":  4 },
+    { "type":  "glowmushroom", "x":  9268, "lane":  2 },
+    { "type":  "boulder", "x":  9665, "lane":  0 },
+    { "type":  "spiderweb", "x":  9665, "lane":  2 },
+    { "type":  "crystal", "x":  9733, "lane":  0 },
+    { "type":  "salamander", "x":  9779, "lane":  0 },
+    { "type":  "stalagmite", "x":  9894, "lane":  0 },
+    { "type":  "spiderweb", "x":  9894, "lane":  3 },
+    { "type":  "salamander", "x":  10008, "lane":  1 },
+    { "type":  "glowmushroom", "x":  10309, "lane":  0 },
+    { "type":  "glowmushroom", "x":  10349, "lane":  1 },
+    { "type":  "rockfall", "x":  10546 }
+  ]
+}

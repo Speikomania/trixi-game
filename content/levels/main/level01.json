@@ -1,0 +1,79 @@
+{
+  // Tutorial: a safe practice level (no lives to lose). Every lesson freezes the world
+  // until the player presses the right key; mistakes just rewind to the last checkpoint.
+  // Walk from the living room through the hallway into the kitchen.
+  // Erweiterung 7: in the calm hallway stretch a short lesson shows the treats – good things to run into – and the
+  // rarer gold treat (grab it, then dodge at the last moment). The obstacles themselves are unchanged.
+  "id": "level01",
+  "order": 1,
+  "name": "Erste Schritte",
+  "theme": "home",
+  "music": "calm",
+  "speed": 55,
+  "length": 3250,
+  "lives": 3,
+  "safe": true,
+  // Erweiterung 12: every checkpoint has 1.5 s of free running in front of it (nothing in the way, no treat on it).
+  // Where a treat row follows right after an obstacle there is no such room: a mistake there goes back one stop more.
+  "checkpoints": [ 915, 1095, 1275, 1475, 1635, 1835, 2115, 2315, 2655, 2975 ],
+  "tutorial": [
+    { "kind": "Message", "x": 10, "duration": 4, "text": "Die Katze läuft von ganz allein zum Futternapf!" },
+    { "kind": "Prompt", "x": 260, "action": "MoveUp", "successX": 352, "text": "Oh, ein Karton! Weiche nach oben aus." },
+    { "kind": "Prompt", "x": 480, "action": "MoveDown", "successX": 572, "text": "Noch ein Karton! Jetzt nach unten." },
+    { "kind": "Prompt", "x": 700, "action": "MoveDown", "successX": 792, "text": "Und noch einmal nach unten!" },
+    { "kind": "Message", "x": 830, "duration": 3.5, "text": "Klasse! Jetzt du allein: Weiche den Sachen aus." },
+    { "kind": "Message", "x": 1760, "duration": 2.5, "text": "Prima! Weiter geht's durch den Flur." },
+    { "kind": "Prompt", "x": 1860, "action": "MoveUp", "successX": 1935, "text": "Ein Leckerli! Das ist gut – lauf einfach drüber." },
+    { "kind": "Message", "x": 1937, "duration": 1.5, "text": "Mjam! Da glänzt noch ein goldenes ..." },
+    { "kind": "Prompt", "x": 1975, "action": "MoveDown", "successX": 2012, "text": "Gold-Leckerli: viel wert, aber knapp! Jetzt schnell nach unten!" },
+    { "kind": "Message", "x": 2020, "duration": 4.5, "text": "Normale Leckerlis gibt's oft, goldene selten. Sammle, was du magst!" },
+    { "kind": "Message", "x": 2700, "duration": 3.5, "text": "Riechst du das? Die Küche ist ganz nah!" },
+    { "kind": "Message", "x": 3080, "duration": 3, "text": "Gleich geschafft – da vorne wartet dein Futter!" }
+  ],
+  "scenery": [
+    { "from": 0, "scene": "livingroom" },
+    { "from": 1800, "scene": "hallway" },
+    { "from": 2650, "scene": "kitchen" }
+  ],
+  "pacing": [
+    { "kind": "calm", "from": 0, "to": 960 },
+    { "kind": "normal", "from": 960, "to": 1800 },
+    { "kind": "calm", "from": 1800, "to": 2330 },
+    { "kind": "normal", "from": 2330, "to": 3250 }
+  ],
+  "npcs": [
+    { "person": "freund01", "pose": "read", "x": 1250, "layer": "near" },
+    { "person": "kevin", "pose": "tea", "x": 2950, "layer": "near" }
+  ],
+  "obstacles": [
+    { "type": "box", "x": 330, "lane": 1 },
+    { "type": "box", "x": 550, "lane": 0 },
+    { "type": "box", "x": 770, "lane": 1 },
+
+    { "type": "books", "x": 1000, "lane": 2 },
+    { "type": "vacuum", "x": 1180, "lane": 1 },
+    { "type": "laundry", "x": 1360, "lane": 0 },
+    { "type": "laundry", "x": 1360, "lane": 2 },
+    { "type": "blocks", "x": 1560, "lane": 1 },
+    { "type": "box", "x": 1720, "lane": 0 },
+    { "type": "plant", "x": 1720, "lane": 1 },
+
+    { "type": "fish", "x": 1920, "lane": 1 },
+    { "type": "goldfish", "x": 1972, "lane": 1 },
+    { "type": "laundry", "x": 1990, "lane": 1 },
+    { "type": "yarn", "x": 2200, "lane": 0 },
+
+    { "type": "books", "x": 2400, "lane": 2 },
+    { "type": "fish", "x": 2520, "lane": 1 },
+    { "type": "fish", "x": 2542, "lane": 1 },
+    { "type": "fish", "x": 2564, "lane": 1 },
+    { "type": "box", "x": 2580, "lane": 0 },
+    { "type": "laundry", "x": 2580, "lane": 2 },
+    { "type": "vacuum", "x": 2740, "lane": 1 },
+    { "type": "fish", "x": 2850, "lane": 0 },
+    { "type": "fish", "x": 2872, "lane": 0 },
+    { "type": "blocks", "x": 2900, "lane": 2 },
+    { "type": "laundry", "x": 2900, "lane": 1 },
+    { "type": "plant", "x": 3060, "lane": 0 }
+  ]
+}

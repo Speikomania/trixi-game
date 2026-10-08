@@ -1,0 +1,244 @@
+// Version 2, Erweiterung 5: one world map per chapter. Coordinates are map pixels (the map is 320x180, drawn twice as big).
+// Places ("nodes"): kind level (slot 1-10, "level" = level id; empty = "Wird bald kommen"), bonus (off the main way,
+// "unlock" decides when it opens - for now "never"), transition (way in/out; "to" = the chapter it leads to), finale.
+// A level of chapters 3-6 becomes playable here by entering its id at its place - no code change needed.
+// "paths" connect places in both directions ("via" = bends). "ambient": little animations. The backgrounds are painted by
+// tools/CatRunner.AssetGen from this file (it keeps every place and way free).
+{
+  "maps": [
+    {
+      "chapter": "chapter1", "title": "Zuhause", "background": "map.bg.chapter1", "music": "calm",
+      "pathColor": "#f3e3c3", "pathEdgeColor": "#6b3a2a",
+      "ambient": [
+        { "type": "clouds", "area": [130, 18, 190, 18], "count": 3 },
+        { "type": "water", "area": [150, 46, 170, 8], "count": 8 },
+        { "type": "smoke", "points": [24, 22], "count": 4 }
+      ],
+      "nodes": [
+        { "id": "start", "kind": "transition", "x": 20, "y": 132, "label": "Kuschelkorb" },
+        { "id": "l1", "kind": "level", "slot": 1, "level": "level01", "x": 52, "y": 132, "label": "Wohnzimmer" },
+        { "id": "l2", "kind": "level", "slot": 2, "level": "level02", "x": 86, "y": 124, "label": "Kartonzimmer" },
+        { "id": "l3", "kind": "level", "slot": 3, "level": "level03", "x": 98, "y": 86, "label": "Flur" },
+        { "id": "l4", "kind": "level", "slot": 4, "level": "level04", "x": 140, "y": 78, "label": "Terrasse" },
+        { "id": "l5", "kind": "level", "slot": 5, "level": "level05", "x": 168, "y": 112, "label": "Hundehütte" },
+        { "id": "l6", "kind": "level", "slot": 6, "level": "level06", "x": 204, "y": 130, "label": "Hundewiese" },
+        { "id": "l7", "kind": "level", "slot": 7, "level": "level07", "x": 238, "y": 104, "label": "Park" },
+        { "id": "l8", "kind": "level", "slot": 8, "level": "level08", "x": 262, "y": 70, "label": "Parkweg" },
+        { "id": "l9", "kind": "level", "slot": 9, "level": "level09", "x": 224, "y": 42, "label": "Brücke am Bach" },
+        { "id": "l10", "kind": "level", "slot": 10, "level": "level10", "x": 284, "y": 36, "label": "Futternapf" },
+        { "id": "bonus", "kind": "bonus", "x": 50, "y": 62, "label": "Dachboden", "unlock": { "type": "never" } },
+        { "id": "exit", "kind": "transition", "x": 304, "y": 88, "label": "Gartentor", "to": "chapter2" }
+      ],
+      "paths": [
+        { "from": "start", "to": "l1" },
+        { "from": "l1", "to": "l2", "via": [[70, 132]] },
+        { "from": "l2", "to": "l3", "via": [[98, 112]] },
+        { "from": "l3", "to": "bonus", "via": [[74, 86], [62, 72]] },
+        { "from": "l3", "to": "l4", "via": [[120, 78]] },
+        { "from": "l4", "to": "l5", "via": [[150, 100]] },
+        { "from": "l5", "to": "l6", "via": [[184, 128]] },
+        { "from": "l6", "to": "l7", "via": [[224, 124]] },
+        { "from": "l7", "to": "l8", "via": [[256, 92]] },
+        { "from": "l8", "to": "l9", "via": [[246, 54]] },
+        { "from": "l9", "to": "l10", "via": [[256, 36]] },
+        { "from": "l10", "to": "exit", "via": [[304, 56]] }
+      ]
+    },
+    {
+      "chapter": "chapter2", "title": "Der Wald", "background": "map.bg.chapter2", "music": "calm",
+      "pathColor": "#d9a066", "pathEdgeColor": "#2b2140",
+      "ambient": [
+        { "type": "fireflies", "area": [20, 30, 280, 110], "count": 10 },
+        { "type": "water", "area": [150, 20, 22, 140], "count": 10 },
+        { "type": "leaves", "area": [20, 20, 280, 60], "count": 4 }
+      ],
+      "nodes": [
+        { "id": "entry", "kind": "transition", "x": 18, "y": 132, "label": "Waldrand", "to": "chapter1" },
+        { "id": "l1", "kind": "level", "slot": 1, "level": "c2-level01", "x": 50, "y": 128, "label": "Waldweg" },
+        { "id": "l2", "kind": "level", "slot": 2, "level": "c2-level02", "x": 84, "y": 112, "label": "Wurzelwege" },
+        { "id": "l3", "kind": "level", "slot": 3, "level": "c2-level03", "x": 70, "y": 72, "label": "Großer Stein" },
+        { "id": "l4", "kind": "level", "slot": 4, "level": "c2-level04", "x": 110, "y": 48, "label": "Unterholz" },
+        { "id": "l5", "kind": "level", "slot": 5, "level": "c2-level05", "x": 136, "y": 82, "label": "Lichtung" },
+        { "id": "l6", "kind": "level", "slot": 6, "level": "c2-level06", "x": 161, "y": 116, "label": "Brücke am Bach" },
+        { "id": "l7", "kind": "level", "slot": 7, "level": "c2-level07", "x": 196, "y": 132, "label": "Dachsbau" },
+        { "id": "l8", "kind": "level", "slot": 8, "level": "c2-level08", "x": 230, "y": 104, "label": "Kiefernhang" },
+        { "id": "l9", "kind": "level", "slot": 9, "level": "c2-level09", "x": 250, "y": 66, "label": "Dämmerwald" },
+        { "id": "l10", "kind": "level", "slot": 10, "level": "c2-level10", "x": 282, "y": 40, "label": "Lagerplatz" },
+        { "id": "bonus", "kind": "bonus", "x": 210, "y": 40, "label": "Baumhaus", "unlock": { "type": "never" } },
+        { "id": "exit", "kind": "transition", "x": 300, "y": 98, "label": "Höhleneingang", "to": "chapter3" }
+      ],
+      "paths": [
+        { "from": "entry", "to": "l1" },
+        { "from": "l1", "to": "l2", "via": [[66, 128]] },
+        { "from": "l2", "to": "l3", "via": [[86, 90]] },
+        { "from": "l3", "to": "l4", "via": [[84, 50]] },
+        { "from": "l4", "to": "l5", "via": [[128, 56]] },
+        { "from": "l5", "to": "l6", "via": [[142, 104]] },
+        { "from": "l6", "to": "l7", "via": [[176, 128]] },
+        { "from": "l7", "to": "l8", "via": [[216, 128]] },
+        { "from": "l8", "to": "l9", "via": [[244, 88]] },
+        { "from": "l9", "to": "bonus", "via": [[228, 58]] },
+        { "from": "l9", "to": "l10", "via": [[272, 60]] },
+        { "from": "l10", "to": "exit", "via": [[300, 62]] }
+      ]
+    },
+    {
+      "chapter": "chapter3", "title": "Höhle", "background": "map.bg.chapter3", "music": "calm",
+      "pathColor": "#9aa0b0", "pathEdgeColor": "#141020",
+      "ambient": [
+        { "type": "sparkle", "points": [100, 26, 150, 24, 96, 136, 186, 144, 300, 26, 20, 74], "count": 6, "color": "#9be0ff" },
+        { "type": "water", "area": [150, 72, 82, 44], "count": 10, "color": "#9be0ff" },
+        { "type": "fireflies", "area": [20, 30, 280, 110], "count": 6, "color": "#9be08a" }
+      ],
+      "nodes": [
+        { "id": "entry", "kind": "transition", "x": 22, "y": 40, "label": "Höhleneingang", "to": "chapter2" },
+        { "id": "l1", "kind": "level", "slot": 1, "level": "c3-level01", "x": 56, "y": 52, "label": "Dunkler Gang" },
+        { "id": "l2", "kind": "level", "slot": 2, "level": "c3-level02", "x": 40, "y": 92, "label": "Tropfsteine" },
+        { "id": "l3", "kind": "level", "slot": 3, "level": "c3-level03", "x": 64, "y": 128, "label": "Fledermaushöhle" },
+        { "id": "l4", "kind": "level", "slot": 4, "level": "c3-level04", "x": 104, "y": 104, "label": "Glitzergang" },
+        { "id": "l5", "kind": "level", "slot": 5, "level": "c3-level05", "x": 128, "y": 66, "label": "Am Höhlensee" },
+        { "id": "l6", "kind": "level", "slot": 6, "level": "c3-level06", "x": 166, "y": 42, "label": "Kristallhalle" },
+        { "id": "l7", "kind": "level", "slot": 7, "level": "c3-level07", "x": 206, "y": 58, "label": "Seeufer" },
+        { "id": "l8", "kind": "level", "slot": 8, "level": "c3-level08", "x": 244, "y": 92, "label": "Wurzeltunnel" },
+        { "id": "l9", "kind": "level", "slot": 9, "level": "c3-level09", "x": 262, "y": 132, "label": "Tiefe Schlucht" },
+        { "id": "l10", "kind": "level", "slot": 10, "level": "c3-level10", "x": 290, "y": 96, "label": "Lichtschacht" },
+        { "id": "bonus", "kind": "bonus", "x": 126, "y": 28, "label": "Kristallgrotte", "unlock": { "type": "never" } },
+        { "id": "exit", "kind": "transition", "x": 304, "y": 134, "label": "Ausgang ins Freie", "to": "chapter4" }
+      ],
+      "paths": [
+        { "from": "entry", "to": "l1", "via": [[38, 52]] },
+        { "from": "l1", "to": "l2", "via": [[54, 76]] },
+        { "from": "l2", "to": "l3", "via": [[38, 116]] },
+        { "from": "l3", "to": "l4", "via": [[86, 128]] },
+        { "from": "l4", "to": "l5", "via": [[114, 84]] },
+        { "from": "l5", "to": "l6", "via": [[140, 44]] },
+        { "from": "l6", "to": "bonus", "via": [[148, 30]] },
+        { "from": "l6", "to": "l7", "via": [[186, 58]] },
+        { "from": "l7", "to": "l8", "via": [[236, 64]] },
+        { "from": "l8", "to": "l9", "via": [[244, 120]] },
+        { "from": "l9", "to": "l10", "via": [[282, 124]] },
+        { "from": "l10", "to": "exit", "via": [[306, 112]] }
+      ]
+    },
+    {
+      "chapter": "chapter4", "title": "Feld und Bauernhof", "background": "map.bg.chapter4", "music": "calm",
+      "pathColor": "#f3e3c3", "pathEdgeColor": "#6b3a2a",
+      "ambient": [
+        { "type": "clouds", "area": [0, 18, 320, 16], "count": 4 },
+        { "type": "smoke", "points": [236, 34], "count": 4 }
+      ],
+      "decor": [
+        { "sprite": "map.decor.busstop", "x": 284, "y": 126 }
+      ],
+      "nodes": [
+        { "id": "entry", "kind": "transition", "x": 18, "y": 44, "label": "Höhlenausgang", "to": "chapter3" },
+        { "id": "l1", "kind": "level", "slot": 1, "x": 50, "y": 40, "label": "Wildblumenwiese" },
+        { "id": "l2", "kind": "level", "slot": 2, "x": 86, "y": 56, "label": "Kuhweide" },
+        { "id": "l3", "kind": "level", "slot": 3, "x": 66, "y": 96, "label": "Heuballen" },
+        { "id": "l4", "kind": "level", "slot": 4, "x": 40, "y": 130, "label": "Kornfeld" },
+        { "id": "l5", "kind": "level", "slot": 5, "x": 80, "y": 132, "label": "Vogelscheuche" },
+        { "id": "l6", "kind": "level", "slot": 6, "x": 118, "y": 108, "label": "Gemüsegarten" },
+        { "id": "l7", "kind": "level", "slot": 7, "x": 154, "y": 84, "label": "Hühnerhof" },
+        { "id": "l8", "kind": "level", "slot": 8, "x": 190, "y": 110, "label": "Scheune" },
+        { "id": "l9", "kind": "level", "slot": 9, "x": 226, "y": 82, "label": "Traktorweg" },
+        { "id": "l10", "kind": "level", "slot": 10, "x": 262, "y": 108, "label": "Hofladen" },
+        { "id": "bonus", "kind": "bonus", "x": 190, "y": 46, "label": "Heuboden", "unlock": { "type": "never" } },
+        { "id": "exit", "kind": "transition", "x": 300, "y": 134, "label": "Bushaltestelle", "to": "chapter5" }
+      ],
+      "paths": [
+        { "from": "entry", "to": "l1" },
+        { "from": "l1", "to": "l2", "via": [[70, 40]] },
+        { "from": "l2", "to": "l3", "via": [[86, 78]] },
+        { "from": "l3", "to": "l4", "via": [[44, 104]] },
+        { "from": "l4", "to": "l5" },
+        { "from": "l5", "to": "l6", "via": [[100, 132]] },
+        { "from": "l6", "to": "l7", "via": [[136, 86]] },
+        { "from": "l7", "to": "bonus", "via": [[172, 62]] },
+        { "from": "l7", "to": "l8", "via": [[172, 108]] },
+        { "from": "l8", "to": "l9", "via": [[210, 86]] },
+        { "from": "l9", "to": "l10", "via": [[250, 84]] },
+        { "from": "l10", "to": "exit", "via": [[280, 134]] }
+      ]
+    },
+    {
+      "chapter": "chapter5", "title": "Stadt", "background": "map.bg.chapter5", "music": "calm",
+      "pathColor": "#c9cdd8", "pathEdgeColor": "#2b2140",
+      "ambient": [
+        { "type": "clouds", "area": [0, 18, 320, 12], "count": 3 },
+        { "type": "smoke", "points": [60, 24, 252, 26], "count": 3 },
+        { "type": "water", "area": [195, 95, 12, 5], "count": 4 }
+      ],
+      "decor": [
+        { "sprite": "map.decor.bus", "x": 44, "y": 147 }
+      ],
+      "nodes": [
+        { "id": "entry", "kind": "transition", "x": 20, "y": 132, "label": "Busstation", "to": "chapter4" },
+        { "id": "l1", "kind": "level", "slot": 1, "x": 52, "y": 118, "label": "Hauptstraße" },
+        { "id": "l2", "kind": "level", "slot": 2, "x": 86, "y": 132, "label": "Zebrastreifen" },
+        { "id": "l3", "kind": "level", "slot": 3, "x": 112, "y": 100, "label": "Hinterhof" },
+        { "id": "l4", "kind": "level", "slot": 4, "x": 80, "y": 66, "label": "Bäckerei" },
+        { "id": "l5", "kind": "level", "slot": 5, "x": 112, "y": 36, "label": "Kirchplatz" },
+        { "id": "l6", "kind": "level", "slot": 6, "x": 150, "y": 58, "label": "Marktplatz" },
+        { "id": "l7", "kind": "level", "slot": 7, "x": 180, "y": 96, "label": "Brunnen" },
+        { "id": "l8", "kind": "level", "slot": 8, "x": 214, "y": 124, "label": "Spielplatz" },
+        { "id": "l9", "kind": "level", "slot": 9, "x": 244, "y": 90, "label": "Rathaus" },
+        { "id": "l10", "kind": "level", "slot": 10, "x": 272, "y": 58, "label": "Hafenstraße" },
+        { "id": "bonus", "kind": "bonus", "x": 42, "y": 40, "label": "Dachgarten", "unlock": { "type": "never" } },
+        { "id": "exit", "kind": "transition", "x": 304, "y": 36, "label": "Zum Meer", "to": "chapter6" }
+      ],
+      "paths": [
+        { "from": "entry", "to": "l1", "via": [[36, 118]] },
+        { "from": "l1", "to": "l2", "via": [[70, 132]] },
+        { "from": "l2", "to": "l3", "via": [[112, 132]] },
+        { "from": "l3", "to": "l4", "via": [[112, 80], [80, 80]] },
+        { "from": "l4", "to": "bonus", "via": [[42, 66]] },
+        { "from": "l4", "to": "l5", "via": [[80, 36]] },
+        { "from": "l5", "to": "l6", "via": [[150, 36]] },
+        { "from": "l6", "to": "l7", "via": [[150, 96]] },
+        { "from": "l7", "to": "l8", "via": [[180, 124]] },
+        { "from": "l8", "to": "l9", "via": [[244, 124]] },
+        { "from": "l9", "to": "l10", "via": [[244, 58]] },
+        { "from": "l10", "to": "exit", "via": [[272, 36]] }
+      ]
+    },
+    {
+      "chapter": "chapter6", "title": "Strand", "background": "map.bg.chapter6", "music": "calm",
+      "pathColor": "#fff4dc", "pathEdgeColor": "#9a5a3a",
+      "ambient": [
+        { "type": "waves", "area": [250, 30, 70, 130], "count": 8 },
+        { "type": "sparkle", "points": [290, 60, 300, 90, 284, 120], "count": 3, "color": "#ffd86b" },
+        { "type": "clouds", "area": [0, 18, 320, 12], "count": 3, "color": "#f5a0a8" }
+      ],
+      "finaleScene": "",
+      "nodes": [
+        { "id": "entry", "kind": "transition", "x": 18, "y": 48, "label": "Promenade", "to": "chapter5" },
+        { "id": "l1", "kind": "level", "slot": 1, "x": 48, "y": 62, "label": "Strandkorb" },
+        { "id": "l2", "kind": "level", "slot": 2, "x": 34, "y": 100, "label": "Dünenpfad" },
+        { "id": "l3", "kind": "level", "slot": 3, "x": 58, "y": 134, "label": "Muschelsuche" },
+        { "id": "l4", "kind": "level", "slot": 4, "x": 96, "y": 114, "label": "Sandburg" },
+        { "id": "l5", "kind": "level", "slot": 5, "x": 120, "y": 78, "label": "Strandhafer" },
+        { "id": "l6", "kind": "level", "slot": 6, "x": 108, "y": 40, "label": "Möwenfelsen" },
+        { "id": "l7", "kind": "level", "slot": 7, "x": 148, "y": 50, "label": "Strandbar" },
+        { "id": "l8", "kind": "level", "slot": 8, "x": 180, "y": 88, "label": "Gezeitenpfad" },
+        { "id": "l9", "kind": "level", "slot": 9, "x": 166, "y": 128, "label": "Fischerboote" },
+        { "id": "l10", "kind": "level", "slot": 10, "x": 204, "y": 128, "label": "Bootssteg" },
+        { "id": "bonus", "kind": "bonus", "x": 214, "y": 50, "label": "Leuchtturm", "unlock": { "type": "never" } },
+        { "id": "finale", "kind": "finale", "x": 244, "y": 98, "label": "Sonnenuntergang" }
+      ],
+      "paths": [
+        { "from": "entry", "to": "l1", "via": [[32, 62]] },
+        { "from": "l1", "to": "l2", "via": [[48, 82]] },
+        { "from": "l2", "to": "l3", "via": [[36, 128]] },
+        { "from": "l3", "to": "l4", "via": [[80, 132]] },
+        { "from": "l4", "to": "l5", "via": [[118, 104]] },
+        { "from": "l5", "to": "l6", "via": [[124, 56]] },
+        { "from": "l6", "to": "l7", "via": [[128, 40]] },
+        { "from": "l7", "to": "l8", "via": [[166, 70]] },
+        { "from": "l8", "to": "bonus", "via": [[204, 72]] },
+        { "from": "l8", "to": "l9", "via": [[172, 108]] },
+        { "from": "l9", "to": "l10" },
+        { "from": "l10", "to": "finale", "via": [[230, 122]] }
+      ]
+    }
+  ]
+}

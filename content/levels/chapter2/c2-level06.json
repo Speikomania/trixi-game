@@ -1,0 +1,205 @@
+{
+  // Creek rhythms along the stream; the kingfisher shows up more often.
+  "id": "c2-level06",
+  "order": 6,
+  "name": "Am Bach entlang",
+  "theme": "forest",
+  "music": "finale",
+  "speed": 100,
+  "length": 10364,
+  "lives": 3,
+  "starScores": [
+    1310,
+    3090,
+    4780
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 1.0,
+      "bird": 1.0
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 770
+    }
+  ],
+  "checkpoints": [
+    238
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4,
+      "text": "Der Bach schlängelt sich durch den Wald: hüpf im Takt drüber – hopp, hopp, hopp!"
+    },
+    {
+      "kind": "Message",
+      "x": 710,
+      "duration": 2.5,
+      "text": "Im Takt! So geht's weiter."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "riverside"
+    },
+    {
+      "from": 3162,
+      "scene": "riverside"
+    },
+    {
+      "from": 6454,
+      "scene": "woodland"
+    }
+  ],
+  "terrain": [
+    {
+      "from": 2362,
+      "to": 2963,
+      "heights": [
+        0,
+        8,
+        16
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 930
+    },
+    {
+      "kind": "normal",
+      "from": 930,
+      "to": 3162
+    },
+    {
+      "kind": "calm",
+      "from": 3162,
+      "to": 3733
+    },
+    {
+      "kind": "dense",
+      "from": 3733,
+      "to": 5032
+    },
+    {
+      "kind": "normal",
+      "from": 5032,
+      "to": 6454
+    },
+    {
+      "kind": "calm",
+      "from": 6454,
+      "to": 7553
+    },
+    {
+      "kind": "dense",
+      "from": 7553,
+      "to": 9091
+    },
+    {
+      "kind": "normal",
+      "from": 9091,
+      "to": 10364
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund02",
+      "pose": "sandwich",
+      "x": 1581,
+      "layer": "near"
+    },
+    {
+      "person": "freund03",
+      "pose": "tea",
+      "x": 8409,
+      "layer": "near"
+    },
+    {
+      "person": "kevin",
+      "pose": "wave",
+      "x": 632,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "creek", "x":  400, "width":  34 },
+    { "type":  "creek", "x":  525, "width":  34 },
+    { "type":  "creek", "x":  650, "width":  34 },
+    { "type":  "bird", "x":  807, "lane":  0, "air":  true },
+    { "type":  "creek", "x":  930, "width":  34 },
+    { "type":  "creek", "x":  1055, "width":  34 },
+    { "type":  "creek", "x":  1180, "width":  34 },
+    { "type":  "mouse", "x":  1297, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  1381, "width":  150 },
+    { "type":  "deer", "x":  1856, "lane":  1, "toLane":  2 },
+    { "type":  "mouse", "x":  1955, "lane":  1, "toLane":  0 },
+    { "type":  "badger", "x":  2111, "lane":  2 },
+    { "type":  "mouse", "x":  2260, "lane":  2, "toLane":  1 },
+    { "type":  "stump", "x":  2534, "lane":  0 },
+    { "type":  "stump", "x":  2534, "lane":  1 },
+    { "type":  "stump", "x":  2696, "lane":  1 },
+    { "type":  "stump", "x":  2696, "lane":  2 },
+    { "type":  "mouse", "x":  2937, "lane":  1, "toLane":  0 },
+    { "type":  "stump", "x":  3162, "lane":  0 },
+    { "type":  "mouse", "x":  3308, "lane":  1, "toLane":  0 },
+    { "type":  "hedgehog", "x":  3439, "lane":  0 },
+    { "type":  "bird", "x":  3593, "lane":  1, "air":  true },
+    { "type":  "stump", "x":  3734, "lane":  1 },
+    { "type":  "stump", "x":  3734, "lane":  2 },
+    { "type":  "deer", "x":  4043, "lane":  2, "toLane":  1 },
+    { "type":  "stump", "x":  4194, "lane":  0 },
+    { "type":  "stump", "x":  4194, "lane":  1 },
+    { "type":  "playdog", "x":  4334, "width":  340 },
+    { "type":  "creek", "x":  4795, "width":  110 },
+    { "type":  "badger", "x":  5104, "lane":  0 },
+    { "type":  "mouse", "x":  5233, "lane":  1, "toLane":  0 },
+    { "type":  "creek", "x":  5314, "width":  110 },
+    { "type":  "creek", "x":  5560, "width":  110 },
+    { "type":  "kingfisher", "x":  5615, "lane":  2, "air":  true },
+    { "type":  "badger", "x":  6083, "lane":  0 },
+    { "type":  "hedgehog", "x":  6279, "lane":  2 },
+    { "type":  "mouse", "x":  6374, "lane":  1, "toLane":  0 },
+    { "type":  "fern", "x":  6455, "lane":  1 },
+    { "type":  "bird", "x":  6599, "lane":  1, "air":  true },
+    { "type":  "anthill", "x":  6730, "lane":  0 },
+    { "type":  "mouse", "x":  6868, "lane":  1, "toLane":  2 },
+    { "type":  "hedgehog", "x":  6994, "lane":  2 },
+    { "type":  "mouse", "x":  7143, "lane":  1, "toLane":  2 },
+    { "type":  "anthill", "x":  7278, "lane":  2 },
+    { "type":  "bird", "x":  7422, "lane":  1, "air":  true },
+    { "type":  "hedgehog", "x":  7554, "lane":  2 },
+    { "type":  "playdog", "x":  7701, "width":  340 },
+    { "type":  "creek", "x":  8162, "width":  34 },
+    { "type":  "creek", "x":  8287, "width":  34 },
+    { "type":  "creek", "x":  8412, "width":  34 },
+    { "type":  "fox", "x":  8557, "lane":  0 },
+    { "type":  "fox", "x":  8557, "lane":  1 },
+    { "type":  "creek", "x":  8687, "width":  34 },
+    { "type":  "creek", "x":  8812, "width":  34 },
+    { "type":  "creek", "x":  8937, "width":  34 },
+    { "type":  "anthill", "x":  9091, "lane":  1 },
+    { "type":  "anthill", "x":  9091, "lane":  2 },
+    { "type":  "mouse", "x":  9183, "lane":  2, "toLane":  1 },
+    { "type":  "anthill", "x":  9264, "lane":  0 },
+    { "type":  "anthill", "x":  9264, "lane":  2 },
+    { "type":  "mouse", "x":  9362, "lane":  2, "toLane":  1 },
+    { "type":  "creek", "x":  9448, "width":  110 },
+    { "type":  "mouse", "x":  9640, "lane":  1, "toLane":  2 },
+    { "type":  "hedgehog", "x":  9723, "lane":  0 },
+    { "type":  "hedgehog", "x":  9891, "lane":  1 },
+    { "type":  "creek", "x":  10044, "width":  110 },
+    { "type":  "kingfisher", "x":  10099, "lane":  2, "air":  true }
+  ]
+}

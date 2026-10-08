@@ -1,0 +1,16 @@
+{
+  "id": "chapter3",
+  "name": "Die Höhle",
+  "levels": [
+    "c3-level01.json",
+    "c3-level02.json",
+    "c3-level03.json",
+    "c3-level04.json",
+    "c3-level05.json",
+    "c3-level06.json",
+    "c3-level07.json",
+    "c3-level08.json",
+    "c3-level09.json",
+    "c3-level10.json"
+  ]
+}

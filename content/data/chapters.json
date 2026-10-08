@@ -1,0 +1,82 @@
+// Version 2, Erweiterung 1: chapters in play order.
+// A chapter's levels come from levels/<pack>/pack.json. Chapters whose pack does not exist yet are placeholders
+// ("Kommt bald") and can never be played – adding the pack with its levels fills the chapter, no code change needed.
+// To unlock the next chapter, every level of a chapter must be completed AND the chapter's stars must add up to at
+// least minStarsToUnlockNext (default below, per chapter overridable with "minStarsToUnlockNext").
+// Every chapter has its own pair of collectibles (a common one and a rare, risky one): "collect" names them,
+// "collectIcons" shows them under the chapter's level select title. "teaser" makes the player curious.
+{
+  "levelSlots": 10,
+  "minStarsToUnlockNext": 20,
+  "chapters": [
+    { "id": "chapter1", "number": 1, "name": "Der Weg zum Futternapf", "pack": "main",
+      "collect": "Leckerlis und Gold-Leckerlis", "collectIcons": [ "ui.treat", "obstacle.treat.gold" ] },
+    { "id": "chapter2", "number": 2, "name": "Der Wald", "pack": "chapter2",
+      "teaser": "Hinter dem Gartenzaun beginnt der Wald – und Trixi ist neugierig.",
+      "collect": "Mäuse und Vögel", "collectIcons": [ "obstacle.mouse", "obstacle.bird" ], "collectedLabel": "Gefangen",
+      // Shown once, the first time chapter 2 is entered (from the overview or via "Weiterspielen").
+      "intro": {
+        "scene": "forestedge",
+        "music": "calm",
+        "lines": [
+          "Ein neuer Morgen. Trixi ist neugierig.",
+          "Hinter dem Gartenzaun beginnt der Wald.",
+          "Dort huschen Mäuse und singen Vögel.",
+          "Auf geht's, Trixi – die Reise beginnt!"
+        ]
+      } },
+    { "id": "chapter3", "number": 3, "name": "Die Höhle", "pack": "chapter3",
+      "teaser": "Eine Spur führt in den Fels – was leuchtet da im Dunkeln?",
+      "collect": "Leuchtpilze und Glühwürmchen", "collectIcons": [ "obstacle.glowmushroom", "obstacle.firefly" ], "collectedLabel": "Gesammelt",
+      // Version 2, Erweiterung 6: the same keys mean something new in the cave (help screen and ability bar).
+      "abilities": {
+        "sneak": { "name": "Schlüpfen", "hint": "Geduckt durch Felsspalten schlüpfen und an Fledermäusen vorbeischleichen." },
+        "sprint": { "name": "Durchflitzen", "hint": "Unter fallenden Tropfsteinen durchflitzen und rollenden Felsen davonsausen." },
+        "jump": { "hint": "Über Geröll, Salamander und schmale Spalten springen; Kraftsprung auf Felskanten." },
+        "glide": { "hint": "Über breite Felsspalten und Höhlenbäche segeln." }
+      },
+      // Version 2, Erweiterung 6: shown once, the first time chapter 3 is entered.
+      // The trail through the forest ends at the cave mouth; glowing mushrooms and a firefly show what is collected inside.
+      "intro": {
+        "scene": "forestedge",
+        "music": "calm",
+        "lines": [
+          "Am Waldrand entdeckt Trixi eine Spur.",
+          "Sie führt zwischen den Felsen hindurch ...",
+          "... bis zu einem dunklen Höhleneingang.",
+          "Stirnlampe an – auf geht's, Trixi!"
+        ],
+        "props": [
+          { "sprite": "prop.fir", "x": 70 },
+          { "sprite": "prop.birch", "x": 150 },
+          { "sprite": "prop.cavemouth", "x": 540 },
+          { "sprite": "obstacle.glowmushroom", "x": 420 },
+          { "sprite": "obstacle.firefly", "x": 470, "lift": 14, "bob": true }
+        ],
+        "headlamp": true
+      },
+      // Version 2, Erweiterung 6: after the last cave level – out into the daylight. Whoever waits at the bowl for this
+      // player stands at the exit with a helmet in the light (nobody for an unknown player); no personal words.
+      "outro": {
+        "scene": "caveexit",
+        "music": "calm",
+        "lines": [
+          "Da vorne – ein Lichtschein!",
+          "Trixi läuft hinaus und blinzelt in die Sonne.",
+          "Die ganze Höhle hat sie mutig durchquert.",
+          "Was wohl hinter den Feldern wartet?"
+        ],
+        "props": [
+          { "sprite": "prop.sunbeam", "x": 440 },
+          { "sprite": "prop.giantmushroom", "x": 90 },
+          { "sprite": "obstacle.glowmushroom", "x": 180 },
+          { "sprite": "obstacle.firefly", "x": 230, "lift": 16, "bob": true }
+        ],
+        "figure": "cheer.helmet",
+        "headlamp": true
+      } },
+    { "id": "chapter4", "number": 4, "name": "", "pack": "chapter4" },
+    { "id": "chapter5", "number": 5, "name": "", "pack": "chapter5" },
+    { "id": "chapter6", "number": 6, "name": "", "pack": "chapter6" }
+  ]
+}

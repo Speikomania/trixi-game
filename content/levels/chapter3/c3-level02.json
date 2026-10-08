@@ -1,0 +1,346 @@
+{
+  // Introduces the head lamp and FORKS: three ways with signs (easy / medium / risky), guided.
+  "id": "c3-level02",
+  "order": 2,
+  "name": "Tropfsteine",
+  "theme": "cave",
+  "music": "cave",
+  "speed": 98,
+  "length": 8574,
+  "lives": 4,
+  "lanes": 5,
+  "darkness": 0.25,
+  "lampDrain": 0.008,
+  "starScores": [
+    780,
+    1480,
+    2240
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "glowmushroom": 0.8,
+      "firefly": 0.8
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1506
+    }
+  ],
+  "checkpoints": [
+    380
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4.5,
+      "text": "Es wird dunkler. Trixis Stirnlampe leuchtet – Batterien laden sie auf."
+    },
+    {
+      "kind": "Message",
+      "x": 500,
+      "duration": 4.5,
+      "text": "Gleich teilt sich der Weg! Die Schilder zeigen, wie schwer jeder Weg ist."
+    },
+    {
+      "kind": "Message",
+      "x": 609,
+      "duration": 4.5,
+      "text": "Grün = leicht, Gelb = mittel, Rot = gewagt."
+    },
+    {
+      "kind": "Message",
+      "x": 1388,
+      "duration": 4,
+      "text": "Jeder Weg führt weiter – auf dem roten funkeln Kristalle."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "dripstonehall"
+    },
+    {
+      "from": 2740,
+      "scene": "caveentrance"
+    },
+    {
+      "from": 6283,
+      "scene": "dripstonehall"
+    }
+  ],
+  "narrows": [
+    {
+      "from": 3644,
+      "to": 4112,
+      "top": 0,
+      "bottom": 3
+    },
+    {
+      "from": 5530,
+      "to": 5998,
+      "top": 0,
+      "bottom": 2
+    },
+    {
+      "from": 7868,
+      "to": 8276,
+      "top": 2,
+      "bottom": 4
+    }
+  ],
+  "branches": [
+    {
+      "id": "f1",
+      "from": 766,
+      "to": 1368,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 1,
+          "kind": "Easy"
+        },
+        {
+          "top": 2,
+          "bottom": 2,
+          "kind": "Medium"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Risky"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "from": 1872,
+      "to": 2445,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "kind": "Risky"
+        },
+        {
+          "top": 1,
+          "bottom": 2,
+          "kind": "Easy"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Medium"
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "x": 200,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 788,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 1235,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 1799,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 2354,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 2778,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 3355,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 3844,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 4428,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 5050,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 5651,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 6271,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 6708,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 7168,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 7686,
+      "radius": 70,
+      "kind": "mushroom"
+    },
+    {
+      "x": 8137,
+      "radius": 70,
+      "kind": "mushroom"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1666
+    },
+    {
+      "kind": "normal",
+      "from": 1666,
+      "to": 2740
+    },
+    {
+      "kind": "calm",
+      "from": 2740,
+      "to": 3439
+    },
+    {
+      "kind": "dense",
+      "from": 3439,
+      "to": 4530
+    },
+    {
+      "kind": "normal",
+      "from": 4530,
+      "to": 6283
+    },
+    {
+      "kind": "calm",
+      "from": 6283,
+      "to": 6617
+    },
+    {
+      "kind": "dense",
+      "from": 6617,
+      "to": 7420
+    },
+    {
+      "kind": "normal",
+      "from": 7420,
+      "to": 8574
+    }
+  ],
+  "npcs": [
+    {
+      "person": "freund01",
+      "pose": "wave.helmet",
+      "x": 4511,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "battery", "x":  320, "lane":  2 },
+    { "type":  "battery", "x":  825, "lane":  2 },
+    { "type":  "boulder", "x":  874, "lane":  1 },
+    { "type":  "salamander", "x":  874, "lane":  2 },
+    { "type":  "boulder", "x":  874, "lane":  3 },
+    { "type":  "crystal", "x":  976, "lane":  3 },
+    { "type":  "salamander", "x":  1022, "lane":  3 },
+    { "type":  "salamander", "x":  1096, "lane":  2 },
+    { "type":  "boulder", "x":  1170, "lane":  0 },
+    { "type":  "spiderweb", "x":  1170, "lane":  4 },
+    { "type":  "glowmushroom", "x":  1522, "lane":  3 },
+    { "type":  "glowmushroom", "x":  1562, "lane":  2 },
+    { "type":  "battery", "x":  1931, "lane":  4 },
+    { "type":  "crystal", "x":  1934, "lane":  0 },
+    { "type":  "salamander", "x":  1980, "lane":  0 },
+    { "type":  "stalagmite", "x":  1980, "lane":  1 },
+    { "type":  "boulder", "x":  1980, "lane":  4 },
+    { "type":  "salamander", "x":  2128, "lane":  0 },
+    { "type":  "stalagmite", "x":  2202, "lane":  4 },
+    { "type":  "salamander", "x":  2276, "lane":  0 },
+    { "type":  "spiderweb", "x":  2276, "lane":  2 },
+    { "type":  "firefly", "x":  2592, "lane":  2, "toLane":  3 },
+    { "type":  "stalagmite", "x":  2740, "lane":  1 },
+    { "type":  "battery", "x":  2920, "lane":  4 },
+    { "type":  "spiderweb", "x":  3087, "lane":  0 },
+    { "type":  "glowmushroom", "x":  3269, "lane":  3 },
+    { "type":  "glowmushroom", "x":  3309, "lane":  2 },
+    { "type":  "spiderweb", "x":  3440, "lane":  1 },
+    { "type":  "spiderweb", "x":  3440, "lane":  3 },
+    { "type":  "spiderweb", "x":  3440, "lane":  4 },
+    { "type":  "firefly", "x":  3548, "lane":  0, "toLane":  1 },
+    { "type":  "stalagmite", "x":  3762, "lane":  1 },
+    { "type":  "boulder", "x":  3920, "lane":  3 },
+    { "type":  "glowmushroom", "x":  4215, "lane":  4 },
+    { "type":  "chasm", "x":  4318, "width":  34 },
+    { "type":  "spiderweb", "x":  4730, "lane":  2 },
+    { "type":  "spiderweb", "x":  4730, "lane":  3 },
+    { "type":  "salamander", "x":  4932, "lane":  2 },
+    { "type":  "glowmushroom", "x":  5030, "lane":  1 },
+    { "type":  "cavepuddle", "x":  5115 },
+    { "type":  "glowmushroom", "x":  5231, "lane":  1 },
+    { "type":  "stalagmite", "x":  5332, "lane":  0 },
+    { "type":  "stalagmite", "x":  5332, "lane":  3 },
+    { "type":  "stalagmite", "x":  5332, "lane":  4 },
+    { "type":  "firefly", "x":  5438, "lane":  2, "toLane":  1 },
+    { "type":  "minecrates", "x":  5648, "lane":  2 },
+    { "type":  "minecrates", "x":  5806, "lane":  2 },
+    { "type":  "glowmushroom", "x":  6140, "lane":  4 },
+    { "type":  "glowmushroom", "x":  6180, "lane":  4 },
+    { "type":  "salamander", "x":  6283, "lane":  4 },
+    { "type":  "glowmushroom", "x":  6457, "lane":  0 },
+    { "type":  "glowmushroom", "x":  6497, "lane":  0 },
+    { "type":  "rubble", "x":  6618 },
+    { "type":  "glowmushroom", "x":  6721, "lane":  0 },
+    { "type":  "spiderweb", "x":  6809, "lane":  1 },
+    { "type":  "spiderweb", "x":  6957, "lane":  0 },
+    { "type":  "spiderweb", "x":  6957, "lane":  3 },
+    { "type":  "spiderweb", "x":  6957, "lane":  4 },
+    { "type":  "rubble", "x":  7106 },
+    { "type":  "boulder", "x":  7257, "lane":  0 },
+    { "type":  "boulder", "x":  7257, "lane":  4 },
+    { "type":  "boulder", "x":  7420, "lane":  2 },
+    { "type":  "glowmushroom", "x":  7547, "lane":  3 },
+    { "type":  "glowmushroom", "x":  7587, "lane":  4 },
+    { "type":  "cavepuddle", "x":  7658 },
+    { "type":  "glowmushroom", "x":  7771, "lane":  4 },
+    { "type":  "boulder", "x":  7986, "lane":  4 },
+    { "type":  "boulder", "x":  8144, "lane":  4 }
+  ]
+}

@@ -1,0 +1,2678 @@
+{
+  "themeDefaults": {
+    "home": "livingroom",
+    "garden": "lawn",
+    "park": "parkpath",
+    "dusk": "street",
+    "forest": "woodland",
+    "cave": "dripstonehall"
+  },
+  "scenes": [
+    {
+      "id": "livingroom",
+      "name": "Wohnzimmer",
+      "backdrop": "bg.livingroom",
+      "floor": "carpet",
+      "ambient": "dust",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 50,
+          "spacing": [
+            30,
+            70
+          ],
+          "props": [
+            {
+              "sprite": "prop.window",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.picture.fish",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.picture.mountain",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.clock",
+              "weight": 1.5,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.walllamp",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.bookshelf",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.tv",
+              "weight": 2,
+              "repeatGap": 380
+            },
+            {
+              "sprite": "prop.coatstand",
+              "weight": 0.7
+            },
+            {
+              "sprite": "prop.standinglamp",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.cupboard",
+              "weight": 0.7
+            },
+            {
+              "sprite": "prop.cattree",
+              "weight": 0.8,
+              "repeatGap": 420
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.sofa",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.armchair",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.sidetable",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.radiator",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hallway",
+      "name": "Flur",
+      "backdrop": "bg.hallway",
+      "floor": "parquet",
+      "ambient": "dust",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 46,
+          "spacing": [
+            30,
+            70
+          ],
+          "props": [
+            {
+              "sprite": "prop.mirror",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.coathooks",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.picture.mountain",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.walllamp",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.window",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.door",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.cupboard",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.coatstand",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.standinglamp",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.shoerack",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.radiator",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.sidetable",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Küche",
+      "backdrop": "bg.kitchen",
+      "floor": "tiles",
+      "ambient": "none",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 28,
+          "spacing": [
+            30,
+            70
+          ],
+          "props": [
+            {
+              "sprite": "prop.kitchenshelf",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.clock",
+              "weight": 1,
+              "yOffset": 22,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.window",
+              "weight": 1.5,
+              "yOffset": 22
+            },
+            {
+              "sprite": "prop.picture.fish",
+              "weight": 1,
+              "yOffset": 10
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.fridge",
+              "weight": 1.5,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.cupboard",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.hutch",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.kitchentable",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.stove",
+              "weight": 1.5,
+              "repeatGap": 200
+            },
+            {
+              "sprite": "prop.radiator",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.washer",
+              "weight": 0.8,
+              "repeatGap": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lawn",
+      "name": "Garten",
+      "backdrop": "bg.lawn",
+      "floor": "lawn",
+      "ambient": "leaves",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.hills",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.treeline",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.windmill",
+              "weight": 1,
+              "repeatGap": 420
+            },
+            {
+              "sprite": "prop.barn",
+              "weight": 1,
+              "repeatGap": 300
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.appletree",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.shed",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.birdhouse",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.fencepiece",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.clothesline",
+              "weight": 0.8,
+              "repeatGap": 460
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.flowerbush",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.sunflowers",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.rock",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetable",
+      "name": "Gemüsegarten",
+      "backdrop": "bg.vegetable",
+      "floor": "meadow",
+      "ambient": "leaves",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.hills",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.treeline",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.windmill",
+              "weight": 1.2,
+              "repeatGap": 420
+            },
+            {
+              "sprite": "prop.barn",
+              "weight": 1.2,
+              "repeatGap": 300
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.greenhouse",
+              "weight": 1.5,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.scarecrow",
+              "weight": 1.5,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.appletree",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.fencepiece",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.vegbed",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.sunflowers",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.flowerbush",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "name": "Verschneiter Garten",
+      "backdrop": "bg.winter",
+      "floor": "snow",
+      "ambient": "snow",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.snowhills",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.skyline",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.windmill",
+              "weight": 1,
+              "repeatGap": 420
+            },
+            {
+              "sprite": "prop.barn",
+              "weight": 1,
+              "repeatGap": 300
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.bareTree",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.snowman",
+              "weight": 1,
+              "repeatGap": 320
+            },
+            {
+              "sprite": "prop.shed",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.birdhouse",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.fencepiece",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.snowbush",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rock",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.skis",
+              "weight": 0.8,
+              "repeatGap": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parkpath",
+      "name": "Parkweg",
+      "backdrop": "bg.parkpath",
+      "floor": "gravel",
+      "ambient": "leaves",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.skyline",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.treeline",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.hills",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.ferriswheel",
+              "weight": 0.5,
+              "repeatGap": 520
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.parktree",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.lamppost",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.statue",
+              "weight": 0.7,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.balloons",
+              "weight": 0.6,
+              "repeatGap": 440
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.bench",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.hedge",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.bin",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.flowerbed",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "playground",
+      "name": "Spielplatz",
+      "backdrop": "bg.playground",
+      "floor": "meadow",
+      "ambient": "none",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.ferriswheel",
+              "weight": 0.8,
+              "repeatGap": 520
+            },
+            {
+              "sprite": "prop.treeline",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.skyline",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.hills",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.swing",
+              "weight": 2,
+              "repeatGap": 260
+            },
+            {
+              "sprite": "prop.slide",
+              "weight": 2,
+              "repeatGap": 260
+            },
+            {
+              "sprite": "prop.parktree",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.balloons",
+              "weight": 1,
+              "repeatGap": 440
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.bench",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.hedge",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.flowerbed",
+              "weight": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fountain",
+      "name": "Brunnenplatz",
+      "backdrop": "bg.fountain",
+      "floor": "plaza",
+      "ambient": "none",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.skyline",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.treeline",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.hills",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.ferriswheel",
+              "weight": 0.6,
+              "repeatGap": 520
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.fountain",
+              "weight": 2,
+              "repeatGap": 360
+            },
+            {
+              "sprite": "prop.statue",
+              "weight": 1.5,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.lamppost",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.parktree",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.bench",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.flowerbed",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.bin",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "street",
+      "name": "Abendstraße",
+      "backdrop": "bg.street",
+      "floor": "cobble",
+      "ambient": "none",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.houses",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.churchtower",
+              "weight": 1,
+              "repeatGap": 420
+            },
+            {
+              "sprite": "prop.nighttrees",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.streetlamp",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.housefront",
+              "weight": 2,
+              "repeatGap": 240
+            },
+            {
+              "sprite": "prop.darkfence",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.mailbox",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.lantern",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.darkbush",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nightgarden",
+      "name": "Nachtgarten",
+      "backdrop": "bg.nightgarden",
+      "floor": "nightgrass",
+      "ambient": "fireflies",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.nighttrees",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.houses",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.churchtower",
+              "weight": 0.7,
+              "repeatGap": 420
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.darktree",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.darkfence",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.streetlamp",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.darkbush",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.lantern",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.mailbox",
+              "weight": 0.7
+            },
+            {
+              "sprite": "prop.fencecat",
+              "weight": 0.8,
+              "repeatGap": 460
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "porch",
+      "name": "Heimweg",
+      "backdrop": "bg.porch",
+      "floor": "deck",
+      "ambient": "fireflies",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.houses",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.nighttrees",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.churchtower",
+              "weight": 1,
+              "repeatGap": 420
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.porch",
+              "weight": 1.5,
+              "repeatGap": 600
+            },
+            {
+              "sprite": "prop.streetlamp",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.darkfence",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.housefront",
+              "weight": 1,
+              "repeatGap": 240
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.lantern",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.mailbox",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.darkbush",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.fencecat",
+              "weight": 0.7,
+              "repeatGap": 460
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forestedge",
+      "name": "Waldrand",
+      "backdrop": "bg.forestedge",
+      "floor": "forestpath",
+      "ambient": "leaves",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.firridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.mountain",
+              "weight": 1,
+              "repeatGap": 360
+            },
+            {
+              "sprite": "prop.firtops",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.oak",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.birch",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.signpost",
+              "weight": 1,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.hunterstand",
+              "weight": 0.8,
+              "repeatGap": 360
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.forestbush",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.wildflowers",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.mushrooms",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woodland",
+      "name": "Laubwald",
+      "backdrop": "bg.woodland",
+      "floor": "moss",
+      "ambient": "leaves",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.firridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.firtops",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.oak",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.birch",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.fir",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.hunterstand",
+              "weight": 0.6,
+              "repeatGap": 360
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.fallenlog",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.forestbush",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.mushrooms",
+              "weight": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riverside",
+      "name": "Am Bach",
+      "backdrop": "bg.riverside",
+      "floor": "riverbank",
+      "ambient": "none",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.firridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.mountain",
+              "weight": 1.2,
+              "repeatGap": 360
+            },
+            {
+              "sprite": "prop.firtops",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.fir",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.birch",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.waterfall",
+              "weight": 0.8,
+              "repeatGap": 520
+            },
+            {
+              "sprite": "prop.bigrock",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.reeds",
+              "weight": 2.5
+            },
+            {
+              "sprite": "prop.wildflowers",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deepwood",
+      "name": "Tiefer Wald",
+      "backdrop": "bg.deepwood",
+      "floor": "moss",
+      "ambient": "leaves",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.firridge.dusk",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.firtops.dusk",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.fir.dark",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.fir",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.oak",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.hunterstand",
+              "weight": 0.6,
+              "repeatGap": 360
+            },
+            {
+              "sprite": "prop.bigrock",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.fallenlog",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.mushrooms",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.forestbush",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "twilight",
+      "name": "Dämmerwald",
+      "backdrop": "bg.twilight",
+      "floor": "duskmoss",
+      "ambient": "fireflies",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.firridge.dusk",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.firtops.dusk",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.fir.dark",
+              "weight": 2.5
+            },
+            {
+              "sprite": "prop.oak",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.bigrock",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.hunterstand",
+              "weight": 0.5,
+              "repeatGap": 360
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.mushrooms",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.forestbush",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.fallenlog",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "campsite",
+      "name": "Lagerplatz",
+      "backdrop": "bg.riverside",
+      "floor": "forestpath",
+      "ambient": "fireflies",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 74,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.firridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.mountain",
+              "weight": 1,
+              "repeatGap": 360
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 74,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.tent",
+              "weight": 1.5,
+              "repeatGap": 600
+            },
+            {
+              "sprite": "prop.fir",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.birch",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 74,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.lantern.camp",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.fallenlog",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.wildflowers",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caveentrance",
+      "name": "Höhleneingang",
+      "backdrop": "bg.caveentrance",
+      "floor": "cavesand",
+      "ambient": "dust",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.minetimber.far",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.sunbeam",
+              "weight": 1,
+              "repeatGap": 260
+            },
+            {
+              "sprite": "prop.parkedcart",
+              "weight": 0.6,
+              "repeatGap": 400
+            },
+            {
+              "sprite": "prop.minelamp",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.rope",
+              "weight": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dripstonehall",
+      "name": "Tropfsteinhalle",
+      "backdrop": "bg.dripstonehall",
+      "floor": "caverock",
+      "ambient": "drips",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 1.2
+            },
+            {
+              "sprite": "prop.cavefall",
+              "weight": 0.6,
+              "repeatGap": 500
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockcolumn",
+              "weight": 1.2
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.batroost",
+              "weight": 0.5,
+              "repeatGap": 500
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.glowmoss",
+              "weight": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crystalgrotto",
+      "name": "Kristallgrotte",
+      "backdrop": "bg.crystalgrotto",
+      "floor": "crystalfloor",
+      "ambient": "drips",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge.crystal",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.caveridge",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.cavefall",
+              "weight": 0.6,
+              "repeatGap": 500
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.crystalcluster",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.rockcolumn",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.smallcrystals",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.pebbles",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mushroomgarden",
+      "name": "Pilzgarten",
+      "backdrop": "bg.mushroomgarden",
+      "floor": "dampearth",
+      "ambient": "fireflies",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.cavefall",
+              "weight": 0.8,
+              "repeatGap": 400
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.giantmushroom",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.rockcolumn",
+              "weight": 0.6
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.glowmoss",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.pebbles",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mineshaft",
+      "name": "Alter Stollen",
+      "backdrop": "bg.mineshaft",
+      "floor": "railtrack",
+      "ambient": "dust",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.minetimber.far",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.caveridge",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.timberframe",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.minelamp",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.parkedcart",
+              "weight": 0.8,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.ladder",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.railpiece",
+              "weight": 1.2
+            },
+            {
+              "sprite": "prop.pickaxe",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.rope",
+              "weight": 0.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "undergroundlake",
+      "name": "Unterirdischer See",
+      "backdrop": "bg.undergroundlake",
+      "floor": "caverock",
+      "ambient": "drips",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge.crystal",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.cavefall",
+              "weight": 1.2,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.caveridge",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.crystalcluster",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.smallcrystals",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "batcave",
+      "name": "Fledermaushöhle",
+      "backdrop": "bg.batcave",
+      "floor": "caverock",
+      "ambient": "none",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.batroost",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockcolumn",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.glowmoss",
+              "weight": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narrowpass",
+      "name": "Enger Durchgang",
+      "backdrop": "bg.narrowpass",
+      "floor": "caverock",
+      "ambient": "drips",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.rockcolumn",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.timberframe",
+              "weight": 0.6,
+              "repeatGap": 350
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.ladder",
+              "weight": 0.5,
+              "repeatGap": 500
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.pebbles",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.pickaxe",
+              "weight": 0.4,
+              "repeatGap": 600
+            },
+            {
+              "sprite": "prop.rope",
+              "weight": 0.4,
+              "repeatGap": 600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "descent",
+      "name": "Abstieg in die Tiefe",
+      "backdrop": "bg.descent",
+      "floor": "dampearth",
+      "ambient": "drips",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.minetimber.far",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.caveridge",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.timberframe",
+              "weight": 1.2
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.minelamp",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.ladder",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.railpiece",
+              "weight": 0.8
+            },
+            {
+              "sprite": "prop.rope",
+              "weight": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lightchamber",
+      "name": "Lichtkammer",
+      "backdrop": "bg.lightchamber",
+      "floor": "crystalfloor",
+      "ambient": "fireflies",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge.crystal",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.caveridge",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.crystalcluster",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.giantmushroom",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.sunbeam",
+              "weight": 0.8,
+              "repeatGap": 300
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 0.8
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.smallcrystals",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.glowmoss",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.pebbles",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caveexit",
+      "name": "Ausgang ins Licht",
+      "backdrop": "bg.caveexit",
+      "floor": "cavesand",
+      "ambient": "dust",
+      "layers": [
+        {
+          "depth": "far",
+          "parallax": 0.15,
+          "baseY": 59,
+          "spacing": [
+            20,
+            60
+          ],
+          "props": [
+            {
+              "sprite": "prop.caveridge",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.rockarch",
+              "weight": 1.5
+            }
+          ]
+        },
+        {
+          "depth": "mid",
+          "parallax": 0.35,
+          "baseY": 63,
+          "spacing": [
+            50,
+            110
+          ],
+          "props": [
+            {
+              "sprite": "prop.sunbeam",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.stalagmites",
+              "weight": 1
+            },
+            {
+              "sprite": "prop.giantmushroom",
+              "weight": 0.5,
+              "repeatGap": 400
+            },
+            {
+              "sprite": "prop.bigrock.cave",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "depth": "near",
+          "parallax": 0.6,
+          "baseY": 63,
+          "spacing": [
+            60,
+            130
+          ],
+          "props": [
+            {
+              "sprite": "prop.pebbles",
+              "weight": 2
+            },
+            {
+              "sprite": "prop.dripstones.small",
+              "weight": 1.5
+            },
+            {
+              "sprite": "prop.glowmoss",
+              "weight": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "floors": [
+    {
+      "id": "carpet",
+      "name": "Teppich",
+      "sprite": "floor.carpet"
+    },
+    {
+      "id": "parquet",
+      "name": "Parkett",
+      "sprite": "floor.parquet"
+    },
+    {
+      "id": "tiles",
+      "name": "Fliesen",
+      "sprite": "floor.tiles"
+    },
+    {
+      "id": "lawn",
+      "name": "Rasen",
+      "sprite": "floor.lawn"
+    },
+    {
+      "id": "meadow",
+      "name": "Wiese",
+      "sprite": "floor.meadow"
+    },
+    {
+      "id": "soil",
+      "name": "Erde",
+      "sprite": "floor.soil"
+    },
+    {
+      "id": "snow",
+      "name": "Schnee",
+      "sprite": "floor.snow"
+    },
+    {
+      "id": "gravel",
+      "name": "Kies",
+      "sprite": "floor.gravel"
+    },
+    {
+      "id": "stone",
+      "name": "Steinplatten",
+      "sprite": "floor.stone"
+    },
+    {
+      "id": "plaza",
+      "name": "Pflaster",
+      "sprite": "floor.plaza"
+    },
+    {
+      "id": "nightgrass",
+      "name": "Nachtgras",
+      "sprite": "floor.nightgrass"
+    },
+    {
+      "id": "cobble",
+      "name": "Kopfstein",
+      "sprite": "floor.cobble"
+    },
+    {
+      "id": "deck",
+      "name": "Holzterrasse",
+      "sprite": "floor.deck"
+    },
+    {
+      "id": "ice",
+      "name": "Glatteis",
+      "sprite": "floor.ice",
+      "special": true,
+      "behaviour": "slippery",
+      "hint": "Glatteis! Die Katze rutscht – Bahnwechsel kommen etwas später an. Früh drücken!",
+      "params": {
+        "laneChangeDelay": 0.22
+      }
+    },
+    {
+      "id": "marble",
+      "name": "Blanker Marmor",
+      "sprite": "floor.marble",
+      "special": true,
+      "behaviour": "momentum",
+      "hint": "Blanker Marmor! Hier saust die Katze schneller – und gleitet noch kurz nach.",
+      "params": {
+        "speedMultiplier": 1.2,
+        "carrySeconds": 0.6
+      }
+    },
+    {
+      "id": "forestpath",
+      "name": "Waldweg",
+      "sprite": "floor.forestpath"
+    },
+    {
+      "id": "moss",
+      "name": "Moos",
+      "sprite": "floor.moss"
+    },
+    {
+      "id": "riverbank",
+      "name": "Kieselufer",
+      "sprite": "floor.riverbank"
+    },
+    {
+      "id": "duskmoss",
+      "name": "Moos im Dämmerlicht",
+      "sprite": "floor.duskmoss"
+    },
+    {
+      "id": "wetleaves",
+      "name": "Nasses Laub",
+      "sprite": "floor.wetleaves",
+      "special": true,
+      "behaviour": "slippery",
+      "hint": "Nasses Laub! Trixi rutscht – Bahnwechsel kommen etwas später an. Früh drücken!",
+      "params": {
+        "laneChangeDelay": 0.22
+      }
+    },
+    {
+      "id": "pineneedles",
+      "name": "Glatte Kiefernnadeln",
+      "sprite": "floor.pineneedles",
+      "special": true,
+      "behaviour": "momentum",
+      "hint": "Glatte Kiefernnadeln! Hier saust Trixi schneller – und gleitet noch kurz nach.",
+      "params": {
+        "speedMultiplier": 1.2,
+        "carrySeconds": 0.6
+      }
+    },
+    {
+      "id": "caverock",
+      "name": "Höhlenfels",
+      "sprite": "floor.caverock"
+    },
+    {
+      "id": "cavesand",
+      "name": "Höhlensand",
+      "sprite": "floor.cavesand"
+    },
+    {
+      "id": "dampearth",
+      "name": "Feuchte Erde",
+      "sprite": "floor.dampearth"
+    },
+    {
+      "id": "railtrack",
+      "name": "Grubengleis",
+      "sprite": "floor.railtrack"
+    },
+    {
+      "id": "crystalfloor",
+      "name": "Kristallboden",
+      "sprite": "floor.crystalfloor"
+    },
+    {
+      "id": "wetrock",
+      "name": "Nasser Fels",
+      "sprite": "floor.wetrock",
+      "special": true,
+      "behaviour": "slippery",
+      "hint": "Nasser Fels! Trixi rutscht – Bahnwechsel kommen etwas später an. Früh drücken!",
+      "params": {
+        "laneChangeDelay": 0.22
+      }
+    },
+    {
+      "id": "minerails",
+      "name": "Blanke Grubenschienen",
+      "sprite": "floor.minerails",
+      "special": true,
+      "behaviour": "momentum",
+      "hint": "Blanke Schienen! Hier saust Trixi schneller – und gleitet noch kurz nach.",
+      "params": {
+        "speedMultiplier": 1.2,
+        "carrySeconds": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chapter2",
+  "name": "Der Wald",
+  "levels": [
+    "c2-level01.json",
+    "c2-level02.json",
+    "c2-level03.json",
+    "c2-level04.json",
+    "c2-level05.json",
+    "c2-level06.json",
+    "c2-level07.json",
+    "c2-level08.json",
+    "c2-level09.json",
+    "c2-level10.json"
+  ]
+}

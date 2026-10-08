@@ -1,0 +1,240 @@
+{
+  // Finale to the camp site: everything of the forest.
+  "id": "c2-level10",
+  "order": 10,
+  "name": "Zum Lagerplatz",
+  "theme": "forest",
+  "music": "finale",
+  "speed": 112,
+  "length": 14476,
+  "lives": 3,
+  "starScores": [
+    1790,
+    5010,
+    6870
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 1.0,
+      "bird": 1.0
+    }
+  },
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "twilight"
+    },
+    {
+      "from": 2747,
+      "scene": "deepwood"
+    },
+    {
+      "from": 8976,
+      "scene": "twilight"
+    },
+    {
+      "from": 12718,
+      "scene": "campsite"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "pineneedles",
+      "from": 2945,
+      "to": 3684
+    },
+    {
+      "type": "wetleaves",
+      "from": 9174,
+      "to": 9790
+    }
+  ],
+  "terrain": [
+    {
+      "from": 6364,
+      "to": 7110,
+      "heights": [
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "from": 7290,
+      "to": 7999,
+      "heights": [
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "from": 12999,
+      "to": 13721,
+      "heights": [
+        0,
+        16,
+        0
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 2747
+    },
+    {
+      "kind": "calm",
+      "from": 2747,
+      "to": 4224
+    },
+    {
+      "kind": "dense",
+      "from": 4224,
+      "to": 6334
+    },
+    {
+      "kind": "normal",
+      "from": 6334,
+      "to": 8976
+    },
+    {
+      "kind": "calm",
+      "from": 8976,
+      "to": 10313
+    },
+    {
+      "kind": "dense",
+      "from": 10313,
+      "to": 12718
+    },
+    {
+      "kind": "normal",
+      "from": 12718,
+      "to": 14476
+    }
+  ],
+  "npcs": [
+    {
+      "group": "foto4",
+      "pose": "wave",
+      "x": 13421,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "creek", "x":  170, "width":  168 },
+    { "type":  "kingfisher", "x":  254, "lane":  2, "air":  true },
+    { "type":  "boar", "x":  646, "lane":  0 },
+    { "type":  "deer", "x":  646, "lane":  2, "toLane":  1 },
+    { "type":  "playdog", "x":  782, "width":  430 },
+    { "type":  "mouse", "x":  1288, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  1364, "width":  34 },
+    { "type":  "creek", "x":  1504, "width":  34 },
+    { "type":  "creek", "x":  1644, "width":  34 },
+    { "type":  "badger", "x":  1867, "lane":  1 },
+    { "type":  "creek", "x":  2061, "width":  34 },
+    { "type":  "creek", "x":  2201, "width":  34 },
+    { "type":  "creek", "x":  2341, "width":  34 },
+    { "type":  "badger", "x":  2572, "lane":  2 },
+    { "type":  "stump", "x":  3120, "lane":  1 },
+    { "type":  "anthill", "x":  3362, "lane":  0 },
+    { "type":  "anthill", "x":  3362, "lane":  2 },
+    { "type":  "boar", "x":  3994, "lane":  0 },
+    { "type":  "bird", "x":  4116, "lane":  1, "air":  true },
+    { "type":  "deer", "x":  4395, "lane":  0, "toLane":  1 },
+    { "type":  "logpile", "x":  4395, "lane":  2 },
+    { "type":  "anthill", "x":  4508, "lane":  1 },
+    { "type":  "anthill", "x":  4508, "lane":  2 },
+    { "type":  "stump", "x":  4616, "lane":  0 },
+    { "type":  "stump", "x":  4616, "lane":  1 },
+    { "type":  "fern", "x":  4733, "lane":  0 },
+    { "type":  "fern", "x":  4733, "lane":  1 },
+    { "type":  "forestgate", "x":  4967 },
+    { "type":  "stump", "x":  5087, "lane":  0 },
+    { "type":  "logpile", "x":  5087, "lane":  2 },
+    { "type":  "boar", "x":  5188, "lane":  0 },
+    { "type":  "boar", "x":  5188, "lane":  1 },
+    { "type":  "hedgehog", "x":  5299, "lane":  1 },
+    { "type":  "hedgehog", "x":  5299, "lane":  2 },
+    { "type":  "creek", "x":  5422, "width":  34 },
+    { "type":  "creek", "x":  5562, "width":  34 },
+    { "type":  "creek", "x":  5702, "width":  34 },
+    { "type":  "fern", "x":  6007, "lane":  0 },
+    { "type":  "deer", "x":  6007, "lane":  2, "toLane":  1 },
+    { "type":  "badger", "x":  6180, "lane":  0 },
+    { "type":  "boar", "x":  6553, "lane":  0 },
+    { "type":  "boar", "x":  6553, "lane":  2 },
+    { "type":  "bird", "x":  6649, "lane":  0, "air":  true },
+    { "type":  "fern", "x":  6732, "lane":  1 },
+    { "type":  "boar", "x":  6732, "lane":  2 },
+    { "type":  "bird", "x":  6828, "lane":  2, "air":  true },
+    { "type":  "anthill", "x":  6911, "lane":  0 },
+    { "type":  "anthill", "x":  6911, "lane":  2 },
+    { "type":  "mouse", "x":  7106, "lane":  0, "toLane":  1 },
+    { "type":  "fern", "x":  7479, "lane":  0 },
+    { "type":  "fern", "x":  7479, "lane":  2 },
+    { "type":  "mouse", "x":  7575, "lane":  2, "toLane":  1 },
+    { "type":  "boar", "x":  7658, "lane":  1 },
+    { "type":  "fern", "x":  7658, "lane":  2 },
+    { "type":  "mouse", "x":  7754, "lane":  1, "toLane":  2 },
+    { "type":  "anthill", "x":  7837, "lane":  0 },
+    { "type":  "anthill", "x":  7837, "lane":  2 },
+    { "type":  "anthill", "x":  8393, "lane":  0 },
+    { "type":  "anthill", "x":  8393, "lane":  1 },
+    { "type":  "creek", "x":  8523, "width":  34 },
+    { "type":  "creek", "x":  8663, "width":  34 },
+    { "type":  "creek", "x":  8803, "width":  34 },
+    { "type":  "anthill", "x":  9320, "lane":  1 },
+    { "type":  "stump", "x":  9521, "lane":  1 },
+    { "type":  "stump", "x":  9521, "lane":  2 },
+    { "type":  "hedgehog", "x":  10100, "lane":  0 },
+    { "type":  "mouse", "x":  10214, "lane":  0, "toLane":  1 },
+    { "type":  "badger", "x":  10386, "lane":  1 },
+    { "type":  "anthill", "x":  10546, "lane":  2 },
+    { "type":  "deer", "x":  10825, "lane":  0, "toLane":  1 },
+    { "type":  "anthill", "x":  10825, "lane":  2 },
+    { "type":  "creek", "x":  10929, "width":  168 },
+    { "type":  "kingfisher", "x":  11013, "lane":  1, "air":  true },
+    { "type":  "hedgehog", "x":  11213, "lane":  0 },
+    { "type":  "hedgehog", "x":  11213, "lane":  1 },
+    { "type":  "creek", "x":  11335, "width":  34 },
+    { "type":  "creek", "x":  11475, "width":  34 },
+    { "type":  "creek", "x":  11615, "width":  34 },
+    { "type":  "stump", "x":  11937, "lane":  0 },
+    { "type":  "deer", "x":  11937, "lane":  2, "toLane":  1 },
+    { "type":  "hedgehog", "x":  12052, "lane":  0 },
+    { "type":  "hedgehog", "x":  12052, "lane":  2 },
+    { "type":  "hedgehog", "x":  12155, "lane":  1 },
+    { "type":  "hedgehog", "x":  12155, "lane":  2 },
+    { "type":  "fox", "x":  12286, "lane":  0 },
+    { "type":  "fox", "x":  12286, "lane":  2 },
+    { "type":  "fern", "x":  12387, "lane":  0 },
+    { "type":  "fern", "x":  12387, "lane":  1 },
+    { "type":  "fox", "x":  12492, "lane":  0 },
+    { "type":  "stump", "x":  12492, "lane":  2 },
+    { "type":  "boar", "x":  12593, "lane":  0 },
+    { "type":  "boar", "x":  12593, "lane":  1 },
+    { "type":  "badger", "x":  12790, "lane":  1 },
+    { "type":  "mouse", "x":  12918, "lane":  2, "toLane":  1 },
+    { "type":  "anthill", "x":  13188, "lane":  0 },
+    { "type":  "anthill", "x":  13188, "lane":  2 },
+    { "type":  "mouse", "x":  13283, "lane":  1, "toLane":  0 },
+    { "type":  "fern", "x":  13367, "lane":  0 },
+    { "type":  "fern", "x":  13367, "lane":  1 },
+    { "type":  "bird", "x":  13463, "lane":  2, "air":  true },
+    { "type":  "fern", "x":  13546, "lane":  0 },
+    { "type":  "fern", "x":  13546, "lane":  2 },
+    { "type":  "mouse", "x":  13719, "lane":  1, "toLane":  0 },
+    { "type":  "logpile", "x":  13878, "lane":  0 },
+    { "type":  "stump", "x":  13878, "lane":  2 },
+    { "type":  "fern", "x":  13979, "lane":  0 },
+    { "type":  "fern", "x":  13979, "lane":  1 },
+    { "type":  "creek", "x":  14128, "width":  168 }
+  ]
+}

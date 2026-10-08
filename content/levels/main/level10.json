@@ -1,0 +1,212 @@
+{
+  // Finale: every ability in quick succession.
+  "id": "level10",
+  "order": 10,
+  "name": "Endlich Futter!",
+  "theme": "dusk",
+  "music": "finale",
+  "speed": 100,
+  "length": 13294,
+  "lives": 3,
+  "starScores": [
+    2020,
+    5660,
+    7760
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 1.0,
+      "goldfish": 1.0
+    },
+    "minScore": 13700
+  },
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "street"
+    },
+    {
+      "from": 2269,
+      "scene": "fountain"
+    },
+    {
+      "from": 7669,
+      "scene": "nightgarden"
+    },
+    {
+      "from": 11274,
+      "scene": "porch"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "marble",
+      "from": 2449,
+      "to": 3109
+    },
+    {
+      "type": "ice",
+      "from": 7849,
+      "to": 8399
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 2269
+    },
+    {
+      "kind": "calm",
+      "from": 2269,
+      "to": 3820
+    },
+    {
+      "kind": "dense",
+      "from": 3820,
+      "to": 5553
+    },
+    {
+      "kind": "normal",
+      "from": 5553,
+      "to": 7669
+    },
+    {
+      "kind": "calm",
+      "from": 7669,
+      "to": 9294
+    },
+    {
+      "kind": "dense",
+      "from": 9294,
+      "to": 11274
+    },
+    {
+      "kind": "normal",
+      "from": 11274,
+      "to": 13294
+    }
+  ],
+  "npcs": [
+    {
+      "group": "foto4",
+      "pose": "wave",
+      "x": 11880,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "stream", "x":  170, "width":  120 },
+    { "type":  "slush", "x":  415 },
+    { "type":  "dog", "x":  618, "lane":  2 },
+    { "type":  "playdog", "x":  771, "width":  420 },
+    { "type":  "fish", "x":  1256, "lane":  0 },
+    { "type":  "wheeliebin", "x":  1354, "lane":  0 },
+    { "type":  "dog", "x":  1394, "lane":  1 },
+    { "type":  "fish", "x":  1459, "lane":  1 },
+    { "type":  "crates", "x":  1580, "lane":  0 },
+    { "type":  "dalmatian", "x":  1620, "lane":  1 },
+    { "type":  "fish", "x":  1689, "lane":  1 },
+    { "type":  "stream", "x":  1782, "width":  120 },
+    { "type":  "wheeliebin", "x":  2043, "lane":  0 },
+    { "type":  "box", "x":  2043, "lane":  2 },
+    { "type":  "plant", "x":  2133, "lane":  0 },
+    { "type":  "plant", "x":  2133, "lane":  1 },
+    { "type":  "plant", "x":  2605, "lane":  1 },
+    { "type":  "fish", "x":  2720, "lane":  2 },
+    { "type":  "cone", "x":  2821, "lane":  0 },
+    { "type":  "cone", "x":  2821, "lane":  2 },
+    { "type":  "fish", "x":  3113, "lane":  2 },
+    { "type":  "goldfish", "x":  3362, "lane":  1 },
+    { "type":  "box", "x":  3394, "lane":  1 },
+    { "type":  "fish", "x":  3473, "lane":  1 },
+    { "type":  "fish", "x":  3513, "lane":  1 },
+    { "type":  "fish", "x":  3553, "lane":  1 },
+    { "type":  "puddle", "x":  3617 },
+    { "type":  "goldfish", "x":  3677, "lane":  2, "air":  true },
+    { "type":  "topiary", "x":  3821, "lane":  1 },
+    { "type":  "topiary", "x":  3821, "lane":  2 },
+    { "type":  "wheeliebin", "x":  3934, "lane":  0 },
+    { "type":  "wheeliebin", "x":  3934, "lane":  1 },
+    { "type":  "leafsack", "x":  4024, "lane":  1 },
+    { "type":  "topiary", "x":  4024, "lane":  2 },
+    { "type":  "box", "x":  4159, "lane":  2 },
+    { "type":  "dog", "x":  4199, "lane":  1 },
+    { "type":  "fish", "x":  4265, "lane":  2 },
+    { "type":  "wheeliebin", "x":  4387, "lane":  2 },
+    { "type":  "dog", "x":  4427, "lane":  1 },
+    { "type":  "stream", "x":  4574, "width":  120 },
+    { "type":  "fish", "x":  4764, "lane":  0 },
+    { "type":  "leaves", "x":  4834 },
+    { "type":  "stream", "x":  4948, "width":  120 },
+    { "type":  "fish", "x":  5123, "lane":  2 },
+    { "type":  "gate", "x":  5289 },
+    { "type":  "fish", "x":  5363, "lane":  1 },
+    { "type":  "picnic", "x":  5429, "lane":  0 },
+    { "type":  "stream", "x":  5553, "width":  120 },
+    { "type":  "leaves", "x":  5813 },
+    { "type":  "box", "x":  5961, "lane":  0 },
+    { "type":  "dalmatian", "x":  6001, "lane":  1 },
+    { "type":  "playdog", "x":  6173, "width":  420 },
+    { "type":  "fish", "x":  6651, "lane":  0 },
+    { "type":  "picnic", "x":  6742, "lane":  1 },
+    { "type":  "dalmatian", "x":  6782, "lane":  2 },
+    { "type":  "stream", "x":  6968, "width":  120 },
+    { "type":  "puddle", "x":  7228 },
+    { "type":  "topiary", "x":  7549, "lane":  0 },
+    { "type":  "wheeliebin", "x":  7979, "lane":  1 },
+    { "type":  "fish", "x":  8077, "lane":  1 },
+    { "type":  "leafsack", "x":  8159, "lane":  0 },
+    { "type":  "leafsack", "x":  8159, "lane":  2 },
+    { "type":  "fish", "x":  8428, "lane":  0 },
+    { "type":  "yarn", "x":  8684, "lane":  0 },
+    { "type":  "puddle", "x":  8882 },
+    { "type":  "goldfish", "x":  8942, "lane":  1, "air":  true },
+    { "type":  "goldfish", "x":  9063, "lane":  1 },
+    { "type":  "leafsack", "x":  9095, "lane":  1 },
+    { "type":  "fish", "x":  9202, "lane":  2 },
+    { "type":  "gate", "x":  9405 },
+    { "type":  "fish", "x":  9479, "lane":  2 },
+    { "type":  "box", "x":  9545, "lane":  0 },
+    { "type":  "stream", "x":  9654, "width":  120 },
+    { "type":  "wheeliebin", "x":  9902, "lane":  1 },
+    { "type":  "dalmatian", "x":  9942, "lane":  0 },
+    { "type":  "fish", "x":  10001, "lane":  1 },
+    { "type":  "stream", "x":  10085, "width":  120 },
+    { "type":  "wheeliebin", "x":  10298, "lane":  1 },
+    { "type":  "puddle", "x":  10378 },
+    { "type":  "irongate", "x":  10595 },
+    { "type":  "box", "x":  10735, "lane":  1 },
+    { "type":  "wheeliebin", "x":  10858, "lane":  0 },
+    { "type":  "box", "x":  10858, "lane":  1 },
+    { "type":  "wheeliebin", "x":  10975, "lane":  2 },
+    { "type":  "leaves", "x":  11055 },
+    { "type":  "box", "x":  11165, "lane":  1 },
+    { "type":  "box", "x":  11165, "lane":  2 },
+    { "type":  "box", "x":  11307, "lane":  0 },
+    { "type":  "dog", "x":  11347, "lane":  1 },
+    { "type":  "fish", "x":  11419, "lane":  0 },
+    { "type":  "crates", "x":  11515, "lane":  1 },
+    { "type":  "puddle", "x":  11595 },
+    { "type":  "fish", "x":  11670, "lane":  1 },
+    { "type":  "crates", "x":  11761, "lane":  0 },
+    { "type":  "dog", "x":  11801, "lane":  2 },
+    { "type":  "fish", "x":  11875, "lane":  0 },
+    { "type":  "box", "x":  11974, "lane":  0 },
+    { "type":  "box", "x":  11974, "lane":  2 },
+    { "type":  "potstack", "x":  12064, "lane":  0 },
+    { "type":  "potstack", "x":  12064, "lane":  1 },
+    { "type":  "wheeliebin", "x":  12243, "lane":  0 },
+    { "type":  "dog", "x":  12283, "lane":  2 },
+    { "type":  "box", "x":  12437, "lane":  1 },
+    { "type":  "box", "x":  12437, "lane":  2 },
+    { "type":  "plant", "x":  12527, "lane":  0 },
+    { "type":  "plant", "x":  12527, "lane":  2 },
+    { "type":  "fish", "x":  12602, "lane":  1 },
+    { "type":  "playdog", "x":  12664, "width":  420 }
+  ]
+}

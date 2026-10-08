@@ -1,0 +1,62 @@
+{
+  // Abilities in the order they are introduced. "behaviour" selects the code module,
+  // "action" the key slot (Ability1 = Space, Ability2 = Left, Ability3 = Right by default).
+  "abilities": [
+    {
+      "id": "jump",
+      "behaviour": "jump",
+      "action": "Ability1",
+      "name": "Springen",
+      "hint": "Hüpf über flache Sachen wie Pfützen!",
+      "icon": "jump",
+      "successText": "Hopp!",
+      "params": { "duration": 0.9, "height": 20 }
+    },
+    {
+      "id": "sneak",
+      "behaviour": "sneak",
+      "action": "Ability2",
+      "hold": true,
+      "name": "Schleichen",
+      "hint": "Ganz leise am schlafenden Hund vorbei.",
+      "icon": "sneak",
+      "successText": "Psst!",
+      "params": { "speedMultiplier": 0.5 }
+    },
+    {
+      "id": "sprint",
+      "behaviour": "sprint",
+      "action": "Ability3",
+      "name": "Sprinten",
+      "hint": "Kurz ganz schnell: dem Hund davon oder durchs Tor!",
+      "icon": "sprint",
+      "successText": "Zack!",
+      "params": { "duration": 0.7, "speedMultiplier": 2.2, "cooldown": 1.0 }
+    },
+    {
+      "id": "glide",
+      "behaviour": "glide",
+      "action": "Ability1",
+      "hold": true,
+      "name": "Gleiten",
+      "hint": "Beim Springen die Taste festhalten – so segelst du über den Bach.",
+      "icon": "glide",
+      "successText": "Hui!",
+      "params": { "maxDuration": 1.5, "startFraction": 0.45, "fallDuration": 0.3 }
+    },
+    {
+      // Version 2, chapter 2: no new key – the jump key held right from the take-off jumps higher and farther
+      // (onto high ledges, over wide rivers together with gliding). Introduced in chapter 2.
+      "id": "chargedjump",
+      "behaviour": "chargedJump",
+      "extends": "jump",
+      "action": "Ability1",
+      "hold": true,
+      "name": "Kraftsprung",
+      "hint": "Gleich beim Absprung festhalten = Kraftsprung: viel höher und weiter!",
+      "icon": "chargedjump",
+      "successText": "Hui, hoch!",
+      "params": { "chargeAfter": 0.12, "height": 30, "duration": 1.15 }
+    }
+  ]
+}

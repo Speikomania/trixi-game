@@ -1,0 +1,234 @@
+{
+  // All three abilities mixed, faster and fewer lives.
+  "id": "level08",
+  "order": 8,
+  "name": "Parkrennen",
+  "theme": "park",
+  "music": "finale",
+  "speed": 90,
+  "length": 10321,
+  "lives": 3,
+  "starScores": [
+    1240,
+    3170,
+    4620
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 1.0,
+      "goldfish": 1.0
+    },
+    "minScore": 10300
+  },
+  "safeZones": [
+    {
+      "from": 6471,
+      "to": 7378
+    }
+  ],
+  "checkpoints": [
+    6481
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 6476,
+      "duration": 4.5,
+      "text": "Blanker Marmor! Hier saust die Katze. Schau weit nach vorn!"
+    },
+    {
+      "kind": "Message",
+      "x": 7383,
+      "duration": 3,
+      "text": "Wie ein Blitz!"
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "parkpath"
+    },
+    {
+      "from": 1955,
+      "scene": "playground"
+    },
+    {
+      "from": 6471,
+      "scene": "fountain"
+    },
+    {
+      "from": 9058,
+      "scene": "parkpath"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "marble",
+      "from": 6636,
+      "to": 7338
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "normal",
+      "from": 0,
+      "to": 1955
+    },
+    {
+      "kind": "calm",
+      "from": 1955,
+      "to": 3098
+    },
+    {
+      "kind": "dense",
+      "from": 3098,
+      "to": 4521
+    },
+    {
+      "kind": "normal",
+      "from": 4521,
+      "to": 6471
+    },
+    {
+      "kind": "calm",
+      "from": 6471,
+      "to": 7660
+    },
+    {
+      "kind": "dense",
+      "from": 7660,
+      "to": 9058
+    },
+    {
+      "kind": "normal",
+      "from": 9058,
+      "to": 10321
+    }
+  ],
+  "npcs": [
+    {
+      "group": "foto4",
+      "pose": "together",
+      "x": 7764,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "mud", "x":  170 },
+    { "type":  "fish", "x":  265, "lane":  1 },
+    { "type":  "playdog", "x":  344, "width":  330 },
+    { "type":  "fish", "x":  781, "lane":  2 },
+    { "type":  "dog", "x":  961, "lane":  0 },
+    { "type":  "box", "x":  1171, "lane":  1 },
+    { "type":  "box", "x":  1171, "lane":  2 },
+    { "type":  "fish", "x":  1238, "lane":  2 },
+    { "type":  "leafsack", "x":  1290, "lane":  0 },
+    { "type":  "leafsack", "x":  1290, "lane":  2 },
+    { "type":  "leafsack", "x":  1465, "lane":  1 },
+    { "type":  "leafsack", "x":  1465, "lane":  2 },
+    { "type":  "fish", "x":  1570, "lane":  2 },
+    { "type":  "picnic", "x":  1694, "lane":  2 },
+    { "type":  "dog", "x":  1734, "lane":  1 },
+    { "type":  "fish", "x":  1832, "lane":  0 },
+    { "type":  "mud", "x":  1955 },
+    { "type":  "goldfish", "x":  2009, "lane":  2, "air":  true },
+    { "type":  "fish", "x":  2102, "lane":  1 },
+    { "type":  "goldfish", "x":  2205, "lane":  0 },
+    { "type":  "topiary", "x":  2234, "lane":  0 },
+    { "type":  "fish", "x":  2310, "lane":  0 },
+    { "type":  "fish", "x":  2346, "lane":  0 },
+    { "type":  "fish", "x":  2382, "lane":  1 },
+    { "type":  "fish", "x":  2418, "lane":  1 },
+    { "type":  "fish", "x":  2454, "lane":  2 },
+    { "type":  "leafsack", "x":  2517, "lane":  2 },
+    { "type":  "fish", "x":  2589, "lane":  2 },
+    { "type":  "fish", "x":  2625, "lane":  2 },
+    { "type":  "fish", "x":  2661, "lane":  1 },
+    { "type":  "fish", "x":  2697, "lane":  1 },
+    { "type":  "goldfish", "x":  2798, "lane":  1 },
+    { "type":  "cone", "x":  2827, "lane":  1 },
+    { "type":  "fish", "x":  2897, "lane":  0 },
+    { "type":  "fish", "x":  2933, "lane":  0 },
+    { "type":  "fish", "x":  2969, "lane":  0 },
+    { "type":  "fish", "x":  3005, "lane":  0 },
+    { "type":  "fish", "x":  3041, "lane":  0 },
+    { "type":  "picnic", "x":  3099, "lane":  1 },
+    { "type":  "picnic", "x":  3099, "lane":  2 },
+    { "type":  "fish", "x":  3182, "lane":  2 },
+    { "type":  "cone", "x":  3249, "lane":  1 },
+    { "type":  "yarn", "x":  3249, "lane":  2 },
+    { "type":  "fish", "x":  3323, "lane":  0 },
+    { "type":  "picnic", "x":  3417, "lane":  0 },
+    { "type":  "dog", "x":  3457, "lane":  2 },
+    { "type":  "fish", "x":  3541, "lane":  0 },
+    { "type":  "picnic", "x":  3682, "lane":  0 },
+    { "type":  "dog", "x":  3722, "lane":  2 },
+    { "type":  "picnic", "x":  3921, "lane":  0 },
+    { "type":  "picnic", "x":  3921, "lane":  2 },
+    { "type":  "fish", "x":  3988, "lane":  0 },
+    { "type":  "plant", "x":  4039, "lane":  0 },
+    { "type":  "leafsack", "x":  4039, "lane":  1 },
+    { "type":  "fish", "x":  4116, "lane":  0 },
+    { "type":  "cone", "x":  4179, "lane":  2 },
+    { "type":  "topiary", "x":  4351, "lane":  0 },
+    { "type":  "topiary", "x":  4351, "lane":  1 },
+    { "type":  "fish", "x":  4443, "lane":  2 },
+    { "type":  "sandcastle", "x":  4554, "lane":  1 },
+    { "type":  "dog", "x":  4594, "lane":  0 },
+    { "type":  "fish", "x":  4703, "lane":  1 },
+    { "type":  "sandcastle", "x":  4836, "lane":  0 },
+    { "type":  "sandcastle", "x":  4836, "lane":  1 },
+    { "type":  "topiary", "x":  4954, "lane":  0 },
+    { "type":  "topiary", "x":  4954, "lane":  2 },
+    { "type":  "fish", "x":  5061, "lane":  1 },
+    { "type":  "playdog", "x":  5154, "width":  330 },
+    { "type":  "box", "x":  5880, "lane":  0 },
+    { "type":  "picnic", "x":  5880, "lane":  1 },
+    { "type":  "fish", "x":  5977, "lane":  1 },
+    { "type":  "gate", "x":  6168 },
+    { "type":  "sandcastle", "x":  6294, "lane":  2 },
+    { "type":  "yarn", "x":  6776, "lane":  0 },
+    { "type":  "yarn", "x":  7014, "lane":  2 },
+    { "type":  "wheeliebin", "x":  7692, "lane":  0 },
+    { "type":  "dalmatian", "x":  7732, "lane":  1 },
+    { "type":  "wheeliebin", "x":  7944, "lane":  0 },
+    { "type":  "box", "x":  7944, "lane":  2 },
+    { "type":  "fish", "x":  8024, "lane":  1 },
+    { "type":  "plant", "x":  8089, "lane":  0 },
+    { "type":  "leafsack", "x":  8089, "lane":  2 },
+    { "type":  "yarn", "x":  8236, "lane":  1 },
+    { "type":  "yarn", "x":  8236, "lane":  2 },
+    { "type":  "fish", "x":  8317, "lane":  2 },
+    { "type":  "irongate", "x":  8497 },
+    { "type":  "fish", "x":  8564, "lane":  0 },
+    { "type":  "wheeliebin", "x":  8623, "lane":  2 },
+    { "type":  "fish", "x":  8716, "lane":  0 },
+    { "type":  "box", "x":  8794, "lane":  1 },
+    { "type":  "box", "x":  8794, "lane":  2 },
+    { "type":  "fish", "x":  8861, "lane":  1 },
+    { "type":  "leafsack", "x":  8912, "lane":  0 },
+    { "type":  "topiary", "x":  8912, "lane":  2 },
+    { "type":  "fish", "x":  8992, "lane":  2 },
+    { "type":  "sandcastle", "x":  9058, "lane":  0 },
+    { "type":  "box", "x":  9058, "lane":  2 },
+    { "type":  "fish", "x":  9125, "lane":  1 },
+    { "type":  "topiary", "x":  9176, "lane":  1 },
+    { "type":  "leafsack", "x":  9176, "lane":  2 },
+    { "type":  "fish", "x":  9287, "lane":  2 },
+    { "type":  "picnic", "x":  9384, "lane":  0 },
+    { "type":  "picnic", "x":  9384, "lane":  2 },
+    { "type":  "topiary", "x":  9554, "lane":  0 },
+    { "type":  "plant", "x":  9554, "lane":  2 },
+    { "type":  "topiary", "x":  9738, "lane":  1 },
+    { "type":  "topiary", "x":  9738, "lane":  2 },
+    { "type":  "picnic", "x":  9940, "lane":  1 },
+    { "type":  "picnic", "x":  9940, "lane":  2 },
+    { "type":  "fish", "x":  10007, "lane":  1 },
+    { "type":  "leafsack", "x":  10058, "lane":  0 },
+    { "type":  "topiary", "x":  10058, "lane":  2 }
+  ]
+}

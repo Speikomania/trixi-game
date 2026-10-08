@@ -1,0 +1,235 @@
+{
+  // Introduces the CHARGED JUMP: high ledges and a wide creek, guided.
+  "id": "c2-level03",
+  "order": 3,
+  "name": "Der Kraftsprung",
+  "theme": "forest",
+  "music": "level",
+  "speed": 90,
+  "length": 7679,
+  "lives": 4,
+  "starScores": [
+    810,
+    1630,
+    2450
+  ],
+  "twoStars": {
+    "maxHits": 3
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "mouse": 0.9,
+      "bird": 0.9
+    }
+  },
+  "introducesAbility": "chargedjump",
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1357
+    }
+  ],
+  "checkpoints": [
+    1000
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4.5,
+      "text": "Neu: Kraftsprung! Beim Absprung die Leertaste festhalten – Trixi springt viel höher."
+    },
+    {
+      "kind": "Prompt",
+      "x": 505,
+      "action": "Ability1",
+      "text": "Hohe Kante! Leertaste drücken und festhalten ...",
+      "successX": 630,
+      "hold": true
+    },
+    {
+      "kind": "Prompt",
+      "x": 550,
+      "action": "MoveUp",
+      "text": "... ganz oben jetzt ↑!",
+      "successX": 630
+    },
+    {
+      "kind": "Message",
+      "x": 640,
+      "duration": 3.5,
+      "text": "Hui, hoch! Niedrige Kanten schafft auch ein normaler Sprung."
+    },
+    {
+      "kind": "Prompt",
+      "x": 1110,
+      "action": "Ability1",
+      "text": "Ein breiter Bach: Leertaste festhalten – Kraftsprung und Gleiten!",
+      "successX": 1287,
+      "hold": true
+    },
+    {
+      "kind": "Message",
+      "x": 1357,
+      "duration": 3,
+      "text": "Super! Jetzt bist du bereit für den Wald."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "riverside"
+    },
+    {
+      "from": 2555,
+      "scene": "woodland"
+    },
+    {
+      "from": 5574,
+      "scene": "riverside"
+    }
+  ],
+  "terrain": [
+    {
+      "from": 260,
+      "to": 960,
+      "heights": [
+        16,
+        0,
+        0
+      ]
+    },
+    {
+      "from": 1567,
+      "to": 2082,
+      "heights": [
+        0,
+        0,
+        16
+      ]
+    },
+    {
+      "from": 4746,
+      "to": 5351,
+      "heights": [
+        0,
+        8,
+        16
+      ]
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1537
+    },
+    {
+      "kind": "normal",
+      "from": 1537,
+      "to": 2555
+    },
+    {
+      "kind": "calm",
+      "from": 2555,
+      "to": 3391
+    },
+    {
+      "kind": "dense",
+      "from": 3391,
+      "to": 4107
+    },
+    {
+      "kind": "normal",
+      "from": 4107,
+      "to": 5574
+    },
+    {
+      "kind": "calm",
+      "from": 5574,
+      "to": 5842
+    },
+    {
+      "kind": "dense",
+      "from": 5842,
+      "to": 6805
+    },
+    {
+      "kind": "normal",
+      "from": 6805,
+      "to": 7679
+    }
+  ],
+  "npcs": [
+    {
+      "person": "kevin",
+      "pose": "water",
+      "x": 1277,
+      "layer": "near"
+    },
+    {
+      "person": "freund01",
+      "pose": "wave",
+      "x": 4064,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "anthill", "x":  600, "lane":  1 },
+    { "type":  "anthill", "x":  600, "lane":  2 },
+    { "type":  "creek", "x":  1160, "width":  117 },
+    { "type":  "mouse", "x":  1422, "lane":  1, "toLane":  0 },
+    { "type":  "fern", "x":  1725, "lane":  0 },
+    { "type":  "fern", "x":  1725, "lane":  1 },
+    { "type":  "mouse", "x":  1824, "lane":  1, "toLane":  2 },
+    { "type":  "stump", "x":  1909, "lane":  0 },
+    { "type":  "stump", "x":  1909, "lane":  2 },
+    { "type":  "mouse", "x":  2116, "lane":  2, "toLane":  1 },
+    { "type":  "creek", "x":  2308, "width":  99 },
+    { "type":  "mouse", "x":  2481, "lane":  1, "toLane":  2 },
+    { "type":  "anthill", "x":  2555, "lane":  0 },
+    { "type":  "mouse", "x":  2689, "lane":  1, "toLane":  2 },
+    { "type":  "anthill", "x":  2812, "lane":  2 },
+    { "type":  "mouse", "x":  2979, "lane":  2, "toLane":  1 },
+    { "type":  "fern", "x":  3134, "lane":  2 },
+    { "type":  "mouse", "x":  3269, "lane":  2, "toLane":  1 },
+    { "type":  "anthill", "x":  3391, "lane":  1 },
+    { "type":  "anthill", "x":  3391, "lane":  2 },
+    { "type":  "fern", "x":  3544, "lane":  2 },
+    { "type":  "boar", "x":  3692, "lane":  0 },
+    { "type":  "boar", "x":  3692, "lane":  2 },
+    { "type":  "mouse", "x":  3782, "lane":  0, "toLane":  1 },
+    { "type":  "creek", "x":  3858, "width":  99 },
+    { "type":  "mouse", "x":  4032, "lane":  2, "toLane":  1 },
+    { "type":  "roots", "x":  4107 },
+    { "type":  "creek", "x":  4466, "width":  99 },
+    { "type":  "bird", "x":  4655, "lane":  0, "air":  true },
+    { "type":  "stump", "x":  4904, "lane":  0 },
+    { "type":  "stump", "x":  4904, "lane":  2 },
+    { "type":  "mouse", "x":  5004, "lane":  2, "toLane":  1 },
+    { "type":  "fox", "x":  5088, "lane":  1 },
+    { "type":  "fox", "x":  5088, "lane":  2 },
+    { "type":  "bird", "x":  5339, "lane":  1, "air":  true },
+    { "type":  "fern", "x":  5574, "lane":  1 },
+    { "type":  "bird", "x":  5715, "lane":  2, "air":  true },
+    { "type":  "creek", "x":  5842, "width":  99 },
+    { "type":  "kingfisher", "x":  5891, "lane":  0, "air":  true },
+    { "type":  "bird", "x":  6020, "lane":  1, "air":  true },
+    { "type":  "fern", "x":  6100, "lane":  1 },
+    { "type":  "fern", "x":  6100, "lane":  2 },
+    { "type":  "stump", "x":  6231, "lane":  0 },
+    { "type":  "stump", "x":  6231, "lane":  2 },
+    { "type":  "anthill", "x":  6381, "lane":  0 },
+    { "type":  "anthill", "x":  6381, "lane":  1 },
+    { "type":  "bird", "x":  6471, "lane":  1, "air":  true },
+    { "type":  "creek", "x":  6549, "width":  99 },
+    { "type":  "mouse", "x":  6726, "lane":  1, "toLane":  2 },
+    { "type":  "badger", "x":  6877, "lane":  0 },
+    { "type":  "mouse", "x":  7021, "lane":  0, "toLane":  1 },
+    { "type":  "anthill", "x":  7117, "lane":  0 },
+    { "type":  "anthill", "x":  7117, "lane":  2 },
+    { "type":  "bird", "x":  7225, "lane":  1, "air":  true },
+    { "type":  "badger", "x":  7393, "lane":  2 }
+  ]
+}

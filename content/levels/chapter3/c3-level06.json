@@ -1,0 +1,475 @@
+{
+  // Mine carts rolling into the next lane and a rolling boulder (dash away); the crystal hall.
+  "id": "c3-level06",
+  "order": 6,
+  "name": "Kristallhalle",
+  "theme": "cave",
+  "music": "cavefinale",
+  "speed": 106,
+  "length": 12401,
+  "lives": 3,
+  "lanes": 5,
+  "darkness": 0.6,
+  "lampDrain": 0.016,
+  "starScores": [
+    1590,
+    3740,
+    5780
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "glowmushroom": 1.0,
+      "firefly": 1.0
+    }
+  },
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 1400
+    }
+  ],
+  "checkpoints": [
+    809
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 4.5,
+      "text": "Loren rollen über Quergleise in die Nachbarbahn. Der Pfeil zeigt, wohin!"
+    },
+    {
+      "kind": "Prompt",
+      "x": 510,
+      "action": "MoveDown",
+      "text": "Die Lore rollt in deine Bahn – weich aus!",
+      "successX": 690
+    },
+    {
+      "kind": "Message",
+      "x": 810,
+      "duration": 3,
+      "text": "Da vorne wackelt ein Felsbrocken ..."
+    },
+    {
+      "kind": "Prompt",
+      "x": 1020,
+      "action": "Ability3",
+      "text": "Er rollt hinter dir her! Sprinte davon!",
+      "successX": 1340
+    },
+    {
+      "kind": "Message",
+      "x": 1360,
+      "duration": 3,
+      "text": "Entwischt! Weiter in die Kristallhalle."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "mineshaft"
+    },
+    {
+      "from": 3217,
+      "scene": "crystalgrotto"
+    },
+    {
+      "from": 8043,
+      "scene": "lightchamber"
+    }
+  ],
+  "terrain": [
+    {
+      "from": 7291,
+      "to": 7846,
+      "heights": [
+        0,
+        0,
+        0,
+        8,
+        16
+      ]
+    }
+  ],
+  "narrows": [
+    {
+      "from": 5989,
+      "to": 6555,
+      "top": 0,
+      "bottom": 3
+    }
+  ],
+  "branches": [
+    {
+      "id": "f1",
+      "from": 2423,
+      "to": 2972,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 2,
+          "kind": "Easy"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Risky"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "from": 10347,
+      "to": 10977,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 2,
+          "kind": "Risky"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "from": 11411,
+      "to": 12088,
+      "routes": [
+        {
+          "top": 0,
+          "bottom": 0,
+          "kind": "Risky"
+        },
+        {
+          "top": 1,
+          "bottom": 2,
+          "kind": "Medium"
+        },
+        {
+          "top": 3,
+          "bottom": 4,
+          "kind": "Easy"
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "x": 200,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 630,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 1134,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 1561,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 2127,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 2609,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 3157,
+      "radius": 70,
+      "kind": "lamp"
+    },
+    {
+      "x": 3670,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 4302,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 4726,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 5359,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 5966,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 6415,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 7052,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 7624,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 8129,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 8657,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 9206,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 9789,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 10254,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 10764,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 11238,
+      "radius": 60,
+      "kind": "crystal"
+    },
+    {
+      "x": 11778,
+      "radius": 60,
+      "kind": "crystal"
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1580
+    },
+    {
+      "kind": "normal",
+      "from": 1580,
+      "to": 3217
+    },
+    {
+      "kind": "calm",
+      "from": 3217,
+      "to": 4284
+    },
+    {
+      "kind": "dense",
+      "from": 4284,
+      "to": 5817
+    },
+    {
+      "kind": "normal",
+      "from": 5817,
+      "to": 8043
+    },
+    {
+      "kind": "calm",
+      "from": 8043,
+      "to": 8858
+    },
+    {
+      "kind": "dense",
+      "from": 8858,
+      "to": 11189
+    },
+    {
+      "kind": "normal",
+      "from": 11189,
+      "to": 12401
+    }
+  ],
+  "npcs": [
+    {
+      "group": "foto2",
+      "pose": "pockets.helmet",
+      "x": 1608,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "railcart", "x":  660, "lane":  1, "toLane":  2 },
+    { "type":  "rollingboulder", "x":  980, "width":  360 },
+    { "type":  "firefly", "x":  1460, "lane":  1, "toLane":  2 },
+    { "type":  "railcart", "x":  1750, "lane":  4, "toLane":  3 },
+    { "type":  "spiderweb", "x":  1931, "lane":  0 },
+    { "type":  "spiderweb", "x":  1931, "lane":  1 },
+    { "type":  "spiderweb", "x":  1931, "lane":  3 },
+    { "type":  "spiderweb", "x":  1931, "lane":  4 },
+    { "type":  "spiderweb", "x":  2037, "lane":  0 },
+    { "type":  "spiderweb", "x":  2037, "lane":  1 },
+    { "type":  "spiderweb", "x":  2037, "lane":  2 },
+    { "type":  "spiderweb", "x":  2037, "lane":  3 },
+    { "type":  "stalagmite", "x":  2539, "lane":  0 },
+    { "type":  "minecrates", "x":  2539, "lane":  4 },
+    { "type":  "crystal", "x":  2610, "lane":  4 },
+    { "type":  "salamander", "x":  2656, "lane":  4 },
+    { "type":  "minecrates", "x":  2772, "lane":  0 },
+    { "type":  "minesupport", "x":  2772, "lane":  3 },
+    { "type":  "salamander", "x":  2889, "lane":  4 },
+    { "type":  "firefly", "x":  3094, "lane":  4, "toLane":  3 },
+    { "type":  "spiderweb", "x":  3217, "lane":  1 },
+    { "type":  "battery", "x":  3355, "lane":  0 },
+    { "type":  "salamander", "x":  3482, "lane":  1 },
+    { "type":  "glowmushroom", "x":  3625, "lane":  4 },
+    { "type":  "glowmushroom", "x":  3665, "lane":  4 },
+    { "type":  "boulder", "x":  3755, "lane":  2 },
+    { "type":  "glowmushroom", "x":  3895, "lane":  4 },
+    { "type":  "glowmushroom", "x":  3935, "lane":  3 },
+    { "type":  "boulder", "x":  4020, "lane":  0 },
+    { "type":  "boulder", "x":  4020, "lane":  1 },
+    { "type":  "glowmushroom", "x":  4160, "lane":  0 },
+    { "type":  "glowmushroom", "x":  4200, "lane":  1 },
+    { "type":  "chasm", "x":  4284, "width":  34 },
+    { "type":  "chasm", "x":  4417, "width":  34 },
+    { "type":  "chasm", "x":  4549, "width":  34 },
+    { "type":  "rollingboulder", "x":  4716, "width":  360 },
+    { "type":  "batcolony", "x":  5290, "lane":  3 },
+    { "type":  "spiderweb", "x":  5446, "lane":  0 },
+    { "type":  "spiderweb", "x":  5446, "lane":  1 },
+    { "type":  "spiderweb", "x":  5446, "lane":  4 },
+    { "type":  "boulder", "x":  5576, "lane":  0 },
+    { "type":  "boulder", "x":  5576, "lane":  1 },
+    { "type":  "boulder", "x":  5576, "lane":  3 },
+    { "type":  "boulder", "x":  5576, "lane":  4 },
+    { "type":  "boulder", "x":  5682, "lane":  0 },
+    { "type":  "boulder", "x":  5682, "lane":  1 },
+    { "type":  "boulder", "x":  5682, "lane":  2 },
+    { "type":  "boulder", "x":  5682, "lane":  4 },
+    { "type":  "salamander", "x":  5818, "lane":  1 },
+    { "type":  "salamander", "x":  5818, "lane":  2 },
+    { "type":  "salamander", "x":  5818, "lane":  3 },
+    { "type":  "boulder", "x":  6116, "lane":  0 },
+    { "type":  "boulder", "x":  6116, "lane":  2 },
+    { "type":  "boulder", "x":  6116, "lane":  3 },
+    { "type":  "spiderweb", "x":  6235, "lane":  1 },
+    { "type":  "spiderweb", "x":  6235, "lane":  2 },
+    { "type":  "spiderweb", "x":  6235, "lane":  3 },
+    { "type":  "stalagmite", "x":  6355, "lane":  1 },
+    { "type":  "stalagmite", "x":  6355, "lane":  2 },
+    { "type":  "stalagmite", "x":  6355, "lane":  3 },
+    { "type":  "stalagmite", "x":  6474, "lane":  0 },
+    { "type":  "stalagmite", "x":  6474, "lane":  2 },
+    { "type":  "stalagmite", "x":  6474, "lane":  3 },
+    { "type":  "boulder", "x":  6997, "lane":  0 },
+    { "type":  "boulder", "x":  6997, "lane":  1 },
+    { "type":  "boulder", "x":  6997, "lane":  2 },
+    { "type":  "boulder", "x":  6997, "lane":  4 },
+    { "type":  "spiderweb", "x":  7103, "lane":  0 },
+    { "type":  "spiderweb", "x":  7103, "lane":  2 },
+    { "type":  "spiderweb", "x":  7103, "lane":  3 },
+    { "type":  "spiderweb", "x":  7103, "lane":  4 },
+    { "type":  "battery", "x":  7203, "lane":  0 },
+    { "type":  "spiderweb", "x":  7471, "lane":  0 },
+    { "type":  "spiderweb", "x":  7471, "lane":  1 },
+    { "type":  "spiderweb", "x":  7471, "lane":  2 },
+    { "type":  "spiderweb", "x":  7471, "lane":  3 },
+    { "type":  "spiderweb", "x":  7641, "lane":  0 },
+    { "type":  "spiderweb", "x":  7641, "lane":  2 },
+    { "type":  "spiderweb", "x":  7641, "lane":  3 },
+    { "type":  "spiderweb", "x":  7641, "lane":  4 },
+    { "type":  "glowmushroom", "x":  7944, "lane":  0 },
+    { "type":  "spiderweb", "x":  8043, "lane":  0 },
+    { "type":  "spiderweb", "x":  8043, "lane":  1 },
+    { "type":  "firefly", "x":  8181, "lane":  2, "toLane":  1 },
+    { "type":  "spiderweb", "x":  8308, "lane":  2 },
+    { "type":  "spiderweb", "x":  8308, "lane":  4 },
+    { "type":  "firefly", "x":  8444, "lane":  3, "toLane":  2 },
+    { "type":  "boulder", "x":  8569, "lane":  0 },
+    { "type":  "minecrates", "x":  8569, "lane":  1 },
+    { "type":  "battery", "x":  8721, "lane":  3 },
+    { "type":  "boulder", "x":  8858, "lane":  0 },
+    { "type":  "minecrates", "x":  8858, "lane":  1 },
+    { "type":  "minecrates", "x":  8858, "lane":  3 },
+    { "type":  "minecrates", "x":  8858, "lane":  4 },
+    { "type":  "stalagmite", "x":  8985, "lane":  1 },
+    { "type":  "stalagmite", "x":  8985, "lane":  2 },
+    { "type":  "stalagmite", "x":  8985, "lane":  3 },
+    { "type":  "stalagmite", "x":  8985, "lane":  4 },
+    { "type":  "boulder", "x":  9091, "lane":  0 },
+    { "type":  "boulder", "x":  9091, "lane":  1 },
+    { "type":  "boulder", "x":  9091, "lane":  3 },
+    { "type":  "boulder", "x":  9091, "lane":  4 },
+    { "type":  "batcolony", "x":  9281, "lane":  1 },
+    { "type":  "batcolony", "x":  9526, "lane":  0 },
+    { "type":  "spiderweb", "x":  9710, "lane":  0 },
+    { "type":  "spiderweb", "x":  9710, "lane":  1 },
+    { "type":  "spiderweb", "x":  9710, "lane":  2 },
+    { "type":  "spiderweb", "x":  9710, "lane":  4 },
+    { "type":  "spiderweb", "x":  9846, "lane":  0 },
+    { "type":  "spiderweb", "x":  9846, "lane":  1 },
+    { "type":  "spiderweb", "x":  9846, "lane":  2 },
+    { "type":  "spiderweb", "x":  9846, "lane":  4 },
+    { "type":  "stalagmite", "x":  9976, "lane":  0 },
+    { "type":  "stalagmite", "x":  9976, "lane":  1 },
+    { "type":  "stalagmite", "x":  9976, "lane":  2 },
+    { "type":  "stalagmite", "x":  9976, "lane":  3 },
+    { "type":  "stalagmite", "x":  10463, "lane":  1 },
+    { "type":  "stalagmite", "x":  10463, "lane":  2 },
+    { "type":  "minecrates", "x":  10463, "lane":  4 },
+    { "type":  "crystal", "x":  10534, "lane":  0 },
+    { "type":  "salamander", "x":  10580, "lane":  0 },
+    { "type":  "salamander", "x":  10580, "lane":  2 },
+    { "type":  "stalagmite", "x":  10696, "lane":  0 },
+    { "type":  "stalagmite", "x":  10696, "lane":  1 },
+    { "type":  "boulder", "x":  10696, "lane":  4 },
+    { "type":  "salamander", "x":  10813, "lane":  0 },
+    { "type":  "salamander", "x":  10813, "lane":  2 },
+    { "type":  "glowmushroom", "x":  11088, "lane":  2 },
+    { "type":  "battery", "x":  11474, "lane":  2 },
+    { "type":  "crystal", "x":  11481, "lane":  0 },
+    { "type":  "salamander", "x":  11527, "lane":  0 },
+    { "type":  "spiderweb", "x":  11527, "lane":  2 },
+    { "type":  "minecrates", "x":  11527, "lane":  4 },
+    { "type":  "crevice", "x":  11644, "lane":  0 },
+    { "type":  "boulder", "x":  11702, "lane":  1 },
+    { "type":  "salamander", "x":  11760, "lane":  0 },
+    { "type":  "spiderweb", "x":  11760, "lane":  3 },
+    { "type":  "crevice", "x":  11877, "lane":  0 },
+    { "type":  "stalagmite", "x":  11877, "lane":  2 },
+    { "type":  "salamander", "x":  11993, "lane":  0 },
+    { "type":  "stalagmite", "x":  11993, "lane":  4 }
+  ]
+}

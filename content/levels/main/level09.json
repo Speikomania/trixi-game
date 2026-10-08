@@ -1,0 +1,233 @@
+{
+  // Introduces GLIDE with a guided, no-fail practice section.
+  "id": "level09",
+  "order": 9,
+  "name": "Über den Bach",
+  "theme": "dusk",
+  "music": "finale",
+  "speed": 95,
+  "length": 11509,
+  "lives": 3,
+  "starScores": [
+    1670,
+    4470,
+    6290
+  ],
+  "twoStars": {
+    "maxHits": 2
+  },
+  "threeStars": {
+    "noMistakes": true,
+    "collect": {
+      "fish": 1.0,
+      "goldfish": 1.0
+    },
+    "minScore": 11000
+  },
+  "introducesAbility": "glide",
+  "safeZones": [
+    {
+      "from": 0,
+      "to": 980
+    }
+  ],
+  "checkpoints": [
+    665
+  ],
+  "tutorial": [
+    {
+      "kind": "Message",
+      "x": 10,
+      "duration": 3.5,
+      "text": "Neu: Gleiten! Damit segelst du über breite Bäche."
+    },
+    {
+      "kind": "Prompt",
+      "x": 375,
+      "action": "Ability1",
+      "text": "Ein Bach! Springen und die Taste festhalten!",
+      "successX": 530,
+      "hold": true
+    },
+    {
+      "kind": "Message",
+      "x": 550,
+      "duration": 3.5,
+      "text": "Wie ein Vogel! Den nächsten Bach schaffst du allein."
+    },
+    {
+      "kind": "Message",
+      "x": 990,
+      "duration": 3,
+      "text": "Wunderbar! Jetzt nur noch nach Hause zum Futter."
+    }
+  ],
+  "scenery": [
+    {
+      "from": 0,
+      "scene": "parkpath"
+    },
+    {
+      "from": 2900,
+      "scene": "street"
+    },
+    {
+      "from": 7266,
+      "scene": "nightgarden"
+    }
+  ],
+  "specialFloors": [
+    {
+      "type": "ice",
+      "from": 3073,
+      "to": 3595
+    }
+  ],
+  "pacing": [
+    {
+      "kind": "calm",
+      "from": 0,
+      "to": 1110
+    },
+    {
+      "kind": "normal",
+      "from": 1110,
+      "to": 2900
+    },
+    {
+      "kind": "calm",
+      "from": 2900,
+      "to": 4058
+    },
+    {
+      "kind": "dense",
+      "from": 4058,
+      "to": 5480
+    },
+    {
+      "kind": "normal",
+      "from": 5480,
+      "to": 7266
+    },
+    {
+      "kind": "calm",
+      "from": 7266,
+      "to": 8566
+    },
+    {
+      "kind": "dense",
+      "from": 8566,
+      "to": 10236
+    },
+    {
+      "kind": "normal",
+      "from": 10236,
+      "to": 11509
+    }
+  ],
+  "npcs": [
+    {
+      "group": "foto2",
+      "pose": "bench",
+      "x": 9387,
+      "layer": "near"
+    }
+  ],
+  "obstacles": [
+    { "type":  "stream", "x":  420, "width":  100 },
+    { "type":  "stream", "x":  820, "width":  100 },
+    { "type":  "fish", "x":  1015, "lane":  1 },
+    { "type":  "cone", "x":  1110, "lane":  1 },
+    { "type":  "stream", "x":  1238, "width":  100 },
+    { "type":  "leaves", "x":  1447 },
+    { "type":  "fish", "x":  1528, "lane":  0 },
+    { "type":  "dog", "x":  1665, "lane":  0 },
+    { "type":  "fish", "x":  1771, "lane":  0 },
+    { "type":  "gate", "x":  1939 },
+    { "type":  "fish", "x":  2013, "lane":  0 },
+    { "type":  "stream", "x":  2080, "width":  100 },
+    { "type":  "fish", "x":  2243, "lane":  0 },
+    { "type":  "stream", "x":  2306, "width":  100 },
+    { "type":  "fish", "x":  2468, "lane":  2 },
+    { "type":  "picnic", "x":  2530, "lane":  2 },
+    { "type":  "fish", "x":  2608, "lane":  2 },
+    { "type":  "stream", "x":  2671, "width":  100 },
+    { "type":  "plant", "x":  3196, "lane":  2 },
+    { "type":  "fish", "x":  3289, "lane":  1 },
+    { "type":  "crates", "x":  3368, "lane":  0 },
+    { "type":  "crates", "x":  3368, "lane":  2 },
+    { "type":  "fish", "x":  3628, "lane":  0 },
+    { "type":  "crates", "x":  3872, "lane":  0 },
+    { "type":  "goldfish", "x":  4028, "lane":  2 },
+    { "type":  "crates", "x":  4059, "lane":  2 },
+    { "type":  "playdog", "x":  4177, "width":  380 },
+    { "type":  "fish", "x":  4616, "lane":  2 },
+    { "type":  "stream", "x":  4675, "width":  100 },
+    { "type":  "fish", "x":  4831, "lane":  2 },
+    { "type":  "puddle", "x":  4887 },
+    { "type":  "plant", "x":  5002, "lane":  0 },
+    { "type":  "fish", "x":  5070, "lane":  0 },
+    { "type":  "plant", "x":  5124, "lane":  1 },
+    { "type":  "fish", "x":  5190, "lane":  0 },
+    { "type":  "slush", "x":  5243 },
+    { "type":  "crates", "x":  5359, "lane":  0 },
+    { "type":  "crates", "x":  5359, "lane":  2 },
+    { "type":  "fish", "x":  5427, "lane":  1 },
+    { "type":  "box", "x":  5480, "lane":  1 },
+    { "type":  "slush", "x":  5595 },
+    { "type":  "fish", "x":  5673, "lane":  0 },
+    { "type":  "cone", "x":  5736, "lane":  0 },
+    { "type":  "box", "x":  5850, "lane":  2 },
+    { "type":  "fish", "x":  5931, "lane":  1 },
+    { "type":  "stream", "x":  5997, "width":  100 },
+    { "type":  "fish", "x":  6155, "lane":  1 },
+    { "type":  "barrier", "x":  6213, "lane":  1 },
+    { "type":  "barrier", "x":  6213, "lane":  2 },
+    { "type":  "gate", "x":  6665 },
+    { "type":  "fish", "x":  6733, "lane":  0 },
+    { "type":  "puddle", "x":  6793 },
+    { "type":  "fish", "x":  6867, "lane":  2 },
+    { "type":  "stream", "x":  6926, "width":  100 },
+    { "type":  "fish", "x":  7086, "lane":  1 },
+    { "type":  "puddle", "x":  7146 },
+    { "type":  "yarn", "x":  7267, "lane":  2 },
+    { "type":  "leaves", "x":  7456 },
+    { "type":  "goldfish", "x":  7513, "lane":  1, "air":  true },
+    { "type":  "goldfish", "x":  7649, "lane":  0 },
+    { "type":  "leafsack", "x":  7680, "lane":  0 },
+    { "type":  "fish", "x":  7756, "lane":  0 },
+    { "type":  "fish", "x":  7794, "lane":  0 },
+    { "type":  "fish", "x":  7832, "lane":  1 },
+    { "type":  "leaves", "x":  7895 },
+    { "type":  "fish", "x":  7962, "lane":  1 },
+    { "type":  "fish", "x":  8000, "lane":  1 },
+    { "type":  "fish", "x":  8038, "lane":  1 },
+    { "type":  "fish", "x":  8076, "lane":  1 },
+    { "type":  "puddle", "x":  8128 },
+    { "type":  "goldfish", "x":  8185, "lane":  0, "air":  true },
+    { "type":  "puddle", "x":  8324 },
+    { "type":  "fish", "x":  8396, "lane":  2 },
+    { "type":  "fish", "x":  8434, "lane":  2 },
+    { "type":  "fish", "x":  8472, "lane":  1 },
+    { "type":  "fish", "x":  8510, "lane":  1 },
+    { "type":  "stream", "x":  8566, "width":  100 },
+    { "type":  "playdog", "x":  8777, "width":  380 },
+    { "type":  "leaves", "x":  9280 },
+    { "type":  "yarn", "x":  9380, "lane":  0 },
+    { "type":  "yarn", "x":  9486, "lane":  2 },
+    { "type":  "fish", "x":  9551, "lane":  2 },
+    { "type":  "stream", "x":  9604, "width":  100 },
+    { "type":  "stream", "x":  9814, "width":  100 },
+    { "type":  "fish", "x":  9969, "lane":  1 },
+    { "type":  "dalmatian", "x":  10097, "lane":  1 },
+    { "type":  "stream", "x":  10236, "width":  100 },
+    { "type":  "gate", "x":  10586 },
+    { "type":  "fish", "x":  10666, "lane":  1 },
+    { "type":  "puddle", "x":  10738 },
+    { "type":  "fish", "x":  10817, "lane":  1 },
+    { "type":  "stream", "x":  10881, "width":  100 },
+    { "type":  "wheeliebin", "x":  11085, "lane":  1 },
+    { "type":  "wheeliebin", "x":  11085, "lane":  2 },
+    { "type":  "stream", "x":  11215, "width":  100 }
+  ]
+}
